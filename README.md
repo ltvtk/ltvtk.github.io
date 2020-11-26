@@ -1,1 +1,1 @@
-[Lập trình vui Tam Kỳ](laptrinhvui.tk)
+[CLB Lập trình vui](https://laptrinhvui.club)
