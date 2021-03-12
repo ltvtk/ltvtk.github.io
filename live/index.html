@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"><meta name="viewport" content="width=device-width">
+    <title>Sang live</title>
+    <style>body,#meet{width:100vw;height: 100vh;padding: 0;margin: 0;}</style>
+    <script src='https://meet.jit.si/external_api.js'></script>
+  </head>
+  <body>
+    <script crossorigin>
+const domain = 'meet.jit.si';
+
+const options = {
+    roomName: 'laptrinhvui',
+    width: 900,
+    height: 600,
+    parentNode: document.body,
+    configOverwrite: {
+      disableRecordAudioNotification: true,
+      disableInviteFunctions: true,
+      doNotStoreRoom: true,
+      disableTileView: true,
+      disableAGC:true,
+      resolution: 1080
+    },
+    interfaceConfigOverwrite: {
+    DISABLE_RINGING: true,
+    DISABLE_TRANSCRIPTION_SUBTITLES: false,DISABLE_VIDEO_BACKGROUND: false,
+    DISPLAY_WELCOME_FOOTER: true,
+    DISPLAY_WELCOME_PAGE_ADDITIONAL_CARD: true,
+    DISPLAY_WELCOME_PAGE_CONTENT: true,
+    DISPLAY_WELCOME_PAGE_TOOLBAR_ADDITIONAL_CONTENT: true,
+    HIDE_DEEP_LINKING_LOGO: true,
+    HIDE_INVITE_MORE_HEADER: true,
+    MOBILE_APP_PROMO: false,
+    SHOW_BRAND_WATERMARK: false,
+    SHOW_CHROME_EXTENSION_BANNER: false,
+    SHOW_DEEP_LINKING_IMAGE: false,
+    SHOW_JITSI_WATERMARK: false,
+    SHOW_WATERMARK_FOR_GUESTS: false,
+    SHOW_POWERED_BY: false,
+    SHOW_PROMOTIONAL_CLOSE_PAGE: false,
+    POLICY_LOGO: null,
+    RECENT_LIST_ENABLED: false,
+    SETTINGS_SECTIONS: [ 'profile' ],
+    VIDEO_QUALITY_LABEL_DISABLED: true,
+    VERTICAL_FILMSTRIP: true,
+    DEFAULT_LOCAL_DISPLAY_NAME: '',
+    TOOLBAR_ALWAYS_VISIBLE: false,
+    OPTIMAL_BROWSERS: [ 'chrome', 'chromium' ],
+    TOOLBAR_BUTTONS: [
+       'microphone', 'camera', 'hangup','filmstrip',
+       'livestreaming', 'settings', 'mute-everyone', 'mute-video-everyone', 'desktop']
+    }
+};
+// new JitsiMeetExternalAPI(domain, options)
+const startApi = async () => {
+  await new JitsiMeetExternalAPI(domain, options)
+  document.getElementById("jitsiConferenceFrame0").onload = async () => {
+    const iframe = await document.getElementById("jitsiConferenceFrame0")
+    iframe.onmouseout = async () => {
+   const doc = await iframe.contentDocument || iframe.contentWindow.document
+   console.log("OUT: ", iframe, doc)
+    }
+
+   }
+}
+
+startApi()
+    </script>
+  </body>
+</html>
