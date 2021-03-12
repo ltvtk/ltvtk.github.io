@@ -53,20 +53,7 @@ const options = {
        'livestreaming', 'settings', 'mute-everyone', 'mute-video-everyone', 'desktop']
     }
 };
-// new JitsiMeetExternalAPI(domain, options)
-const startApi = async () => {
-  await new JitsiMeetExternalAPI(domain, options)
-  document.getElementById("jitsiConferenceFrame0").onload = async () => {
-    const iframe = await document.getElementById("jitsiConferenceFrame0")
-    iframe.onmouseout = async () => {
-   const doc = await iframe.contentDocument || iframe.contentWindow.document
-   console.log("OUT: ", iframe, doc)
-    }
-
-   }
-}
-
-startApi()
+new JitsiMeetExternalAPI(domain, options)
     </script>
   </body>
 </html>
