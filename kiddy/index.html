@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KIDDY IQ - Hướng Dẫn Kỹ Thuật</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'dark',
+            flowchart: { useMaxWidth: true, htmlLabels: true, curve: 'basis' },
+            themeVariables: {
+                fontSize: '20px',
+                fontFamily: 'Inter',
+                primaryColor: '#4f46e5',
+                nodeBorder: '#334155',
+                mainBkg: '#1e293b',
+                textColor: '#f8fafc'
+            }
+        });
+    </script>
+</head>
+
+<body>
+    <nav class="sidebar">
+        <div class="logo">
+            <h2>KIDDY IQ</h2>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#section-1" class="active">1. Sắp xếp</a></li>
+            <li><a href="#section-2">2. Cài đặt và kết nối</a></li>
+            <li><a href="#section-3">3. Đèn giao thông</a></li>
+            <li><a href="#section-4">4. Hướng dẫn sử dụng tay cầm điều khiển</a></li>
+            <li><a href="#section-5">5. Line-follower</a></li>
+        </ul>
+    </nav>
+
+    <main class="content">
+        <header class="main-header">
+            <h1>Tài Liệu Hướng Dẫn Lắp Ráp & Lập Trình</h1>
+            <p>Khám phá các bộ học cụ STEM và Robot lập trình</p>
+        </header>
+
+        <section id="section-1" class="doc-section">
+            <h2>1. Sắp xếp</h2>
+            <div class="text-content">
+                <p>Để tiện thao tác, các sắp xếp lego vào khay theo như hình dưới đây. Các thiết bị còn lại thì bỏ vào
+                    thùng:</p>
+                <div class="image-card"><img src="assets/images/image1.jpg" alt="Sắp xếp lego"></div>
+            </div>
+        </section>
+
+        <section id="section-2" class="doc-section">
+            <h2>2. Cài đặt và kết nối</h2>
+            <div class="text-content">
+                <p>Tải phần mềm KIDDY: <a
+                        href="https://github.com/ltvtk/py0/releases/download/1.0/KIDDY.1.0.0.Setup.exe">KIDDY.1.0.0.Setup.exe</a>
+                </p>
+            </div>
+            <div class="image-grid large-images">
+                <script>
+                    for (let i = 136; i < 139; i++) {
+                        document.write(`<div class="image-card"><img src="assets/images/image${i}.png" alt="Kết nối ${i}"></div>`);
+                    }
+                </script>
+            </div>
+        </section>
+
+        <section id="section-3" class="doc-section">
+            <h2>3. Đèn giao thông</h2>
+            <div class="video-vertical">
+                <video controls>
+                    <source src="assets/videos/video3.mp4" type="video/mp4">
+                    Trình duyệt của bạn không hỗ trợ thẻ video.
+                </video>
+            </div>
+            <div class="text-content">
+                <p>Tải code sau và mở với kiddy: <a href="assets/code/3-traffic-lights.ob">3-traffic-lights.ob</a></p>
+            </div>
+        </section>
+
+        <section id="section-4" class="doc-section">
+            <h2>4. Hướng dẫn sử dụng tay cầm điều khiển</h2>
+            <div class="video-vertical">
+                <video controls>
+                    <source src="assets/videos/video4.mp4" type="video/mp4">
+                    Trình duyệt của bạn không hỗ trợ thẻ video.
+                </video>
+            </div>
+            <div class="text-content">
+                <p>Các bạn lắp ráp tùy thích hoặc theo bài 5 (Line-follower).</p>
+                <p>Tải code sau và mở với kiddy: <a href="assets/code/4-remote-control.ob">4-remote-control.ob</a></p>
+            </div>
+        </section>
+
+        <section id="section-5" class="doc-section">
+            <h2>5. Line-follower</h2>
+            <div class="video-wrapper">
+                <video width="100%" controls>
+                    <source src="assets/videos/video5.mp4" type="video/mp4">
+                    Trình duyệt của bạn không hỗ trợ thẻ video.
+                </video>
+            </div>
+            <div class="text-content">
+                <p>Theo hướng dẫn lắp ráp bên dưới và tải code sau và mở với kiddy: <a
+                        href="assets/code/5-line-follower.ob">5-line-follower.ob</a></p>
+            </div>
+
+            <h3>Sơ đồ giải thuật Line Follower</h3>
+            <div class="mermaid-container"
+                style="background:var(--card-bg); padding:1.5rem; border-radius:12px; border:1px solid var(--border-color); margin-bottom: 2rem;">
+                <div class="mermaid">
+                    flowchart TD
+                    classDef default fill:#1f2428,stroke:#4a5161,stroke-width:1px,color:#fff;
+                    classDef start_end fill:#238636,stroke:#2ea043,stroke-width:2px,color:#fff;
+                    classDef error_node fill:#1f6feb,stroke:#58a6ff,stroke-width:2px,color:#fff;
+                    classDef act_node fill:#d29922,stroke:#e3b341,stroke-width:2px,color:#fff;
+
+                    Start(["Bắt đầu Hàm Loop"]):::start_end --> Read["Đọc Cảm Biến&lt;br&gt;L = Pin 47&lt;br&gt;R = Pin
+                    6"]
+                    Read --> CalcError{"Xác định Độ Lệch&lt;br&gt;(Error)"}
+
+                    CalcError -->|"L=1, R=1"| E0["Error = 0 &lt;br&gt; Đi thẳng"]:::error_node
+                    CalcError -->|"L=0, R=1"| E1["Error = 1 &lt;br&gt; Lệch phải"]:::error_node
+                    CalcError -->|"L=1, R=0"| E2["Error = -1 &lt;br&gt; Lệch trái"]:::error_node
+                    CalcError -->|"L=0, R=0"| CheckLast{"Mất vạch &lt;br&gt; Kiểm tra Last_Error"}
+
+                    CheckLast -->|"Last_Error &lt; 0"| E3["Error = -2 &lt;br&gt; Phải rẽ Trái khẩn cấp"]:::error_node
+                    CheckLast -->|"Last_Error > 0"| E4["Error = 1 &lt;br&gt; Phải rẽ Phải khẩn cấp"]:::error_node
+                    CheckLast -->|"Last_Error = 0"| E5["Error = 0 &lt;br&gt; Mất vạch khi đi thẳng"]:::error_node
+
+                    E0 --> PID
+                    E1 --> PID
+                    E2 --> PID
+                    E3 --> PID
+                    E4 --> PID
+                    E5 --> PID
+
+                    PID["Tính Toán PID&lt;br&gt;P = kp * Error&lt;br&gt;I = ki * (I + Error)&lt;br&gt;D = kd * (Error -
+                    Last_Error)&lt;br&gt;PID_value = P + I + D"] --> Form
+
+                    Form["Cập Nhật Động Cơ (Max 225)&lt;br&gt;Speed_L = Base - PID_value&lt;br&gt;Speed_R = Base +
+                    PID_value"]:::act_node --> Act["Truyền tín hiệu&lt;br&gt;Motor 1 (Phải): Speed_R&lt;br&gt;Motor 2
+                    (Trái): Speed_L"]:::act_node
+
+                    Act --> Update["Lưu Last_Error = Error"]
+                    Update --> Start
+                </div>
+            </div>
+
+            <h3>Hướng dẫn lắp ráp</h3>
+            <div class="image-grid large-images">
+                <script>
+                    for (let i = 192; i <= 195; i++) {
+                        document.write(`<div class="image-card"><img src="assets/images/image${i}.png" alt="Line Follower ${i}"></div>`);
+                    }
+                </script>
+            </div>
+
+        </section>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
