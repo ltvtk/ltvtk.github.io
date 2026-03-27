@@ -1,0 +1,2633 @@
+{
+    "whitelist": [
+        {
+            "domain": "code.org",
+            "blacklistedPaths": [
+                "/minecraft",
+                "/projects",
+                "/*/hero",
+                "/*/aquatic",
+                "/*/minecraft",
+                "/*/mc/*"
+            ]
+        },
+        {
+            "domain": "kids.nationalgeographic.com",
+            "blacklistedPaths": [
+                "/games/action-adventure",
+                "/games/action-adventure/*",
+                "/games/action-and-adventure",
+                "/games/action-and-adventure/*"
+            ]
+        },
+        {
+            "domain": "microsoftonline.com"
+        },
+        {
+            "domain": "firebaseapp.com"
+        },
+        {
+            "domain": "jitsi.net"
+        },
+        {
+            "domain": "webcammictest.com"
+        },
+        {
+            "domain": "springroll-tc.pbskids.org"
+        },
+        {
+            "domain": "edu.eu.org"
+        },
+        {
+            "domain": "2tech.vn"
+        },
+        {
+            "domain": "homeschool.homes"
+        },
+        {
+            "domain": "chithongoc.com"
+        },
+        {
+            "domain": "sachnoitienganh.com"
+        },
+        {
+            "domain": "o9o.net"
+        },
+        {
+            "domain": "tienganhchotreem.com"
+        },
+        {
+            "domain": "innovid.com"
+        },
+        {
+            "domain": "googletag.slot"
+        },
+        {
+            "domain": "googletag.com"
+        },
+        {
+            "domain": "doubleclick.net"
+        },
+        {
+            "domain": "flashb.id"
+        },
+        {
+            "domain": "googlesyndication.com"
+        },
+        {
+            "domain": "ssl_client_socket_impl.cc"
+        },
+        {
+            "domain": "presage.io"
+        },
+        {
+            "domain": "ytimg.com"
+        },
+        {
+            "domain": "ggpht.com"
+        },
+        {
+            "domain": "googleapis.com"
+        },
+        {
+            "domain": "emojikeyboard.top"
+        },
+        {
+            "domain": "sdx.microsoft.com"
+        },
+        {
+            "domain": "coolsymbol.com"
+        },
+        {
+            "domain": "create-learn.us"
+        },
+        {
+            "domain": "edu.sg"
+        },
+        {
+            "domain": "ac.jp"
+        },
+        {
+            "domain": "edu.cn"
+        },
+        {
+            "domain": "ac.kr"
+        },
+        {
+            "domain": "edu.au"
+        },
+        {
+            "domain": "ac.uk"
+        },
+        {
+            "domain": "beastacademy.org"
+        },
+        {
+            "domain": "thonny.org"
+        },
+        {
+            "domain": "programiz.pro"
+        },
+        {
+            "domain": "sweetsearch.com"
+        },
+        {
+            "domain": "usaco.guide"
+        },
+        {
+            "domain": "vjudge.net"
+        },
+        {
+            "domain": "delightex.com"
+        },
+        {
+            "domain": "recraft.ai"
+        },
+        {
+            "domain": "pngmaker.io"
+        },
+        {
+            "domain": "base64.guru"
+        },
+        {
+            "domain": "imgur.com"
+        },
+        {
+            "domain": "temp-mail.org"
+        },
+        {
+            "domain": "copy.sh"
+        },
+        {
+            "domain": "cpp.sh"
+        },
+        {
+            "domain": "onlinegdb.com"
+        },
+        {
+            "domain": "toancap2.net"
+        },
+        {
+            "domain": "edclub.com"
+        },
+        {
+            "domain": "zalo.me"
+        },
+        {
+            "domain": "live.com"
+        },
+        {
+            "domain": "pixlr.com"
+        },
+        {
+            "domain": "kynaenglish.vn"
+        },
+        {
+            "domain": "babilala.vn"
+        },
+        {
+            "domain": "edupiasecondary.vn"
+        },
+        {
+            "domain": "englishpracticetest.net"
+        },
+        {
+            "domain": "duckdns.org"
+        },
+        {
+            "domain": "edupia.vn"
+        },
+        {
+            "domain": "coviet.vn"
+        },
+        {
+            "domain": "pinterest.com"
+        },
+        {
+            "domain": "pixabay.com"
+        },
+        {
+            "domain": "stickpng.com"
+        },
+        {
+            "domain": "opengameart.org"
+        },
+        {
+            "domain": "freepik.com"
+        },
+        {
+            "domain": "storylineonline.net"
+        },
+        {
+            "domain": "id.vn"
+        },
+        {
+            "domain": "sarahandduck.com"
+        },
+        {
+            "domain": "poe.com"
+        },
+        {
+            "domain": "openai.com"
+        },
+        {
+            "domain": "gstatic.com"
+        },
+        {
+            "domain": "cuuduongthancong.com"
+        },
+        {
+            "domain": "hoffmanacademy.com"
+        },
+        {
+            "domain": "masterclass.com"
+        },
+        {
+            "domain": "egghead.io"
+        },
+        {
+            "domain": "linkedin.com"
+        },
+        {
+            "domain": "quora.com"
+        },
+        {
+            "domain": "reddit.com"
+        },
+        {
+            "domain": "gmail.com"
+        },
+        {
+            "domain": "csfirst.withgoogle.com"
+        },
+        {
+            "domain": "zoom.com"
+        },
+        {
+            "domain": "jit.si"
+        },
+        {
+            "domain": "element.io"
+        },
+        {
+            "domain": "meet.google.com"
+        },
+        {
+            "domain": "meet.google.com"
+        },
+        {
+            "domain": "firebase.google.com"
+        },
+        {
+            "domain": "mail.google.com"
+        },
+        {
+            "domain": "scholar.google.com"
+        },
+        {
+            "domain": "edu.google.com"
+        },
+        {
+            "domain": "drive.google.com"
+        },
+        {
+            "domain": "earth.google.com"
+        },
+        {
+            "domain": "gds.google.com"
+        },
+        {
+            "domain": "design.google.com"
+        },
+        {
+            "domain": "contacts.google.com"
+        },
+        {
+            "domain": "code.google.com"
+        },
+        {
+            "domain": "classroom.google.com"
+        },
+        {
+            "domain": "workspace.google.com"
+        },
+        {
+            "domain": "books.google.com"
+        },
+        {
+            "domain": "cloud.google.com"
+        },
+        {
+            "domain": "ads.google.com"
+        },
+        {
+            "domain": "adsense.google.com"
+        },
+        {
+            "domain": "developers.google.com"
+        },
+        {
+            "domain": "myaccount.google.com"
+        },
+        {
+            "domain": "accounts.google.com"
+        },
+        {
+            "domain": "conttacts.google.com"
+        },
+        {
+            "domain": "docs.google.com"
+        },
+        {
+            "domain": "remotedesktop.google.com"
+        },
+        {
+            "domain": "keep.google.com"
+        },
+        {
+            "domain": "co.uk"
+        },
+        {
+            "domain": "github.com"
+        },
+        {
+            "domain": "github.io"
+        },
+        {
+            "domain": "githubusercontent.com"
+        },
+        {
+            "domain": "replit.com"
+        },
+        {
+            "domain": "repl.it"
+        },
+        {
+            "domain": "tinhoctre.vn"
+        },
+        {
+            "domain": "vnoi.info"
+        },
+        {
+            "domain": "localhost"
+        },
+        {
+            "domain": "about:blank"
+        },
+        {
+            "domain": "disney.io"
+        },
+        {
+            "domain": "hatchxr.com"
+        },
+        {
+            "domain": "codemonkey.com"
+        },
+        {
+            "domain": "raspberrypi.org"
+        },
+        {
+            "domain": "blockly.games"
+        },
+        {
+            "domain": "python.org"
+        },
+        {
+            "domain": "trinket.io"
+        },
+        {
+            "domain": "kiddle.co"
+        },
+        {
+            "domain": "kientaotam.com"
+        },
+        {
+            "domain": "wikipedia.org"
+        },
+        {
+            "domain": "khanacademy.org"
+        },
+        {
+            "domain": "edx.org"
+        },
+        {
+            "domain": "coursera.org"
+        },
+        {
+            "domain": "udacity.com"
+        },
+        {
+            "domain": "ted.com"
+        },
+        {
+            "domain": "harvard.edu"
+        },
+        {
+            "domain": "stanford.edu"
+        },
+        {
+            "domain": "gov.sg"
+        },
+        {
+            "domain": "edu.au"
+        },
+        {
+            "domain": "go.jp"
+        },
+        {
+            "domain": "kmooc.kr"
+        },
+        {
+            "domain": "edu.vn"
+        },
+        {
+            "domain": "gov.vn"
+        },
+        {
+            "domain": "codecombat.com"
+        },
+        {
+            "domain": "codeforces.com"
+        },
+        {
+            "domain": "hackerrank.com"
+        },
+        {
+            "domain": "ocw.mit.edu"
+        },
+        {
+            "domain": "yale.edu"
+        },
+        {
+            "domain": "ac.in"
+        },
+        {
+            "domain": "brilliant.org"
+        },
+        {
+            "domain": "ixl.com"
+        },
+        {
+            "domain": "coolmath.com"
+        },
+        {
+            "domain": "mathway.com"
+        },
+        {
+            "domain": "symbolab.com"
+        },
+        {
+            "domain": "photomath.com"
+        },
+        {
+            "domain": "mathantics.com"
+        },
+        {
+            "domain": "artofproblemsolving.com"
+        },
+        {
+            "domain": "maths.org"
+        },
+        {
+            "domain": "nasa.gov"
+        },
+        {
+            "domain": "colorado.edu"
+        },
+        {
+            "domain": "scientificamerican.com"
+        },
+        {
+            "domain": "kidscodecs.com"
+        },
+        {
+            "domain": "sciencebuddies.org"
+        },
+        {
+            "domain": "exploratorium.edu"
+        },
+        {
+            "domain": "howstuffworks.com"
+        },
+        {
+            "domain": "space.com"
+        },
+        {
+            "domain": "sciencenewsforstudents.org"
+        },
+        {
+            "domain": "stevespanglerscience.com"
+        },
+        {
+            "domain": "chemcollective.org"
+        },
+        {
+            "domain": "physicsclassroom.com"
+        },
+        {
+            "domain": "biologycorner.com"
+        },
+        {
+            "domain": "labxchange.org"
+        },
+        {
+            "domain": "concord.org"
+        },
+        {
+            "domain": "asu.edu"
+        },
+        {
+            "domain": "brainpop.com"
+        },
+        {
+            "domain": "quizlet.com"
+        },
+        {
+            "domain": "studystack.com"
+        },
+        {
+            "domain": "memrise.com"
+        },
+        {
+            "domain": "goconqr.com"
+        },
+        {
+            "domain": "anki.net"
+        },
+        {
+            "domain": "cram.com"
+        },
+        {
+            "domain": "sporcle.com"
+        },
+        {
+            "domain": "edpuzzle.com"
+        },
+        {
+            "domain": "nearpod.com"
+        },
+        {
+            "domain": "kahoot.com"
+        },
+        {
+            "domain": "quizizz.com"
+        },
+        {
+            "domain": "socrative.com"
+        },
+        {
+            "domain": "classcraft.com"
+        },
+        {
+            "domain": "peardeck.com"
+        },
+        {
+            "domain": "explorelearning.com"
+        },
+        {
+            "domain": "prodigygame.com"
+        },
+        {
+            "domain": "readworks.org"
+        },
+        {
+            "domain": "newsela.com"
+        },
+        {
+            "domain": "commonlit.org"
+        },
+        {
+            "domain": "readtheory.org"
+        },
+        {
+            "domain": "grammarly.com"
+        },
+        {
+            "domain": "noredink.com"
+        },
+        {
+            "domain": "vocabulary.com"
+        },
+        {
+            "domain": "freerice.com"
+        },
+        {
+            "domain": "typing.com"
+        },
+        {
+            "domain": "nitrotype.com"
+        },
+        {
+            "domain": "typingclub.com"
+        },
+        {
+            "domain": "codecademy.com"
+        },
+        {
+            "domain": "freecodecamp.org"
+        },
+        {
+            "domain": "codewars.com"
+        },
+        {
+            "domain": "grasshopper.app"
+        },
+        {
+            "domain": "w3schools.com"
+        },
+        {
+            "domain": "geeksforgeeks.org"
+        },
+        {
+            "domain": "stackoverflow.com"
+        },
+        {
+            "domain": "leetcode.com"
+        },
+        {
+            "domain": "kaggle.com"
+        },
+        {
+            "domain": "datacamp.com"
+        },
+        {
+            "domain": "duolingo.com"
+        },
+        {
+            "domain": "futurelearn.com"
+        },
+        {
+            "domain": "openlearning.com"
+        },
+        {
+            "domain": "udemy.com"
+        },
+        {
+            "domain": "skillshare.com"
+        },
+        {
+            "domain": "pluralsight.com"
+        },
+        {
+            "domain": "educative.io"
+        },
+        {
+            "domain": "sololearn.com"
+        },
+        {
+            "domain": "mathworks.com"
+        },
+        {
+            "domain": "wolframalpha.com"
+        },
+        {
+            "domain": "desmos.com"
+        },
+        {
+            "domain": "geogebra.org"
+        },
+        {
+            "domain": "topcoder.com"
+        },
+        {
+            "domain": "hackerearth.com"
+        },
+        {
+            "domain": "projecteuler.net"
+        },
+        {
+            "domain": "codinggame.com"
+        },
+        {
+            "domain": "codingame.com"
+        },
+        {
+            "domain": "codechef.com"
+        },
+        {
+            "domain": "spoj.com"
+        },
+        {
+            "domain": "lightbot.com"
+        },
+        {
+            "domain": "alice.org"
+        },
+        {
+            "domain": "codeconquest.com"
+        },
+        {
+            "domain": "codeavengers.com"
+        },
+        {
+            "domain": "codingbat.com"
+        },
+        {
+            "domain": "codehs.com"
+        },
+        {
+            "domain": "codesignal.com"
+        },
+        {
+            "domain": "codingninjas.com"
+        },
+        {
+            "domain": "programiz.com"
+        },
+        {
+            "domain": "learnpython.org"
+        },
+        {
+            "domain": "py4e.com"
+        },
+        {
+            "domain": "pythonanywhere.com"
+        },
+        {
+            "domain": "reeborg.ca"
+        },
+        {
+            "domain": "checkio.org"
+        },
+        {
+            "domain": "edabit.com"
+        },
+        {
+            "domain": "edublocks.org"
+        },
+        {
+            "domain": "codecampkidz.com"
+        },
+        {
+            "domain": "atcoder.jp"
+        },
+        {
+            "domain": "onlinejudge.org"
+        },
+        {
+            "domain": "timus.ru"
+        },
+        {
+            "domain": "usaco.org"
+        },
+        {
+            "domain": "cpbook.net"
+        },
+        {
+            "domain": "olp.xyz"
+        },
+        {
+            "domain": "hocmai.vn"
+        },
+        {
+            "domain": "vietjack.com"
+        },
+        {
+            "domain": "violet.vn"
+        },
+        {
+            "domain": "loigiaihay.com"
+        },
+        {
+            "domain": "moon.vn"
+        },
+        {
+            "domain": "onluyen.vn"
+        },
+        {
+            "domain": "luyenthionline.vn"
+        },
+        {
+            "domain": "vndoc.com"
+        },
+        {
+            "domain": "tuhocit.com"
+        },
+        {
+            "domain": "tienganh123.com"
+        },
+        {
+            "domain": "tienganhmoingay.com"
+        },
+        {
+            "domain": "hoc247.net"
+        },
+        {
+            "domain": "luyenthi123.com"
+        },
+        {
+            "domain": "kenhtuyensinh.vn"
+        },
+        {
+            "domain": "thuvienkhoahoc.com"
+        },
+        {
+            "domain": "sachgiai.com"
+        },
+        {
+            "domain": "thuvienhoclieu.com"
+        },
+        {
+            "domain": "tailieu.vn"
+        },
+        {
+            "domain": "123doc.org"
+        },
+        {
+            "domain": "hochoadaikythuat.com"
+        },
+        {
+            "domain": "toanhoc.net"
+        },
+        {
+            "domain": "toanmath.com"
+        },
+        {
+            "domain": "matviet.net"
+        },
+        {
+            "domain": "khoahoc.tv"
+        },
+        {
+            "domain": "hoc10.vn"
+        },
+        {
+            "domain": "vted.vn"
+        },
+        {
+            "domain": "thichthuhoc.vn"
+        },
+        {
+            "domain": "codegym.vn"
+        },
+        {
+            "domain": "codelearn.io"
+        },
+        {
+            "domain": "eslbuzz.com"
+        },
+        {
+            "domain": "engvid.com"
+        },
+        {
+            "domain": "britishcouncil.org"
+        },
+        {
+            "domain": "eslgold.com"
+        },
+        {
+            "domain": "talkenglish.com"
+        },
+        {
+            "domain": "fluentu.com"
+        },
+        {
+            "domain": "oxfordonlineenglish.com"
+        },
+        {
+            "domain": "vietnamesepod101.com"
+        },
+        {
+            "domain": "learningvietnamese.com"
+        },
+        {
+            "domain": "viettri.com.vn"
+        },
+        {
+            "domain": "tiengvietonline.com.vn"
+        },
+        {
+            "domain": "viettolearnenglish.com"
+        },
+        {
+            "domain": "voca.vn"
+        },
+        {
+            "domain": "tflat.vn"
+        },
+        {
+            "domain": "elllo.org"
+        },
+        {
+            "domain": "lingodeer.com"
+        },
+        {
+            "domain": "hellotalk.com"
+        },
+        {
+            "domain": "busuu.com"
+        },
+        {
+            "domain": "italki.com"
+        },
+        {
+            "domain": "lang-8.com"
+        },
+        {
+            "domain": "umbalena.vn"
+        },
+        {
+            "domain": "tainangviet.vn"
+        },
+        {
+            "domain": "microbit.org"
+        },
+        {
+            "domain": "mindstorms.com"
+        },
+        {
+            "domain": "lego.com"
+        },
+        {
+            "domain": "javascript.info"
+        },
+        {
+            "domain": "robolink.com"
+        },
+        {
+            "domain": "makeblock.com"
+        },
+        {
+            "domain": "arduino.cc"
+        },
+        {
+            "domain": "tinkercad.com"
+        },
+        {
+            "domain": "easyeda.com"
+        },
+        {
+            "domain": "xilinx.com"
+        },
+        {
+            "domain": "intel.com"
+        },
+        {
+            "domain": "intel.vn"
+        },
+        {
+            "domain": "amd.com"
+        },
+        {
+            "domain": "nvidia.com"
+        },
+        {
+            "domain": "apple.com"
+        },
+        {
+            "domain": "microsoft.com"
+        },
+        {
+            "domain": "mozilla.org"
+        },
+        {
+            "domain": "amazon.com"
+        },
+        {
+            "domain": "ibm.com"
+        },
+        {
+            "domain": "digitalocean.com"
+        },
+        {
+            "domain": "godaddy.com"
+        },
+        {
+            "domain": "stackblitz.com"
+        },
+        {
+            "domain": "codesandbox.io"
+        },
+        {
+            "domain": "expo.dev"
+        },
+        {
+            "domain": "nativescript.com"
+        },
+        {
+            "domain": "godbolt.org"
+        },
+        {
+            "domain": "judge0.com"
+        },
+        {
+            "domain": "linux.org"
+        },
+        {
+            "domain": "tutorialspoint.com"
+        },
+        {
+            "domain": "ubuntu.com"
+        },
+        {
+            "domain": "geeksforgeeks.org"
+        },
+        {
+            "domain": "berbasoft.com"
+        },
+        {
+            "domain": "pbslearningmedia.org"
+        },
+        {
+            "domain": "mathsisfun.com"
+        }
+    ],
+    "blacklist": [
+        {
+            "domain": "numuki.com",
+            "whitelistedPaths": [
+                "/games/robot-riders-learn-to-code*",
+                "/games/robot-riders-learn-to-code/*"
+            ]
+        },
+        {
+            "domain": "tynker.com",
+            "whitelistedPaths": [
+                "/ide/*puppy-adventure*"
+            ]
+        },
+        {
+            "domain": "toxicode.fr",
+            "whitelistedPaths": [
+                "/hour_of_code*"
+            ]
+        },
+        {
+            "domain": "bing.com",
+            "whitelistedPaths": [
+                "/images*"
+            ]
+        },
+        {
+            "domain": "turbowarp.org",
+            "whitelistedPaths": [
+                "/editor",
+                "/editor*"
+            ]
+        }
+    ],
+    "default": {
+        "Code": [
+            {
+                "name": "Elementry",
+                "isFolder": true,
+                "editable": false,
+                "children": [
+                    {
+                        "name": "01 - Sequencing",
+                        "isFolder": true,
+                        "editable": false,
+                        "children": [
+                            {
+                                "name": "Learn to Drag and Drop",
+                                "url": "https://studio.code.org/courses/coursea-2025/units/1/lessons/2/levels/1?viewAs=Instructor",
+                                "editable": false
+                            },
+                            {
+                                "name": "Sequencing with Scrat",
+                                "url": "https://studio.code.org/courses/coursea-2025/units/1/lessons/4/levels/1",
+                                "editable": false
+                            },
+                            {
+                                "name": "Programming with Scrat",
+                                "url": "https://studio.code.org/courses/coursea-2025/units/1/lessons/5/levels/1",
+                                "editable": false
+                            },
+                            {
+                                "name": "Rey and BB-8",
+                                "url": "https://studio.code.org/courses/coursea-2025/units/1/lessons/6/levels/1",
+                                "editable": false
+                            },
+                            {
+                                "name": "Angry Birds",
+                                "url": "https://studio.code.org/courses/courseb-2025/units/1/lessons/3/levels/1",
+                                "editable": false
+                            },
+                            {
+                                "name": "Programming with Angry Birds",
+                                "url": "https://studio.code.org/courses/courseb-2025/units/1/lessons/4/levels/1",
+                                "editable": false
+                            },
+                            {
+                                "name": "Programming with Harvester",
+                                "url": "https://studio.code.org/courses/courseb-2025/units/1/lessons/5/levels/1",
+                                "editable": false
+                            },
+                            {
+                                "name": "Debugging in Maze",
+                                "url": "https://studio.code.org/courses/coursec-2025/units/1/lessons/4/levels/1",
+                                "editable": false
+                            }
+                        ]
+                    },
+                    {
+                        "name": "02 - Basic loop",
+                        "isFolder": true,
+                        "editable": false,
+                        "children": [
+                            {
+                                "name": "Scrat",
+                                "url": "https://studio.code.org/courses/coursea-2025/units/1/lessons/8/levels/1?viewAs=Instructor",
+                                "editable": false
+                            },
+                            {
+                                "name": "Laurel",
+                                "url": "https://studio.code.org/courses/coursea-2025/units/1/lessons/9/levels/1",
+                                "editable": false
+                            },
+                            {
+                                "name": "Harvester",
+                                "url": "https://studio.code.org/courses/courseb-2025/units/1/lessons/7/levels/1?viewAs=Instructor",
+                                "editable": false
+                            },
+                            {
+                                "name": "Loops with Laurel",
+                                "url": "https://studio.code.org/courses/courseb-2025/units/1/lessons/8/levels/1",
+                                "editable": false
+                            },
+                            {
+                                "name": "Programming with Angry Birds",
+                                "url": "https://studio.code.org/courses/coursec-2025/units/1/lessons/3/levels/1",
+                                "editable": false
+                            },
+                            {
+                                "name": "Collecting Treasure with Laurel",
+                                "url": "https://studio.code.org/courses/coursec-2025/units/1/lessons/5/levels/1",
+                                "editable": false
+                            },
+                            {
+                                "name": "Loops with Rey and BB-8",
+                                "url": "https://studio.code.org/courses/coursec-2025/units/1/lessons/8/levels/1",
+                                "editable": false
+                            },
+                            {
+                                "name": "Harvesting Crops with Loops",
+                                "url": "https://studio.code.org/courses/coursec-2025/units/1/lessons/9/levels/1",
+                                "editable": false
+                            },
+                            {
+                                "name": "Debugging with Laurel",
+                                "url": "https://studio.code.org/courses/coursed-2025/units/1/lessons/4/levels/1",
+                                "editable": false
+                            },
+                            {
+                                "name": "Nested Loops in Maze",
+                                "url": "https://studio.code.org/courses/coursed-2025/units/1/lessons/13/levels/1?viewAs=Instructor",
+                                "editable": false
+                            }
+                        ]
+                    },
+                    {
+                        "name": "03 - Conditional +",
+                        "isFolder": true,
+                        "editable": false,
+                        "children": [
+                            {
+                                "name": "If/Else with Bee",
+                                "url": "https://studio.code.org/courses/coursed-2025/units/1/lessons/16/levels/1",
+                                "editable": false
+                            },
+                            {
+                                "name": "While Loops in Farmer",
+                                "url": "https://studio.code.org/courses/coursed-2025/units/1/lessons/17/levels/1?viewAs=Instructor",
+                                "editable": false
+                            },
+                            {
+                                "name": "Until Loops in Maze",
+                                "url": "https://studio.code.org/courses/coursed-2025/units/1/lessons/18/levels/1",
+                                "editable": false
+                            },
+                            {
+                                "name": "Harvesting with Conditionals",
+                                "url": "https://studio.code.org/courses/express-2025/units/1/lessons/21/levels/1",
+                                "editable": false
+                            },
+                            {
+                                "name": "Variables with the Bee",
+                                "url": "https://studio.code.org/courses/express-2025/units/1/lessons/28/levels/1?viewAs=Instructor",
+                                "editable": false
+                            },
+                            {
+                                "name": "For Loops with Bee",
+                                "url": "https://studio.code.org/courses/express-2025/units/1/lessons/29/levels/1?viewAs=Instructor",
+                                "editable": false
+                            },
+                            {
+                                "name": "Conditionals with the Farmer",
+                                "url": "https://studio.code.org/courses/coursee-2025/units/1/lessons/16/levels/1?viewAs=Instructor",
+                                "editable": false
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Hour-of-code",
+                        "isFolder": true,
+                        "editable": false,
+                        "children": [
+                            {
+                                "name": "Robot Rider",
+                                "url": "https://www.numuki.com/game/robot-riders-learn-to-code",
+                                "editable": false
+                            },
+                            {
+                                "name": "AI for Oceans",
+                                "url": "https://studio.code.org/courses/oceans/units/1/lessons/1/levels/1",
+                                "editable": false
+                            },
+                            {
+                                "name": "CodeMonkey Jr",
+                                "url": "https://app.codemonkey.com/junior/chapters/sequencing/challenges/1",
+                                "editable": false
+                            },
+                            {
+                                "name": "Beaver Achive",
+                                "url": "https://app.codemonkey.com/beaver-achiever/hour-of-code/1",
+                                "editable": false
+                            },
+                            {
+                                "name": "Disney Moan",
+                                "url": "https://e304920c.content.disney.io/index.html",
+                                "editable": false
+                            },
+                            {
+                                "name": "Classic Maze",
+                                "url": "https://studio.code.org/hoc/1",
+                                "editable": false
+                            },
+                            {
+                                "name": "Flappy Bird",
+                                "url": "https://studio.code.org/flappy/1",
+                                "editable": false
+                            },
+                            {
+                                "name": "Star Wars",
+                                "url": "https://studio.code.org/s/starwars/lessons/1/levels/1",
+                                "editable": false
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Code IDE",
+                "isFolder": true,
+                "editable": false,
+                "children": [
+                    {
+                        "name": "Blockly-Python",
+                        "url": "https://ltvtk.github.io/",
+                        "editable": false
+                    },
+                    {
+                        "name": "C++ online",
+                        "url": "https://programiz.pro/ide/cpp",
+                        "editable": false
+                    },
+                    {
+                        "name": "python online",
+                        "url": "https://programiz.pro/ide/python",
+                        "editable": false
+                    },
+                    {
+                        "name": "React-native Kids",
+                        "url": "https://rnkids.github.io",
+                        "editable": false
+                    },
+                    {
+                        "name": "Expo dev",
+                        "url": "https://expo.dev",
+                        "editable": false
+                    },
+                    {
+                        "name": "Linux OS",
+                        "url": "https://copy.sh/v86/?profile=serenity",
+                        "editable": false
+                    }
+                ]
+            },
+            {
+                "name": "Images and Asserts",
+                "isFolder": true,
+                "editable": false,
+                "children": [
+                    {
+                        "name": "Game Sprites",
+                        "url": "https://thaysang.github.io/game/sp",
+                        "editable": true
+                    },
+                    {
+                        "name": "Game Background",
+                        "url": "https://thaysang.github.io/game/bg",
+                        "editable": true
+                    },
+                    {
+                        "name": "Pixabay PNG",
+                        "url": "https://pixabay.com/",
+                        "editable": false
+                    },
+                    {
+                        "name": "Cool symbol",
+                        "url": "https://coolsymbol.com/",
+                        "editable": false
+                    },
+                    {
+                        "name": "Emoji keyboard",
+                        "url": "https://emojikeyboard.top/",
+                        "editable": false
+                    },
+                    {
+                        "name": "Bing Images Search",
+                        "url": "https://www.bing.com/images?FORM=HDRSC3",
+                        "editable": false
+                    },
+                    {
+                        "name": "PNG gamming",
+                        "url": "https://pngmaker.io/tag/gaming",
+                        "editable": false
+                    },
+                    {
+                        "name": "AI Images",
+                        "url": "https://www.recraft.ai/community",
+                        "editable": false
+                    },
+                    {
+                        "name": "Imgur",
+                        "url": "https://imgur.com/",
+                        "editable": false
+                    },
+                    {
+                        "name": "Free PIK",
+                        "url": "https://www.freepik.com/",
+                        "editable": false
+                    },
+                    {
+                        "name": "Open Games Art",
+                        "url": "https://opengameart.org/",
+                        "editable": false
+                    },
+                    {
+                        "name": "Stick PNG",
+                        "url": "https://www.stickpng.com/",
+                        "editable": false
+                    },
+                    {
+                        "name": "Image to base64",
+                        "url": "https://base64.guru/converter/encode/image",
+                        "editable": true
+                    },
+                    {
+                        "name": "Photo editor",
+                        "url": "https://pixlr.com/editor",
+                        "editable": true
+                    },
+                    {
+                        "name": "Py0 github",
+                        "url": "https://github.com/ltvtk/py0/releases/tag/1.0",
+                        "editable": true
+                    }
+                ]
+            },
+            {
+                "name": "Web ICPC",
+                "isFolder": true,
+                "editable": false,
+                "children": [
+                    {
+                        "name": "CLB Lập Trình Vui",
+                        "url": "https://laptrinhvui.duckdns.org",
+                        "editable": false
+                    },
+                    {
+                        "name": "Tin Học Trẻ",
+                        "url": "https://tinhoctre.vn/",
+                        "editable": true
+                    },
+                    {
+                        "name": "Tin học VNOJ",
+                        "url": "https://oj.vnoi.info/",
+                        "editable": true
+                    },
+                    {
+                        "name": "LQDOJ",
+                        "url": "https://lqdoj.edu.vn/",
+                        "editable": true
+                    },
+                    {
+                        "name": "Vjudge",
+                        "url": "https://vjudge.net/",
+                        "editable": true
+                    },
+                    {
+                        "name": "Codeforces",
+                        "url": "https://codeforces.com/",
+                        "editable": true
+                    }
+                ]
+            },
+            {
+                "name": "Tutorials",
+                "isFolder": true,
+                "editable": false,
+                "children": [
+                    {
+                        "name": "Typing",
+                        "url": "https://www.edclub.com/sportal/program-3.game",
+                        "editable": false
+                    },
+                    {
+                        "name": "Computer Science for Kids",
+                        "url": "https://ltvtk.github.io/cskids/",
+                        "editable": false
+                    },
+                    {
+                        "name": "Flowchart-blockly-python tutorial",
+                        "url": "https://ltvtk.github.io/turtledu/",
+                        "editable": true
+                    },
+                    {
+                        "name": "Python silent teacher",
+                        "url": "https://silentteacher.toxicode.fr/hour_of_code.html?theme=basic_python",
+                        "editable": true
+                    },
+                    {
+                        "name": "JavaScript silent teacher",
+                        "url": "https://silentteacher.toxicode.fr/hour_of_code.html?theme=javascript",
+                        "editable": true
+                    },
+                    {
+                        "name": "VNOJ wiki",
+                        "url": "https://wiki.vnoi.info/",
+                        "editable": true
+                    },
+                    {
+                        "name": "Usaco guide",
+                        "url": "https://usaco.guide/",
+                        "editable": true
+                    }
+                ]
+            }
+        ],
+        "Games": [
+            {
+                "name": "Daniel Tiger",
+                "isFolder": true,
+                "editable": false,
+                "children": [
+                    {
+                        "name": "Tea Party",
+                        "url": "https://springroll-tc.pbskids.org/tea-party/905e256091f4fef36ff99b34ea079eee72b34afe/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "In My Bathroom",
+                        "url": "https://springroll-tc.pbskids.org/cdfaaec8-a576-4ba4-92b4-84b39b06f444/fa5ace3ca6b8648cc790b3c66ffc29efe93dab39/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Bathtime Helper",
+                        "url": "https://springroll-tc.pbskids.org/bathtime-helper/f541047b72106fc1f68f2680f6b07a82a4fc401e/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "At The Dentist",
+                        "url": "https://springroll-tc.pbskids.org/0686e73b-8109-4ae9-a78e-884ef61f2a12/7d8a7e1776d0ed64f1d3f58e48faa14d67682876/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Doctor Daniel",
+                        "url": "https://springroll-tc.pbskids.org/doctor-daniel/f73f4f73917c1ff4051f70a9910886f05e8509bd/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Classroom Helpers",
+                        "url": "https://springroll-tc.pbskids.org/classroom-helpers/826c6e9c061c82d88fa0810107bdead1512ddd91/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Drive Trolley",
+                        "url": "https://springroll-tc.pbskids.org/drive-trolley/8bb2fa3714fc16b63e85c4b72fd05856e885909c/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Birthday Buddy",
+                        "url": "https://springroll-tc.pbskids.org/birthday-buddy/5fa5895198a27cc456a5b22b213e645bae363076/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Play Neighbor Day",
+                        "url": "https://springroll-tc.pbskids.org/neighborhood-party/5eaa30d93c1655ee62b18c960230f8cb289f1f9c/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Lets Make Believe",
+                        "url": "https://springroll-tc.pbskids.org/lets-make-believe/d29e3d10c03f75aa24140177bd4b05a26a6670dd/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Play Look Closely",
+                        "url": "https://springroll-tc.pbskids.org/a0aa9e2b-8ca1-4c67-93d1-4024d7a0c6a6/ad36a8243c25ddf56cd290dd9b3e89a05a3d020f/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Stargazing",
+                        "url": "https://springroll-tc.pbskids.org/96bc02c5-7ccc-4f42-9e1a-ec159ffdfd28/b2524e4c807af2b45d09fbed67a8f3565426d484/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Build A Boat",
+                        "url": "https://springroll-tc.pbskids.org/a09495b8-a7b0-47a8-a7e5-b89591cfa4b7/8e8c2053a46d0b4778db6fa9a5212d7224d3778f/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Hide And Seek",
+                        "url": "https://springroll-tc.pbskids.org/hide-and-seek/7b93804a5e96a3425c55d130f682d867e6ae757d/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Nature Walk",
+                        "url": "https://springroll-tc.pbskids.org/daniel-tigers-neighborhood-nature-walk/d9a80de72e3d1c9a4926c079c3636c9930fa3ed0/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "My Fish Tank",
+                        "url": "https://springroll-tc.pbskids.org/my-fish-tank/1b40fbdfc7e0d2e502d9771845e160c15dfc7963/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Guess The Feeling",
+                        "url": "https://springroll-tc.pbskids.org/guess-the-feeling/865cb42df9a791fe368c84be029d3722b19eab78/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Barnyard Match",
+                        "url": "https://springroll-tc.pbskids.org/barnyard-match/171a5fd50ca2a294b1df054d674ded1b6b4449ea/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Make A Card",
+                        "url": "https://springroll-tc.pbskids.org/make-a-card/596a1ebb05566acc93ca08b092408d966cc35539/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    }
+                ]
+            },
+            {
+                "name": "Reading",
+                "isFolder": true,
+                "editable": false,
+                "children": [
+                    {
+                        "name": "Super Why Saves The Day",
+                        "url": "https://springroll-tc.pbskids.org/super-why-saves-the-day/24becdfa8e8ab5104a8692c373a0249bfe420524/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Xavier Story Creator",
+                        "url": "https://springroll-tc.pbskids.org/a2f678f0-d000-11e9-8675-fd8c801e5fde/c5706a871d986ec14306a8b12b94fd18bad2cdab/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Play Adventure Stories",
+                        "url": "https://springroll-tc.pbskids.org/adventure-stories/971465af6dad448696148a562f0fe6dbe6997dd3/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Pinkcredible Story Maker",
+                        "url": "https://springroll-tc.pbskids.org/storymaker/7e04a6224177bb0c96a4c8cbf7b5007328b5c099/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Story Emporium",
+                        "url": "https://springroll-tc.pbskids.org/b393d3c9-0db6-40ee-bd3f-ffea6363c882/6f3c7e570c9dc8b567b32ae535c02bd3fad3380a/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Story Book Builder",
+                        "url": "https://springroll-tc.pbskids.org/storybook-builder/66972f6d31fb828391215cbbb1259a1420e4547f/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Little Red Riding Hood",
+                        "url": "https://springroll-tc.pbskids.org/little-red-riding-hood/05a135ef871bb2d2b6dd627a5235608733b318b1/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Play A Dog's Life",
+                        "url": "https://springroll-tc.pbskids.org/a-dogs-life/2e7f3883231f0efdbceb655c3cdb4dc540ccddc8/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Play All Around Birdwell",
+                        "url": "https://springroll-tc.pbskids.org/all-around-birdwell/51d8de0c6eac4b82bf905fa0549ad35da316de4f/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Princess Prestos Spectacular Spelling Play",
+                        "url": "https://springroll-tc.pbskids.org/princess-prestos-spectacular-spelling-play/4b48871a27e49d4dc95f962448a978d6dc4ae082/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Alpha Pigs Paint By Letter",
+                        "url": "https://springroll-tc.pbskids.org/alpha-pigs-paint-by-letter/d7c32dcfd664743a795bbcbaccb535bbf453783c/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Wonder Reds Rhyme Racer",
+                        "url": "https://springroll-tc.pbskids.org/wonder-reds-rhyme-racer/c9890808ab8b5168d93ef339830af2aef46f4657/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Sesame Street Letter Dance Party",
+                        "url": "https://springroll-tc.pbskids.org/a-to-z-dance-party/62bf83402fd868c78a70abc559d24b63861435ad/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    }
+                ]
+            },
+            {
+                "name": "Curious George",
+                "isFolder": true,
+                "editable": false,
+                "children": [
+                    {
+                        "name": "Fair Shares",
+                        "url": "https://springroll-tc.pbskids.org/fair-shares/705a2dd6bf1c4df8b756f5ae7470954c1b452468/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Flower Garden",
+                        "url": "https://springroll-tc.pbskids.org/flower-garden/b2238ce63b2d210769f4d68d5cd3c55b2f1a86a3/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Train Station",
+                        "url": "https://springroll-tc.pbskids.org/train-station/8942b7605779c4b24f6f283ed51949c5cbab8855/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Apple Picking",
+                        "url": "https://springroll-tc.pbskids.org/apple-picking/e0bc5b287d692d83c7610cdc57e94124d338d995/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Count With Allie",
+                        "url": "https://springroll-tc.pbskids.org/count-with-allie/f7783de36b43c176ecb1305c9f714f7b98ef24e3/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "High Five",
+                        "url": "https://springroll-tc.pbskids.org/high-five/6d173728cf30298f506f45a154937f0b532224a6/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Ribbit",
+                        "url": "https://springroll-tc.pbskids.org/ribbit/09b1933196f44527a9e8d7c578d8bd2bdd9bae65/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Bug Catcher",
+                        "url": "https://springroll-tc.pbskids.org/bug-catcher/75834dad8949b7f644fb4e16ccc9ef4b86218828/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Bubble Pop",
+                        "url": "https://springroll-tc.pbskids.org/bubble-pop/0923e06c8b8c189e798aa766b3f12c9cf6a6375b/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Monkey Jump",
+                        "url": "https://springroll-tc.pbskids.org/monkey-jump/d3f15505cb76cc3a360f8a5804ac5d23739624a6/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Blast Off",
+                        "url": "https://springroll-tc.pbskids.org/blast-off/905a928b1477d96fe8ff7e4f299b65fd29d04487/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Hat Grab",
+                        "url": "https://springroll-tc.pbskids.org/hat-grab/d248ff2724a427b8e5a0b31c361c5c1282710c8e/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Meatball Launcher",
+                        "url": "https://springroll-tc.pbskids.org/meatball-launcher/334db4006b55cbc10251c4d36a8e5aa2c9ed0744/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Museum Of Tens",
+                        "url": "https://springroll-tc.pbskids.org/museum-of-tens/06261cff47d605a395ae88981d2285783d7ee6a0/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Hide And Seek",
+                        "url": "https://springroll-tc.pbskids.org/cg-hide-and-seek/b028706351a6081084fa7485e9cbab07cf12bc5f/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    }
+                ]
+            },
+            {
+                "name": "Molly",
+                "isFolder": true,
+                "editable": false,
+                "children": [
+                    {
+                        "name": "Mollys Epic Mystery",
+                        "url": "https://springroll-tc.pbskids.org/4cad1100-4cbe-451e-9ca6-cc5a49570dfa/1e1d12ce70c71e45fb54bdb0133316af5057e1da/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Snowboarding",
+                        "url": "https://springroll-tc.pbskids.org/snowboarding/54c2d51d63725dd19316f252ab11c15d482576f2/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Dog Sled",
+                        "url": "https://springroll-tc.pbskids.org/dog-sled/d2a5964bd32cc3c881d9f7fc5ce95a15df362c74/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Animal Adventure",
+                        "url": "https://springroll-tc.pbskids.org/animal-adventure/7821e7dea3113fec0979803b66e84bd75e847d58/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Canoe Quest",
+                        "url": "https://springroll-tc.pbskids.org/md-canoeing-game/d3d278118b03ac8b25fed4c542e450baced28850/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Fishing",
+                        "url": "https://springroll-tc.pbskids.org/fishing/c2e3f6313d2fdfa67de93e78252d413a06ab70fa/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Play Wood Carving Arts",
+                        "url": "https://springroll-tc.pbskids.org/c227dd16-fdb8-4a0b-b2dc-ba6a120607eb/2d03b452d3403926353581f725f3f2a39cc957ae/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Gathering",
+                        "url": "https://springroll-tc.pbskids.org/molly-of-denali-great-gathering/d6d25b986aa9fa5bd24723d70a35b3034d1f92c2/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Mollys Winter Kitchen",
+                        "url": "https://springroll-tc.pbskids.org/md-food-preservation/fbc6267b68824a2f744363c3422c71c1b6f53cd4/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Beading",
+                        "url": "https://springroll-tc.pbskids.org/beading/2a426a64b715af3b9cd33c67390b6a4699b2cf44/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Trading Post",
+                        "url": "https://springroll-tc.pbskids.org/trading-post/b036ba9ebf8f495aba8af5570cd600a5260a2699/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Gardening",
+                        "url": "https://springroll-tc.pbskids.org/gardening/bf5a8be530b2b34bf4cedf90944f1bee2a12c924/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    }
+                ]
+            },
+            {
+                "name": "Pinkalicious",
+                "isFolder": true,
+                "editable": false,
+                "children": [
+                    {
+                        "name": "Pinkamusical Garden",
+                        "url": "https://springroll-tc.pbskids.org/pinkalicious-music-garden/56016be93dc0ce321f04d7849e164c67659253a2/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Play Colorrific Art Show",
+                        "url": "https://springroll-tc.pbskids.org/pinkalicious-drawing/b38752f76a3084cc3b84c926acf9c028f8570490/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Pinkalicious Fairy House",
+                        "url": "https://springroll-tc.pbskids.org/pink-fairy-house/f2c6ced6929d6ba09d7f017cb18fcaef04e4f21c/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Play Pinkamagine Fashion",
+                        "url": "https://springroll-tc.pbskids.org/fashion-game/f8d251898bde5eca8ed6ceae2c10b3b8961867ae/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Pinkalicious Family Game",
+                        "url": "https://springroll-tc.pbskids.org/family-game/6552ecd3e42ebb25670914fd9c7cb1ed8e6812a3/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Pinkalicious Beach Game",
+                        "url": "https://springroll-tc.pbskids.org/pinkalicious-beach/8a3404e63392c182bf0ef784a264a0f491092976/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Pinkatastic Stickers",
+                        "url": "https://springroll-tc.pbskids.org/pinkalicious-stickers/8da3a52348317290d8ee871e0e7735e68c22319a/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Pinkcredible Story Maker",
+                        "url": "https://springroll-tc.pbskids.org/storymaker/7e04a6224177bb0c96a4c8cbf7b5007328b5c099/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Pinkalicious Dance Game",
+                        "url": "https://springroll-tc.pbskids.org/pinkalicious-dance/a73496ec14f428125169c88adbb5261f8bb575fd/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Pinka Perfect Band",
+                        "url": "https://springroll-tc.pbskids.org/pinkalicious-music-game/d795d7d8219e5c23f1184c1b306b905cc872bfff/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    }
+                ]
+            },
+            {
+                "name": "Elinor Wonders Why",
+                "isFolder": true,
+                "editable": false,
+                "children": [
+                    {
+                        "name": "Elinor Hide Seek",
+                        "url": "https://springroll-tc.pbskids.org/elinor-hide-and-seek/8b79bb83310426c81459fb2739f1c9f65fb368f8/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Lets Be Healthy",
+                        "url": "https://springroll-tc.pbskids.org/3fdabe0b-3dbd-4930-9102-dbd41f1f46c6/2b00ac5c829338f0a144878c72a1ef07562547f1/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Nature Art With Elinor",
+                        "url": "https://springroll-tc.pbskids.org/fcdd29b7-dce4-4ccb-a4d3-2ddcf7d68a70/47ef2f133387f830cb47f0554a8e79ff587a723b/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Elinor Soups Up",
+                        "url": "https://springroll-tc.pbskids.org/soups-up/824d3cff7da4a404ad41dda1ef05d047cde24d9d/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Play Elinor Curious Campout",
+                        "url": "https://springroll-tc.pbskids.org/elinor-campout/b15b21cfdc6ad99a82efc27d113384404f5b147e/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Elinor Pondlife",
+                        "url": "https://springroll-tc.pbskids.org/pondlife/dbe5de95efcc1b7175b52d5acc769ba844162ef3/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Elinors Nature Adventure",
+                        "url": "https://springroll-tc.pbskids.org/elinor-app/491eab6da5c33cd72a62bd9c91e4fd60969cf3f4/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Elinor Backyard Life",
+                        "url": "https://springroll-tc.pbskids.org/eww-bug-life/75491bda5d370689d4fdaedccbf5d4ad068352ed/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Elinor Nature Sights Sounds",
+                        "url": "https://springroll-tc.pbskids.org/eww-elinor-soundscape/f89566403f0ce99cf69669b6737d8aead814ea2d/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Elinor Aris Wonderful Ideas",
+                        "url": "https://springroll-tc.pbskids.org/eww-aris-wonderful-ideas/362061cf7c1c5fcf11803209cee6162f1e36495b/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Elinor Watch The Birdy",
+                        "url": "https://springroll-tc.pbskids.org/eww-elinors-bird-game/1d39cb43fe6c5d31fec4d305859b5d77a1a8a36e/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    }
+                ]
+            },
+            {
+                "name": "Peg and Cat",
+                "isFolder": true,
+                "editable": false,
+                "children": [
+                    {
+                        "name": "Super Peg",
+                        "url": "https://springroll-tc.pbskids.org/super-peg/f332e8ad0d2f8991c245cbfc418c24403c43a27e/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Dont Go Bananas",
+                        "url": "https://springroll-tc.pbskids.org/dont-go-bananas/d60fa0d896a1fab707ccc45817c8d6085a130468/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Hair Salon",
+                        "url": "https://springroll-tc.pbskids.org/hair-salon/0930cdde3d39ad527415bb9d81383db2fd38c767/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Peg Parade",
+                        "url": "https://springroll-tc.pbskids.org/marching-band/8e72bbbdf31e35277dd74a125d84dad3ee09c014/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Chicken Coop",
+                        "url": "https://springroll-tc.pbskids.org/chicken-coop/faa01a7dd945500233044f5244ca3447352ade49/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "321 Snack",
+                        "url": "https://springroll-tc.pbskids.org/321-snack/36cd3226ff19d9ff5afd9059ceb0b3ebf66e136f/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Rock Art",
+                        "url": "https://springroll-tc.pbskids.org/rock-art/e203993c990d77cdf8b651c17d8fa64c0991cf75/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Pegs Pizza Place",
+                        "url": "https://springroll-tc.pbskids.org/pegs-pizza-place/d62376d556c0b37c9a534f73dbfbfaad7e39331b/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Make The Cake",
+                        "url": "https://springroll-tc.pbskids.org/make-the-cake/2da4341030c41989dc3603c3b5b2fc2b0968bf9d/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Hungry Pirates",
+                        "url": "https://springroll-tc.pbskids.org/hungry-pirates/bdfa60ae3d4e31510846ab9fc9f4adcce907cba6/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Highlight Zone",
+                        "url": "https://springroll-tc.pbskids.org/highlight-zone/0a57541058e3865beb6c96128f25234a44391c89/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Giant Hide Seek",
+                        "url": "https://springroll-tc.pbskids.org/giant-hide-seek/e6d4fc7dc1e9f4c903185a5e2e3b20424ef1cb33/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Costume Box",
+                        "url": "https://springroll-tc.pbskids.org/costume-box/ae2be77245afa3964e52c5dda7b381f1a0b6654a/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Chicken Dance",
+                        "url": "https://springroll-tc.pbskids.org/chicken-dance/9c205d13fe7fb64aff294034531bb6c15c6c601a/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Chicken Blastoff",
+                        "url": "https://springroll-tc.pbskids.org/chicken-blastoff/456d63b0a6664346d3197622ce03e05a72f8f739/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Baby Fox Machine",
+                        "url": "https://springroll-tc.pbskids.org/baby-fox/1b652ed329a4173367a5efd4d400f2d019ea6844/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Mega Mall",
+                        "url": "https://springroll-tc.pbskids.org/mega-mall/28a18e571432fcc193dd21e2be9045cbc690fce0/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Bubble Bath",
+                        "url": "https://springroll-tc.pbskids.org/bubble-bath/9f92f7bd8b6b1dc3871edf134f188374e0ffd009/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Scrub A Dub",
+                        "url": "https://springroll-tc.pbskids.org/scrub-a-dub/0ad77516b14011769bbcd17bc80449f3cfbe0c1d/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Happy Camel",
+                        "url": "https://springroll-tc.pbskids.org/happy-camel/9b65d73f523ce040d3445d275d6403be64c9aedd/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    }
+                ]
+            },
+            {
+                "name": "Sid the Science Kid",
+                "isFolder": true,
+                "editable": false,
+                "children": [
+                    {
+                        "name": "Weather Surprise",
+                        "url": "https://springroll-tc.pbskids.org/weather-surprise/e7f27d323126519dec5d1d7fed9fbbb44e027cf7/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Crystals Rule",
+                        "url": "https://springroll-tc.pbskids.org/crystals-rule/4386c808620a94988bd4b4b405bf0a85b74bb78e/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Snow Search",
+                        "url": "https://springroll-tc.pbskids.org/snow-search/3066a71f4e71413c819afd21f78b89dd0dec09a4/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Snowflake Match",
+                        "url": "https://springroll-tc.pbskids.org/snowflake-match/291e39b35e18da878092925c39c87655066ec185/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Vegetable Harvest",
+                        "url": "https://springroll-tc.pbskids.org/vegetable-harvest/cbb5e5f07574e7682fa8870f80e439653a46e833/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Vegetable Planting",
+                        "url": "https://springroll-tc.pbskids.org/vegetable-planting/4ea1f0df0b1afd27cf4c2b642c14dacf57971728/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Pan Balance",
+                        "url": "https://springroll-tc.pbskids.org/pan-balance/41a1b43cd2aaf5386281ab65e442bf2fef4bd2f3/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Sorting Box",
+                        "url": "https://springroll-tc.pbskids.org/sorting-box/a166cfc0f9639b705239e0df39faa4d35b1967ea/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    }
+                ]
+            },
+            {
+                "name": "Math",
+                "isFolder": true,
+                "editable": false,
+                "children": [
+                    {
+                        "name": "Play Rosie's Slime Store",
+                        "url": "https://springroll-tc.pbskids.org/rosies-rules-rosies-shop/4ae55eef548de886147cb28086dee36656938062/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Play Backyard Bug Hunt",
+                        "url": "https://springroll-tc.pbskids.org/7a511474-7eb4-447c-ac59-491808007747/8b18bf23f9635020520df9b5e666fe958052770e/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Play Cyber Fashion Challenge",
+                        "url": "https://springroll-tc.pbskids.org/69452630-5f4e-11ec-98a1-31e4bf5595af/0603d2d2db36ab299a7c55f4a3d50e7932d0297d/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Go Fetch With Bob Dog",
+                        "url": "https://springroll-tc.pbskids.org/donkey-hodie-bob-dog-game/8f7623bf1651f23b647771f5680e0aba5648c793/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Chicken Coop",
+                        "url": "https://springroll-tc.pbskids.org/chicken-coop/faa01a7dd945500233044f5244ca3447352ade49/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Planet Pal",
+                        "url": "https://springroll-tc.pbskids.org/planet-pal/3ac9a8df3823b1bf97273b909bc186972a95bd2a/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Agent Academy",
+                        "url": "https://springroll-tc.pbskids.org/agent-training/e95d82ecaad0c255aef8307de6a49bed53e026ae/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Watts Of Trouble",
+                        "url": "https://springroll-tc.pbskids.org/watts-of-trouble/2e1f383eafde053d79e57fe4e6144af12b9c1cf1/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Pegs Pizza Place",
+                        "url": "https://springroll-tc.pbskids.org/pegs-pizza-place/d62376d556c0b37c9a534f73dbfbfaad7e39331b/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Slides And Ladders",
+                        "url": "https://springroll-tc.pbskids.org/odd-squad-van-maze/ac7b1b9c5bbf6805914524261531c459d065ff42/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Play Railway Hero",
+                        "url": "https://springroll-tc.pbskids.org/railroad-repair-reboot/3bb72f0bad3b1497aa5ad0fa3849e4100c328e51/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Dont Go Bananas",
+                        "url": "https://springroll-tc.pbskids.org/dont-go-bananas/d60fa0d896a1fab707ccc45817c8d6085a130468/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Code Breaker",
+                        "url": "https://springroll-tc.pbskids.org/odd-squad-code-breaker/81c32fe53b94330a3ad449f0160a614af13db5c1/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Cyberchase Park Game",
+                        "url": "https://springroll-tc.pbskids.org/cyberchase-park-game/11d98650b9de3d5ea49f910e2be480ab8629a294/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Pienado",
+                        "url": "https://springroll-tc.pbskids.org/odd-squad-pienado/84a9de3a521ac6c1dae8808abf443c2c7502ad66/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Play Buzz and Delete Save the Day",
+                        "url": "https://springroll-tc.pbskids.org/buzz-and-delete-save-the-day/b43fcb42e078940dc72cc8014a4d4b05cbef560f/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Mega Mall",
+                        "url": "https://springroll-tc.pbskids.org/mega-mall/28a18e571432fcc193dd21e2be9045cbc690fce0/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Odd Squad Invasion",
+                        "url": "https://springroll-tc.pbskids.org/odd-squad-ms-o/73f6fab8bbf500db591622532f7c5e5c05320a3c/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Super Peg",
+                        "url": "https://springroll-tc.pbskids.org/super-peg/f332e8ad0d2f8991c245cbfc418c24403c43a27e/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "321 Snack",
+                        "url": "https://springroll-tc.pbskids.org/321-snack/36cd3226ff19d9ff5afd9059ceb0b3ebf66e136f/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Puppy Quest",
+                        "url": "https://springroll-tc.pbskids.org/puppies/849cedec22d73cb5422e14292c43d7b64cb25f6e/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Symmetry Painter",
+                        "url": "https://springroll-tc.pbskids.org/symmetry-painter/dbb52c2baecea0092ba5f3fd5ef6c4d0df2ee8b2/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Creature Duty",
+                        "url": "https://springroll-tc.pbskids.org/odd-squad-creature-duty/03b29494a87e4fbc4a78c4e392acc5384072a135/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Chicken Dance",
+                        "url": "https://springroll-tc.pbskids.org/chicken-dance/9c205d13fe7fb64aff294034531bb6c15c6c601a/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Scrub A Dub",
+                        "url": "https://springroll-tc.pbskids.org/scrub-a-dub/0ad77516b14011769bbcd17bc80449f3cfbe0c1d/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Odd Squad Cases",
+                        "url": "https://springroll-tc.pbskids.org/odd-squad-cases/f87bedf4f0db2a285b6a8c421529bc63f033fc36/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Bubble Bath",
+                        "url": "https://springroll-tc.pbskids.org/bubble-bath/9f92f7bd8b6b1dc3871edf134f188374e0ffd009/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Highlight Zone",
+                        "url": "https://springroll-tc.pbskids.org/highlight-zone/0a57541058e3865beb6c96128f25234a44391c89/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Sorting Box",
+                        "url": "https://springroll-tc.pbskids.org/sorting-box/a166cfc0f9639b705239e0df39faa4d35b1967ea/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Chicken Blastoff",
+                        "url": "https://springroll-tc.pbskids.org/chicken-blastoff/456d63b0a6664346d3197622ce03e05a72f8f739/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Happy Camel",
+                        "url": "https://springroll-tc.pbskids.org/happy-camel/9b65d73f523ce040d3445d275d6403be64c9aedd/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Vegetable Harvest",
+                        "url": "https://springroll-tc.pbskids.org/vegetable-harvest/cbb5e5f07574e7682fa8870f80e439653a46e833/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    }
+                ]
+            },
+            {
+                "name": "Science",
+                "isFolder": true,
+                "editable": false,
+                "children": [
+                    {
+                        "name": "Wheather Explorers",
+                        "url": "https://springroll-tc.pbskids.org/a4580e56-0cc0-479d-afb8-6294302d1b21/584df30923996c70efb5f2c6f34a071bc383f725/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Play Nature Explorers",
+                        "url": "https://springroll-tc.pbskids.org/23d33585-279e-47ec-8165-27a1ea93ed59/e53394bde65f3f757c84bc216ad6cd4ea4325a89/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Play Cyber Sound Quest",
+                        "url": "https://springroll-tc.pbskids.org/fdd52df7-bc70-43db-afaf-c7d642f0d2e1/23c42d365478ea52089131aede0f7b3f60bffe7e/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Elinors Nature Adventure",
+                        "url": "https://springroll-tc.pbskids.org/elinor-app/491eab6da5c33cd72a62bd9c91e4fd60969cf3f4/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Go Green",
+                        "url": "https://springroll-tc.pbskids.org/earth-day/f9319008b79d9f59b32a21744580b847ce3737b7/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Pollinator Pathway",
+                        "url": "https://springroll-tc.pbskids.org/nature-cat-pollinators/89eab3f9c84f43e7d057331a06d6156932556e50/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Elinor Pondlife",
+                        "url": "https://springroll-tc.pbskids.org/pondlife/dbe5de95efcc1b7175b52d5acc769ba844162ef3/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Camp Time",
+                        "url": "https://springroll-tc.pbskids.org/camptime/594f053d417246d2882b5d20dc01df018a2af5d4/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Animal Adventure",
+                        "url": "https://springroll-tc.pbskids.org/animal-adventure/7821e7dea3113fec0979803b66e84bd75e847d58/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Elinor Watch The Birdy",
+                        "url": "https://springroll-tc.pbskids.org/eww-elinors-bird-game/1d39cb43fe6c5d31fec4d305859b5d77a1a8a36e/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Fine Feathered Feast",
+                        "url": "https://springroll-tc.pbskids.org/fine-feathered-feast/11b780f13fffaf4ad16b6de90fe05e1a9b4d1bea/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Play Elinor Curious Campout",
+                        "url": "https://springroll-tc.pbskids.org/elinor-campout/b15b21cfdc6ad99a82efc27d113384404f5b147e/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Arcade Escapde",
+                        "url": "https://springroll-tc.pbskids.org/cith-arcade-escapade/095a15768518a1f2b7d6d7326e104db0673be7ff/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Play Echo Explorers",
+                        "url": "https://springroll-tc.pbskids.org/echolocation/ba4756a26252151521ba1f105700ef2f19e01fdd/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Canoe Quest",
+                        "url": "https://springroll-tc.pbskids.org/md-canoeing-game/d3d278118b03ac8b25fed4c542e450baced28850/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Elinor Backyard Life",
+                        "url": "https://springroll-tc.pbskids.org/eww-bug-life/75491bda5d370689d4fdaedccbf5d4ad068352ed/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Play Space Waste Odyssey",
+                        "url": "https://springroll-tc.pbskids.org/space-waste-odyssey/eb8b79b00e8d6c51217aa2d8eaaca4b707b453a8/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Park Builder",
+                        "url": "https://springroll-tc.pbskids.org/park-builder/21da02ea5a5c29c4c1623989e5ef19322975042c/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Elinor Hide Seek",
+                        "url": "https://springroll-tc.pbskids.org/elinor-hide-and-seek/8b79bb83310426c81459fb2739f1c9f65fb368f8/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Dress That Rhino",
+                        "url": "https://springroll-tc.pbskids.org/rhino-game/eadbc0ce60741fdace7bdbab209a615caad91411/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Elinor Nature Sights Sounds",
+                        "url": "https://springroll-tc.pbskids.org/eww-elinor-soundscape/f89566403f0ce99cf69669b6737d8aead814ea2d/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Weather Surprise",
+                        "url": "https://springroll-tc.pbskids.org/weather-surprise/e7f27d323126519dec5d1d7fed9fbbb44e027cf7/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Mindys Constellation Exploration",
+                        "url": "https://springroll-tc.pbskids.org/mindys-constellation-operation/28cd2d5c333b7a399128f5420f6b2b8407f26675/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Seed Soaring",
+                        "url": "https://springroll-tc.pbskids.org/seed-soaring/80217672916d4965a9a9d1f4341bc0f897d9f383/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Vegetable Planting",
+                        "url": "https://springroll-tc.pbskids.org/vegetable-planting/4ea1f0df0b1afd27cf4c2b642c14dacf57971728/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    }
+                ]
+            },
+            {
+                "name": "Engineering",
+                "isFolder": true,
+                "editable": false,
+                "children": [
+                    {
+                        "name": "Play Marble Run",
+                        "url": "https://springroll-tc.pbskids.org/ebe187b1-a07f-44c5-b16a-348db058ccc0/2cc2fd523f2c9adf97b330cb3bad9cd622f1db85/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Xavier Code The Way",
+                        "url": "https://springroll-tc.pbskids.org/d1299be6-c464-45ff-b497-72c692fbde90/136089ca7e94240c9268e9b8dd4a445a2a62f8e2/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Lyla In The Loop A Stu Of Your Own",
+                        "url": "https://springroll-tc.pbskids.org/425109c9-b251-46e8-893e-166bb2460471/997976f9d7e5a1594cb7ecb62f57b5470210f58c/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Babysitting Squee",
+                        "url": "https://springroll-tc.pbskids.org/8e5008ba-8649-4467-8c4c-9c354defb58f/711b0f6ee0e0d3b874929a1816b47220a3099dbc/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Play Riding with Rosie",
+                        "url": "https://springroll-tc.pbskids.org/rosies-rules-rosies-map/652e77ae11417412f40989d9871c6243f8de1ae5/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Play Toy Maker",
+                        "url": "https://springroll-tc.pbskids.org/41127895-2069-4e55-9bc1-b8ef020f8a7c/7f9211931511371c7a1629d88de66639fe571fd4/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Play Stu's Delivery Service",
+                        "url": "https://springroll-tc.pbskids.org/817b95c0-e601-4f8a-9337-0b76617d50b0/9234ac3148639c6c3020750e6e2fb30eb3a9f368/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Road Repair",
+                        "url": "https://springroll-tc.pbskids.org/wombats-road-repair/46559eb8778050adaa2093c4b43f315c0348a842/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Play Artifact Adventure",
+                        "url": "https://springroll-tc.pbskids.org/artifact-adventure/69ce97cff181b1f9b0bb61584dab9bd2935de650/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Play Alma Train Game",
+                        "url": "https://springroll-tc.pbskids.org/almas-way-almas-subway-game/d2fbfa2e0a7c437cd613bc8c490e4ba18249e255/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Play Step It Out",
+                        "url": "https://springroll-tc.pbskids.org/wombats-sweet-sequences/ef2e059a912fb67499832abe837287a05a973663/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Ramp Racers",
+                        "url": "https://springroll-tc.pbskids.org/sesame-street-ramp-racers/174a68c23336f9f5955158a37322e2fc387a5fc2/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Arthurs Happy Homes",
+                        "url": "https://springroll-tc.pbskids.org/arthur-diy-homes/a7c2229ec032b05e56d34035c6b00f3fbfa109d5/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Space Bop",
+                        "url": "https://springroll-tc.pbskids.org/donkey-hodie-pandas-space-bop/0a77636969b08531277d4e1b34cd2a9822e6b6b8/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Elinor Aris Wonderful Ideas",
+                        "url": "https://springroll-tc.pbskids.org/eww-aris-wonderful-ideas/362061cf7c1c5fcf11803209cee6162f1e36495b/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Play Team Hamster! Splash Dash",
+                        "url": "https://springroll-tc.pbskids.org/hamster-water/23508b8fd2ecc8a3000b2ccfd54426189a1fa2ba/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Tower Of Cows",
+                        "url": "https://springroll-tc.pbskids.org/tower-of-cows/55437f8c837b3f1b2164659676e65d3007268881/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Treehouse Trouble",
+                        "url": "https://springroll-tc.pbskids.org/treehouse-trouble/eb4ff13306b80af5e3b38e11967088bed4c68089/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Baby Fox Machine",
+                        "url": "https://springroll-tc.pbskids.org/baby-fox/1b652ed329a4173367a5efd4d400f2d019ea6844/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Moving Art",
+                        "url": "https://springroll-tc.pbskids.org/ar-kinetic-art-studio/3295b04c6745db4718b34e1b2ee731f50f9e4920/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Play Team Hamster! Power Painters",
+                        "url": "https://springroll-tc.pbskids.org/hamster-art-game/e90d575cf00a6662c3bd1a6a7164269434e9c77c/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Make The Cake",
+                        "url": "https://springroll-tc.pbskids.org/make-the-cake/2da4341030c41989dc3603c3b5b2fc2b0968bf9d/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Corn Maze Craze",
+                        "url": "https://springroll-tc.pbskids.org/amaizeing-race/abbf1f2f43f105d29bb705508fe64dfb4074bbf2/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Hamster Run",
+                        "url": "https://springroll-tc.pbskids.org/hamster-game/5359d8456173d6bb289e3aafc76b4d0fee77d505/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Rjg Space Scouts",
+                        "url": "https://springroll-tc.pbskids.org/space-scouts-home-base/3afb9dc78b7e295dc7f47497f1d167a6b5bea849/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Marbleous Marvel Coaster",
+                        "url": "https://springroll-tc.pbskids.org/marbelous-marble-coaster/727837c5ee7e1af4fd237742bd9782b4235aa0c2/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "The Creatorator",
+                        "url": "https://springroll-tc.pbskids.org/the-creatorator/29c61b4e758a005196d60692bc6e0bb66eae7458/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    },
+                    {
+                        "name": "Base Builder",
+                        "url": "https://springroll-tc.pbskids.org/base-builder/b1d7c4dfa6a66a27c9c8a4237c55c44c45f41f1b/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
+                        "editable": false
+                    }
+                ]
+            }
+        ],
+        "English": [
+            {
+                "name": "LTV-youtube videos",
+                "url": "https://ltvtk.github.io/youtube/",
+                "editable": false
+            },
+            {
+                "name": "English for kids",
+                "isFolder": true,
+                "editable": false,
+                "children": [
+                    {
+                        "name": "Little Fox",
+                        "url": "https://www.tienganhchotreem.com/little-fox/",
+                        "editable": false
+                    },
+                    {
+                        "name": "Acellus",
+                        "url": "https://homeschool.homes/category/acellus/",
+                        "editable": false
+                    },
+                    {
+                        "name": "Heinemann",
+                        "url": "https://hocta.2tech.vn/play?l=Heinemann%20GK%20120&f=&s=rclone",
+                        "editable": false
+                    },
+                    {
+                        "name": "Raz-kids",
+                        "url": "https://fb4kids.edu.eu.org/razkids",
+                        "editable": false
+                    },
+                    {
+                        "name": "ABKs",
+                        "url": "https://www.o9o.net/k4/",
+                        "editable": false
+                    }
+                ]
+            },
+            {
+                "name": "E-learning...",
+                "isFolder": true,
+                "editable": false,
+                "children": [
+                    {
+                        "name": "National Geographic kids",
+                        "url": "https://kids.nationalgeographic.com/videos",
+                        "editable": false
+                    },
+                    {
+                        "name": "Ted Ed",
+                        "url": "https://ed.ted.com/lessons?sort=featured-position&student_level%5B%5D=1",
+                        "editable": false
+                    },
+                    {
+                        "name": "Tra từ điển",
+                        "url": "https://tratu.coviet.vn",
+                        "editable": false
+                    },
+                    {
+                        "name": "Edupia VN",
+                        "url": "https://edupiasecondary.vn",
+                        "editable": false
+                    },
+                    {
+                        "name": "Memrise",
+                        "url": "https://www.memrise.com",
+                        "editable": false
+                    },
+                    {
+                        "name": "English tests",
+                        "url": "https://englishpracticetest.net",
+                        "editable": false
+                    }
+                ]
+            }
+        ],
+        "Useful Links": [
+            {
+                "name": "Search ...",
+                "url": "https://sweetsearch.com/",
+                "editable": true
+            },
+            {
+                "name": "Color Names",
+                "url": "https://www.w3schools.com/tags/ref_colornames.asp",
+                "editable": true
+            },
+            {
+                "name": "Wikipedia",
+                "url": "https://www.wikipedia.org",
+                "editable": true
+            },
+            {
+                "name": "TempMail",
+                "url": "https://temp-mail.org/en/",
+                "editable": true
+            },
+            {
+                "name": "Gmail",
+                "url": "gmail.com",
+                "editable": true
+            },
+            {
+                "name": "Google docs",
+                "url": "https://docs.google.com",
+                "editable": true
+            },
+            {
+                "name": "Pinterest",
+                "url": "https://www.pinterest.com/",
+                "editable": true
+            },
+            {
+                "name": "Kiến Tạo Tâm",
+                "url": "https://kientaotam.com/",
+                "editable": true
+            }
+        ]
+    }
+}
