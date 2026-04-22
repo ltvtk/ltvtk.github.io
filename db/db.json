@@ -1263,6 +1263,26 @@
                                 "name": "Star Wars",
                                 "url": "https://studio.code.org/s/starwars/lessons/1/levels/1",
                                 "editable": false
+                            },
+                            {
+                                "name": "Course A",
+                                "url": "https://studio.code.org/courses/coursea",
+                                "editable": false
+                            },
+                            {
+                                "name": "Course B",
+                                "url": "https://studio.code.org/courses/courseb",
+                                "editable": false
+                            },
+                            {
+                                "name": "Course C",
+                                "url": "https://studio.code.org/courses/coursec",
+                                "editable": false
+                            },
+                            {
+                                "name": "Course D",
+                                "url": "https://studio.code.org/courses/coursed",
+                                "editable": false
                             }
                         ]
                     }
@@ -1732,16 +1752,6 @@
                     {
                         "name": "Mollys Epic Mystery",
                         "url": "https://springroll-tc.pbskids.org/4cad1100-4cbe-451e-9ca6-cc5a49570dfa/1e1d12ce70c71e45fb54bdb0133316af5057e1da/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
-                        "editable": false
-                    },
-                    {
-                        "name": "Snowboarding",
-                        "url": "https://springroll-tc.pbskids.org/snowboarding/54c2d51d63725dd19316f252ab11c15d482576f2/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
-                        "editable": false
-                    },
-                    {
-                        "name": "Dog Sled",
-                        "url": "https://springroll-tc.pbskids.org/dog-sled/d2a5964bd32cc3c881d9f7fc5ce95a15df362c74/release/index.html?playOptions=%7B%22language%22%3A%22en%22%7D",
                         "editable": false
                     },
                     {
