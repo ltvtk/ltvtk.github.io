@@ -1,0 +1,30 @@
+{
+  "mode": "blacklist",
+  "apps": [
+    "Steam",
+    "Epic Games Launcher",
+    "Discord",
+    "Telegram Desktop",
+    "Roblox",
+    "League of Legends",
+    "Valorant",
+    "TikTok"
+  ],
+  "domains": [
+    "tiktok.com",
+    "www.tiktok.com",
+    "facebook.com",
+    "www.facebook.com",
+    "instagram.com",
+    "www.instagram.com",
+    "twitter.com",
+    "www.twitter.com",
+    "x.com",
+    "reddit.com",
+    "www.reddit.com",
+    "youtube.com",
+    "www.youtube.com",
+    "pornhub.com",
+    "xvideos.com"
+  ]
+}
