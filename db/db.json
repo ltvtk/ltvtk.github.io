@@ -201,9 +201,6 @@
             "domain": "coviet.vn"
         },
         {
-            "domain": "pinterest.com"
-        },
-        {
             "domain": "pixabay.com"
         },
         {
@@ -2453,13 +2450,8 @@
                         "editable": false
                     },
                     {
-                        "name": "Acellus",
-                        "url": "https://homeschool.homes/category/acellus/",
-                        "editable": false
-                    },
-                    {
-                        "name": "ABKs",
-                        "url": "https://www.o9o.net/k4/",
+                        "name": "PBS Learning media",
+                        "url": "https://www.pbslearningmedia.org/",
                         "editable": false
                     }
                 ]
@@ -2531,11 +2523,6 @@
             {
                 "name": "Google docs",
                 "url": "https://docs.google.com",
-                "editable": true
-            },
-            {
-                "name": "Pinterest",
-                "url": "https://www.pinterest.com/",
                 "editable": true
             },
             {
