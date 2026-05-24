@@ -141,6 +141,10 @@
       "chatgpt.com",
       "anthropic.com",
       "claude.ai",
+      "statsig.com",
+      "statsig.anthropic.com",
+      "sentry.io",
+      "launchdarkly.com",
       "grok.com",
       "solvely.ai",
       "poe.com",
@@ -603,8 +607,7 @@
         "domain": "youtube.com",
         "block": true,
         "allowSubs": [
-          "studio.youtube.com",
-          "www.youtube.com"
+          "studio.youtube.com"
         ],
         "allowPaths": [
           "/watch*list=PLlJvqLZ3J6ojdqHsl2Zii1Bz695-R1rxF*",
