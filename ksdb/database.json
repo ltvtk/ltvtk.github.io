@@ -607,7 +607,8 @@
         "domain": "youtube.com",
         "block": true,
         "allowSubs": [
-          "studio.youtube.com"
+          "studio.youtube.com",
+          "www.youtube.com"
         ],
         "allowPaths": [
           "/watch*list=PLlJvqLZ3J6ojdqHsl2Zii1Bz695-R1rxF*",
