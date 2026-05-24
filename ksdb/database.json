@@ -524,7 +524,7 @@
       "zadn.vn",
       "zingmp3.vn",
 
-      "youtu.be",
+      { "domain": "youtu.be", "block": true },
 
       {
         "domain": "google.com",
@@ -605,14 +605,7 @@
 
       {
         "domain": "youtube.com",
-        "blockPaths": [
-          "/watch*",
-          "/shorts*",
-          "/live*",
-          "/embed/*",
-          "/v/*",
-          "/e/*"
-        ],
+        "block": true,
         "allowPaths": [
           "/watch*list=PLlJvqLZ3J6ojdqHsl2Zii1Bz695-R1rxF*",
           "/watch*list=PLVdi11Co3pjrjrg89b1f2TchrQR48s7gL*",
