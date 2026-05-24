@@ -605,10 +605,13 @@
 
       {
         "domain": "youtube.com",
-        "block": true,
-        "allowSubs": [
-          "studio.youtube.com",
-          "www.youtube.com"
+        "blockPaths": [
+          "/watch*",
+          "/shorts*",
+          "/live*",
+          "/embed/*",
+          "/v/*",
+          "/e/*"
         ],
         "allowPaths": [
           "/watch*list=PLlJvqLZ3J6ojdqHsl2Zii1Bz695-R1rxF*",
