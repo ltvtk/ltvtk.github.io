@@ -614,6 +614,8 @@
           "consent.youtube.com"
         ],
         "allowPaths": [
+          "/signin*",
+          "/logout*",
           "/watch*list=PLlJvqLZ3J6ojdqHsl2Zii1Bz695-R1rxF*",
           "/watch*list=PLVdi11Co3pjrjrg89b1f2TchrQR48s7gL*",
           "/watch*list=PL4LtXF3mNzp4OzP2AfFdVNiLVSVy6DNGx*",
