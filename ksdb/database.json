@@ -121,6 +121,8 @@
       "github.com",
       "github.io",
       "githubusercontent.com",
+      "npmjs.org",
+      "npmjs.com",
       "apple.com",
       "mozilla.org",
       "amazon.com",
@@ -141,12 +143,14 @@
       "chatgpt.com",
       "anthropic.com",
       "claude.ai",
+      "claude.com",
       "statsig.com",
       "statsig.anthropic.com",
       "sentry.io",
       "launchdarkly.com",
       "grok.com",
       "solvely.ai",
+      "kilo.ai",
       "poe.com",
       "notion.so",
       "canva.com",
@@ -561,8 +565,7 @@
         "domain": "numuki.com",
         "block": true,
         "allowPaths": [
-          "/games/robot-riders-learn-to-code*",
-          "/games/robot-riders-learn-to-code/*"
+          "/game/robot-riders-learn-to-code*"
         ]
       },
 
@@ -606,6 +609,10 @@
       {
         "domain": "youtube.com",
         "block": true,
+        "allowSubs": [
+          "accounts.youtube.com",
+          "consent.youtube.com"
+        ],
         "allowPaths": [
           "/watch*list=PLlJvqLZ3J6ojdqHsl2Zii1Bz695-R1rxF*",
           "/watch*list=PLVdi11Co3pjrjrg89b1f2TchrQR48s7gL*",
