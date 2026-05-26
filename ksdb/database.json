@@ -426,6 +426,7 @@
       "wacom.com",
       "unikey.org",
 
+      "cloudflare.com",
       "digitalocean.com",
       "godaddy.com",
       "create-learn.us",
@@ -564,9 +565,7 @@
       {
         "domain": "numuki.com",
         "block": true,
-        "allowPaths": [
-          "/game/robot-riders-learn-to-code*"
-        ]
+        "allowPaths": ["/game*robot-riders-learn-to-code*"]
       },
 
       {
