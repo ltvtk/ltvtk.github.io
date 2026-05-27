@@ -3,6 +3,7 @@
 
   "apps": {
     "block": [
+      "Microsoft Store",
       "steampowered",
       "Epic Games Launcher",
       "GOG Galaxy",
@@ -16,7 +17,7 @@
       "Humble",
       "TapTap",
       "Garena",
-      "VNG",
+      "Vngame",
       "Zing Play",
 
       "Minecraft",
