@@ -1,0 +1,57 @@
+window.__DB__ = [
+  {
+    id: 'python-turtle',
+    title: 'Python Turtle',
+    emoji: '🐢',
+    color: '#16a34a',
+    videos: [
+      { id: 'cL9JJgcaeuw', title: 'Lesson 1: Basic movement' },
+      { id: 'o-lgPGjcwoA', title: 'Lesson 1: Challenge' },
+      { id: 'GXgTFPYwdYg', title: 'Lesson 2: Loops' },
+      { id: 'ahSjLbgYvkA', title: 'Lesson 2: Challenge' },
+      { id: '9dfQ2-mkCN4', title: 'Lesson 3: Spriral' },
+      { id: 'uNUtYOioXrg', title: 'Lesson 4: Challenge' },
+    ],
+  },
+  {
+    id: 'python-terminal',
+    title: 'Python Terminal',
+    emoji: '💻',
+    color: '#2563eb',
+    videos: [
+      { id: 'xf2j5VDVnH8', title: 'Lesson 1: AI Agent chat' },
+      { id: 'tN6tHlXW9Cg', title: 'Lesson 2: Lucky Lottery' },
+      { id: 'zqXhguRQgxw', title: 'Lesson 2: Challenge' },
+      { id: 'p73oCixZcKk', title: 'Lesson 3: ATM cash machine' },
+      { id: 'P1Xiehp37Xw', title: 'Lesson 3: Challenge' },
+    ],
+  },
+  {
+    id: 'game',
+    title: 'Game',
+    emoji: '🎮',
+    color: '#9333ea',
+    videos: [],
+  },
+  {
+    id: 'app',
+    title: 'App',
+    emoji: '📱',
+    color: '#ea580c',
+    videos: [],
+  },
+  {
+    id: 'cpp-turtle',
+    title: 'C++ Turtle',
+    emoji: '🐢',
+    color: '#0891b2',
+    videos: [],
+  },
+  {
+    id: 'cpp-terminal',
+    title: 'C++ Terminal',
+    emoji: '⚙️',
+    color: '#4b5563',
+    videos: [],
+  },
+];
