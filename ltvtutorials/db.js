@@ -1,7 +1,7 @@
 window.__DB__ = [
   {
-    id: 'python-turtle',
-    title: 'Python Turtle',
+    id: 'basic-python-turtle',
+    title: '1. Basic Turtle',
     emoji: '🐢',
     color: '#16a34a',
     videos: [
@@ -15,7 +15,7 @@ window.__DB__ = [
   },
   {
     id: 'python-terminal',
-    title: 'Python Terminal',
+    title: '2. Python Terminal',
     emoji: '💻',
     color: '#2563eb',
     videos: [
@@ -27,10 +27,23 @@ window.__DB__ = [
     ],
   },
   {
-    id: 'game',
-    title: 'Game',
+    id: 'intermediate-python-turtle',
+    title: '3. Intemediate Turtle',
     emoji: '🎮',
     color: '#9333ea',
+    videos: ["iNnM7uNxw0U",
+            "2aXVvlxZlQc",
+            "HRwNVHqf8vQ",
+            "TDy4Jl4xT0I",
+            "QQakKPdv8bU",
+            "HfescAxXVig",],
+  },
+  ,
+  {
+    id: 'basic-game',
+    title: '4. Basic games',
+    emoji: '📱',
+    color: '#ea580c',
     videos: [],
   },
   {
