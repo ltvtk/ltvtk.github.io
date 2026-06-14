@@ -36,7 +36,8 @@ window.__DB__ = [
             {id: "HRwNVHqf8vQ", title:"Lesson 5: Emoji"},
             {id: "TDy4Jl4xT0I", title:"Lesson 5: Challenge"},
             {id: "QQakKPdv8bU", title:"Lesson 6: Stars"},
-            {id: "HfescAxXVig", title:"Lesson 6: Challenge"},],
+            {id: "HfescAxXVig", title:"Lesson 6: Challenge"},
+          {id: "5zoZFCcgLEA", title:"Lesson 7: Bear"}],
   },
   ,
   {
