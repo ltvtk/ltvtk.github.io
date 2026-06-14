@@ -38,34 +38,5 @@ window.__DB__ = [
             {id: "QQakKPdv8bU", title:"Lesson 6: Stars"},
             {id: "HfescAxXVig", title:"Lesson 6: Challenge"},
           {id: "5zoZFCcgLEA", title:"Lesson 7: Bear"}],
-  },
-  ,
-  {
-    id: 'basic-game',
-    title: '4. Basic games',
-    emoji: '📱',
-    color: '#ea580c',
-    videos: [],
-  },
-  {
-    id: 'app',
-    title: 'App',
-    emoji: '📱',
-    color: '#ea580c',
-    videos: [],
-  },
-  {
-    id: 'cpp-turtle',
-    title: 'C++ Turtle',
-    emoji: '🐢',
-    color: '#0891b2',
-    videos: [],
-  },
-  {
-    id: 'cpp-terminal',
-    title: 'C++ Terminal',
-    emoji: '⚙️',
-    color: '#4b5563',
-    videos: [],
-  },
+  }
 ];
