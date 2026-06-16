@@ -98,7 +98,7 @@
     "default": "block",
 
     "entries": [
-
+      "koddy.online",
       "googleapis.com",
       "gstatic.com",
       "googleusercontent.com",
