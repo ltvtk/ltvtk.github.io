@@ -20,6 +20,15 @@
                 "/games/action-and-adventure/*"
             ]
         },
+         {
+            "domain": "dailydictation.com"
+        },
+         {
+            "domain": "agendaweb.org"
+        },
+         {
+            "domain": "littlecat.vn"
+        },
         {
             "domain": "microsoftonline.com"
         },
@@ -2447,6 +2456,21 @@
                     {
                         "name": "Cartoon",
                         "url": "https://www.tienganhchotreem.com",
+                        "editable": false
+                    },
+                    {
+                        "name":"Daily dictation",
+                        "url": "https://dailydictation.com/",
+                        "editable": false
+                    },
+                    {
+                        "name":"Agenda web",
+                        "url": "https://agendaweb.org/",
+                        "editable": false
+                    },
+                    {
+                        "name":"Little Cat",
+                        "url": "https://littlecat.vn/",
                         "editable": false
                     },
                     {
