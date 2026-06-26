@@ -29,7 +29,7 @@ window.__DB__ = [
   {
     id: 'intermediate-python-turtle',
     title: '3. Intemediate Turtle',
-    emoji: '🎮',
+    emoji: '🐢',
     color: '#9333ea',
     videos: [{id:"iNnM7uNxw0U",  title:"Lesson 4: Pigeon house"},
             {id: "2aXVvlxZlQc", title:"Lesson 4: Challenge"},
@@ -38,5 +38,16 @@ window.__DB__ = [
             {id: "QQakKPdv8bU", title:"Lesson 6: Stars"},
             {id: "HfescAxXVig", title:"Lesson 6: Challenge"},
           {id: "5zoZFCcgLEA", title:"Lesson 7: Bear"}],
+  },
+  {
+    id: 'basic-game',
+    title: '4. Basic games',
+    emoji: '🎮',
+    color: '#9333ea',
+    videos: [{id:"lm6MKXoeVz4",  title:"Lesson 1: Basic"},
+            {id: "sFj1XiboEWY", title:"Lesson 2: Chase"},
+            {id: "L4Fwlhbn8RE", title:"Lesson 3: Catch"},
+            {id: "9gKimHF5Cao", title:"Lesson 4: Space"},
+            {id: "", title:"Lesson 5: Animation"}],
   }
 ];
