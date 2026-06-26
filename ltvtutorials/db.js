@@ -48,6 +48,7 @@ window.__DB__ = [
             {id: "sFj1XiboEWY", title:"Lesson 2: Chase"},
             {id: "L4Fwlhbn8RE", title:"Lesson 3: Catch"},
             {id: "9gKimHF5Cao", title:"Lesson 4: Space"},
-            {id: "", title:"Lesson 5: Animation"}],
+            {id: "CR8YreqRs9I", title:"Lesson 5: Animation"}
+          ],
   }
 ];
