@@ -20,6 +20,12 @@
                 "/games/action-and-adventure/*"
             ]
         },
+        {
+            "domain": "zmrobo.com"
+        },
+        {
+            "domain": "zmrobo.net"
+        },
          {
             "domain": "dailydictation.com"
         },
@@ -2524,6 +2530,11 @@
             {
                 "name": "Color Names",
                 "url": "https://www.w3schools.com/tags/ref_colornames.asp",
+                "editable": true
+            },
+            {
+                "name": "ZMrobo",
+                "url": "https://zmrobo.net/",
                 "editable": true
             },
             {
