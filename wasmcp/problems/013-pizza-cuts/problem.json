@@ -1,0 +1,39 @@
+{
+  "id": "013",
+  "slug": "pizza-cuts",
+  "title": "Pizza Cuts",
+  "level": 2,
+  "difficulty": "medium",
+  "tags": ["math", "geometry"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    {
+      "input": "1",
+      "output": "2",
+      "explanation": "1 diameter cut splits the pizza into 2 halves."
+    },
+    {
+      "input": "3",
+      "output": "6",
+      "explanation": "3 cuts through the center → 3 × 2 = 6 slices."
+    }
+  ],
+  "ioDemo": {
+    "machine": "🍕 slice!",
+    "inputLabels": ["K 🔪 cuts"],
+    "outputLabel": "🍕 slices"
+  },
+  "testCases": [
+    { "input": "1",    "output": "2"    },
+    { "input": "3",    "output": "6"    },
+    { "input": "2",    "output": "4"    },
+    { "input": "5",    "output": "10"   },
+    { "input": "10",   "output": "20"   },
+    { "input": "100",  "output": "200"  },
+    { "input": "4",    "output": "8"    },
+    { "input": "50",   "output": "100"  },
+    { "input": "7",    "output": "14"   },
+    { "input": "1000", "output": "2000" }
+  ]
+}

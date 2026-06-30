@@ -1,0 +1,31 @@
+{
+  "id": "037",
+  "slug": "candy-total",
+  "title": "Candy Total",
+  "level": 1,
+  "difficulty": "easy",
+  "tags": ["math", "io"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    { "input": "15\n20", "output": "35", "explanation": "15 + 20 = 35 candies in total." },
+    { "input": "0\n100", "output": "100", "explanation": "Ti had none, so the total is just Teo's 100." }
+  ],
+  "ioDemo": {
+    "machine": "🍬 pool",
+    "inputLabels": ["A (Ti's candies)", "B (Teo's candies)"],
+    "outputLabel": "total"
+  },
+  "testCases": [
+    { "input": "15\n20", "output": "35" },
+    { "input": "0\n100", "output": "100" },
+    { "input": "1\n1", "output": "2" },
+    { "input": "500000000\n500000000", "output": "1000000000" },
+    { "input": "123\n456", "output": "579" },
+    { "input": "1000000\n999999", "output": "1999999" },
+    { "input": "0\n0", "output": "0" },
+    { "input": "888\n112", "output": "1000" },
+    { "input": "999999999\n1", "output": "1000000000" },
+    { "input": "42\n58", "output": "100" }
+  ]
+}

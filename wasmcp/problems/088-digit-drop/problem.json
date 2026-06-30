@@ -1,0 +1,32 @@
+{
+  "id": "088",
+  "slug": "digit-drop",
+  "title": "Digit Drop",
+  "level": 6,
+  "difficulty": "expert",
+  "tags": ["dp", "math", "digit-sum"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    { "input": "1", "output": "1", "explanation": "1→0 (subtract digit 1). 1 step." },
+    { "input": "10", "output": "2", "explanation": "10→9→0 (subtract 1, then 9). 2 steps." },
+    { "input": "27", "output": "5", "explanation": "27→20→18→10→9→0 (sub 7,2,8,1,9). 5 steps." }
+  ],
+  "ioDemo": {
+    "machine": "🔢 drop",
+    "inputLabels": ["N"],
+    "outputLabel": "steps"
+  },
+  "testCases": [
+    { "input": "27", "output": "5" },
+    { "input": "1", "output": "1" },
+    { "input": "10", "output": "2" },
+    { "input": "9", "output": "1" },
+    { "input": "2", "output": "1" },
+    { "input": "19", "output": "3" },
+    { "input": "36", "output": "7" },
+    { "input": "50", "output": "10" },
+    { "input": "99", "output": "16" },
+    { "input": "100", "output": "17" }
+  ]
+}

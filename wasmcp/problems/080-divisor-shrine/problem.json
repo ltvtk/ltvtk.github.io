@@ -1,0 +1,32 @@
+{
+  "id": "080",
+  "slug": "divisor-shrine",
+  "title": "Divisor Shrine",
+  "level": 5,
+  "difficulty": "hard",
+  "tags": ["number-theory", "math", "divisors"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    { "input": "12", "output": "6", "explanation": "Divisors: 1,2,3,4,6,12." },
+    { "input": "36", "output": "9", "explanation": "Divisors: 1,2,3,4,6,9,12,18,36." },
+    { "input": "7", "output": "2", "explanation": "7 is prime, divisors: 1 and 7." }
+  ],
+  "ioDemo": {
+    "machine": "🏛️ shrine",
+    "inputLabels": ["N"],
+    "outputLabel": "divisors"
+  },
+  "testCases": [
+    { "input": "36", "output": "9" },
+    { "input": "1", "output": "1" },
+    { "input": "7", "output": "2" },
+    { "input": "12", "output": "6" },
+    { "input": "2", "output": "2" },
+    { "input": "100", "output": "9" },
+    { "input": "720720", "output": "240" },
+    { "input": "999983", "output": "2" },
+    { "input": "4", "output": "3" },
+    { "input": "1000000", "output": "49" }
+  ]
+}

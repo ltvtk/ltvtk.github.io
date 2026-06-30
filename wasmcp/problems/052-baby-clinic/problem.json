@@ -1,0 +1,33 @@
+{
+  "id": "052",
+  "slug": "baby-clinic",
+  "title": "Baby Clinic",
+  "level": 2,
+  "difficulty": "medium",
+  "tags": ["logic", "if-else", "classification"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    { "input": "30", "output": "Preschool", "explanation": "30 months is between 24 and 71 → Preschool room." },
+    { "input": "10", "output": "Newborn", "explanation": "10 < 24 → Newborn room." },
+    { "input": "100", "output": "School", "explanation": "72 ≤ 100 ≤ 144 → School room." },
+    { "input": "200", "output": "Teen", "explanation": "200 > 144 → Teen room." }
+  ],
+  "ioDemo": {
+    "machine": "🏥 clinic",
+    "inputLabels": ["A (age months)"],
+    "outputLabel": "patient room"
+  },
+  "testCases": [
+    { "input": "30", "output": "Preschool" },
+    { "input": "10", "output": "Newborn" },
+    { "input": "100", "output": "School" },
+    { "input": "200", "output": "Teen" },
+    { "input": "0", "output": "Newborn" },
+    { "input": "23", "output": "Newborn" },
+    { "input": "24", "output": "Preschool" },
+    { "input": "71", "output": "Preschool" },
+    { "input": "72", "output": "School" },
+    { "input": "144", "output": "School" }
+  ]
+}

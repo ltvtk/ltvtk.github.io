@@ -1,0 +1,31 @@
+{
+  "id": "055",
+  "slug": "star-steps",
+  "title": "Star Steps",
+  "level": 2,
+  "difficulty": "medium",
+  "tags": ["loop", "pattern"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    { "input": "3", "output": "*\n**\n***", "explanation": "Row 1: 1 star, row 2: 2 stars, row 3: 3 stars." },
+    { "input": "1", "output": "*", "explanation": "Just one row with one star." }
+  ],
+  "ioDemo": {
+    "machine": "⭐ staircase",
+    "inputLabels": ["N (height)"],
+    "outputLabel": "star pattern"
+  },
+  "testCases": [
+    { "input": "3", "output": "*\n**\n***" },
+    { "input": "1", "output": "*" },
+    { "input": "5", "output": "*\n**\n***\n****\n*****" },
+    { "input": "2", "output": "*\n**" },
+    { "input": "4", "output": "*\n**\n***\n****" },
+    { "input": "10", "output": "*\n**\n***\n****\n*****\n******\n*******\n********\n*********\n**********" },
+    { "input": "20", "output": "*\n**\n***\n****\n*****\n******\n*******\n********\n*********\n**********\n***********\n************\n*************\n**************\n***************\n****************\n*****************\n******************\n*******************\n********************" },
+    { "input": "6", "output": "*\n**\n***\n****\n*****\n******" },
+    { "input": "7", "output": "*\n**\n***\n****\n*****\n******\n*******" },
+    { "input": "15", "output": "*\n**\n***\n****\n*****\n******\n*******\n********\n*********\n**********\n***********\n************\n*************\n**************\n***************" }
+  ]
+}

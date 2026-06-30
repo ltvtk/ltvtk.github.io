@@ -1,0 +1,39 @@
+{
+  "id": "026",
+  "slug": "fruit-girls",
+  "title": "Three Fruit Girls",
+  "level": 3,
+  "difficulty": "hard",
+  "tags": ["math", "logic"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    {
+      "input": "9\n2",
+      "output": "8",
+      "explanation": "Total=2×(9+3)=24. Each girl: 24÷3=8."
+    },
+    {
+      "input": "6\n1",
+      "output": "3",
+      "explanation": "Total=1×9=9. Each girl: 9÷3=3."
+    }
+  ],
+  "ioDemo": {
+    "machine": "🍎 solve!",
+    "inputLabels": ["N 👑 princes", "K 🍎 per prince"],
+    "outputLabel": "🍎 each girl"
+  },
+  "testCases": [
+    { "input": "9\n2",   "output": "8"  },
+    { "input": "6\n1",   "output": "3"  },
+    { "input": "12\n3",  "output": "15" },
+    { "input": "3\n2",   "output": "4"  },
+    { "input": "6\n5",   "output": "15" },
+    { "input": "9\n10",  "output": "40" },
+    { "input": "9\n6",   "output": "24" },
+    { "input": "12\n1",  "output": "5"  },
+    { "input": "6\n3",   "output": "9"  },
+    { "input": "9\n4",   "output": "16" }
+  ]
+}

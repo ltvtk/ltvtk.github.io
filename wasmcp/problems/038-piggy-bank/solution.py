@@ -1,0 +1,5 @@
+# input pattern: three integers on separate lines (bill counts)
+x = int(input())
+y = int(input())
+z = int(input())
+print(x * 1000 + y * 2000 + z * 5000)

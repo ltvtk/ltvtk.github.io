@@ -1,0 +1,32 @@
+{
+  "id": "059",
+  "slug": "perfect-number",
+  "title": "Perfect Number",
+  "level": 3,
+  "difficulty": "hard",
+  "tags": ["math", "loop", "divisors"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    { "input": "6", "output": "Perfect", "explanation": "Proper divisors of 6: 1,2,3. Sum = 6. Perfect!" },
+    { "input": "28", "output": "Perfect", "explanation": "Proper divisors: 1,2,4,7,14. Sum = 28. Perfect!" },
+    { "input": "10", "output": "Not Perfect", "explanation": "Proper divisors: 1,2,5. Sum = 8 ≠ 10." }
+  ],
+  "ioDemo": {
+    "machine": "🏆 check",
+    "inputLabels": ["N"],
+    "outputLabel": "verdict"
+  },
+  "testCases": [
+    { "input": "6", "output": "Perfect" },
+    { "input": "10", "output": "Not Perfect" },
+    { "input": "28", "output": "Perfect" },
+    { "input": "1", "output": "Not Perfect" },
+    { "input": "496", "output": "Perfect" },
+    { "input": "8128", "output": "Perfect" },
+    { "input": "12", "output": "Not Perfect" },
+    { "input": "4", "output": "Not Perfect" },
+    { "input": "100", "output": "Not Perfect" },
+    { "input": "7", "output": "Not Perfect" }
+  ]
+}

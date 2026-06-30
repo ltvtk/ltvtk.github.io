@@ -1,0 +1,34 @@
+{
+  "id": "007",
+  "slug": "treasure-hunt",
+  "title": "Treasure Hunt",
+  "level": 1,
+  "difficulty": "easy",
+  "tags": ["math", "reverse"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    {
+      "input": "13\n17\n192",
+      "output": "221",
+      "explanation": "Before Gap-Tooth: 192×17/16=204. Original: 204×13/12=221."
+    }
+  ],
+  "ioDemo": {
+    "machine": "🔍 rewind",
+    "inputLabels": ["A 👁️ pirate1", "B 🦷 pirate2", "C 🎃 left"],
+    "outputLabel": "💰 original"
+  },
+  "testCases": [
+    { "input": "13\n17\n192", "output": "221" },
+    { "input": "3\n5\n16",   "output": "30"  },
+    { "input": "2\n4\n9",    "output": "24"  },
+    { "input": "6\n3\n10",   "output": "18"  },
+    { "input": "4\n5\n12",   "output": "20"  },
+    { "input": "5\n7\n12",   "output": "15"  },
+    { "input": "3\n7\n18",   "output": "30"  },
+    { "input": "4\n9\n16",   "output": "24"  },
+    { "input": "10\n5\n16",  "output": "20"  },
+    { "input": "7\n5\n12",   "output": "14"  }
+  ]
+}

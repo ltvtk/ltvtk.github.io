@@ -1,0 +1,32 @@
+{
+  "id": "060",
+  "slug": "lucky-squad",
+  "title": "Lucky Squad",
+  "level": 3,
+  "difficulty": "hard",
+  "tags": ["math", "modulo", "logic"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    { "input": "14", "output": "Blue", "explanation": "14 % 6 = 2 → Blue." },
+    { "input": "3", "output": "Yellow", "explanation": "3 % 6 = 3 → Yellow." },
+    { "input": "6", "output": "Orange", "explanation": "6 % 6 = 0 → Orange." }
+  ],
+  "ioDemo": {
+    "machine": "🏁 festival",
+    "inputLabels": ["K (number)"],
+    "outputLabel": "team color"
+  },
+  "testCases": [
+    { "input": "14", "output": "Blue" },
+    { "input": "3", "output": "Yellow" },
+    { "input": "6", "output": "Orange" },
+    { "input": "1", "output": "Red" },
+    { "input": "5", "output": "Purple" },
+    { "input": "4", "output": "Blue" },
+    { "input": "7", "output": "Red" },
+    { "input": "9", "output": "Yellow" },
+    { "input": "11", "output": "Purple" },
+    { "input": "12", "output": "Orange" }
+  ]
+}

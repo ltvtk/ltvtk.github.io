@@ -1,0 +1,39 @@
+{
+  "id": "017",
+  "slug": "candy-shop",
+  "title": "Candy Shop",
+  "level": 2,
+  "difficulty": "medium",
+  "tags": ["math", "greedy"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    {
+      "input": "10\n5\n8",
+      "output": "2",
+      "explanation": "1 combo (2 candies, 8 coins) + 2 left → 0 singles. Or 2 singles. Both give 2."
+    },
+    {
+      "input": "15\n5\n8",
+      "output": "3",
+      "explanation": "1 combo (2) + 7 left → 1 single = 3. All singles: 15//5=3. Max=3."
+    }
+  ],
+  "ioDemo": {
+    "machine": "🛍️ shop!",
+    "inputLabels": ["M 💰 coins", "A 🍬 single", "B 🎁 combo"],
+    "outputLabel": "🍬 max candy"
+  },
+  "testCases": [
+    { "input": "10\n5\n8",  "output": "2"  },
+    { "input": "15\n5\n8",  "output": "3"  },
+    { "input": "8\n5\n8",   "output": "2"  },
+    { "input": "16\n5\n8",  "output": "4"  },
+    { "input": "9\n5\n8",   "output": "2"  },
+    { "input": "20\n5\n7",  "output": "5"  },
+    { "input": "14\n5\n7",  "output": "4"  },
+    { "input": "10\n3\n8",  "output": "3"  },
+    { "input": "100\n10\n15","output": "13" },
+    { "input": "7\n3\n5",   "output": "2"  }
+  ]
+}

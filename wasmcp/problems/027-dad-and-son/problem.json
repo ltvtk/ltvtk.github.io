@@ -1,0 +1,39 @@
+{
+  "id": "027",
+  "slug": "dad-and-son",
+  "title": "Dad and Son",
+  "level": 3,
+  "difficulty": "hard",
+  "tags": ["math", "logic"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    {
+      "input": "10\n35",
+      "output": "15",
+      "explanation": "Gap=25. Son is 25 when Dad is 50=2×25. Wait: 25-10=15 years."
+    },
+    {
+      "input": "5\n20",
+      "output": "10",
+      "explanation": "B-2A=20-10=10."
+    }
+  ],
+  "ioDemo": {
+    "machine": "🗓️ solve!",
+    "inputLabels": ["A 👦 son age", "B 👨 dad age"],
+    "outputLabel": "⏳ years"
+  },
+  "testCases": [
+    { "input": "10\n35", "output": "15" },
+    { "input": "5\n20",  "output": "10" },
+    { "input": "8\n30",  "output": "14" },
+    { "input": "12\n40", "output": "16" },
+    { "input": "3\n15",  "output": "9"  },
+    { "input": "1\n10",  "output": "8"  },
+    { "input": "20\n50", "output": "10" },
+    { "input": "15\n45", "output": "15" },
+    { "input": "7\n25",  "output": "11" },
+    { "input": "25\n60", "output": "10" }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "091",
+  "slug": "maze-escape",
+  "title": "Maze Escape",
+  "level": 6,
+  "difficulty": "expert",
+  "tags": ["bfs", "graph", "shortest-path"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    { "input": "1\n2\nSE", "output": "1", "explanation": "S and E are adjacent — one step!" },
+    { "input": "4\n4\nS..#\n##.#\n....\n.#.E", "output": "6", "explanation": "Path: S→(0,1)→(0,2)→(1,2)→(2,2)→(2,3)→E. 6 steps." },
+    { "input": "2\n2\nS#\n#E", "output": "-1", "explanation": "Walls block all paths — no escape!" }
+  ],
+  "ioDemo": {
+    "machine": "👻 ghost",
+    "inputLabels": ["R", "C", "row₁"],
+    "outputLabel": "steps"
+  },
+  "testCases": [
+    { "input": "4\n4\nS..#\n##.#\n....\n.#.E", "output": "6" },
+    { "input": "2\n2\nS#\n#E", "output": "-1" },
+    { "input": "1\n2\nSE", "output": "1" },
+    { "input": "2\n2\nS.\n.E", "output": "2" },
+    { "input": "3\n3\nS..\n...\n..E", "output": "4" },
+    { "input": "3\n3\nS#E\n...\n...", "output": "4" },
+    { "input": "2\n5\nS...E\n#####", "output": "4" },
+    { "input": "3\n3\nS.#\n###\n#.E", "output": "-1" },
+    { "input": "4\n4\nS...\n.##.\n.##.\n...E", "output": "6" },
+    { "input": "1\n5\nS...E", "output": "4" }
+  ]
+}

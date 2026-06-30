@@ -1,0 +1,32 @@
+{
+  "id": "049",
+  "slug": "karate-belt",
+  "title": "Karate Belt",
+  "level": 2,
+  "difficulty": "medium",
+  "tags": ["logic", "if-else"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    { "input": "75", "output": "Blue Belt", "explanation": "75 is between 50 and 99 → Blue Belt." },
+    { "input": "120", "output": "Black Belt", "explanation": "120 ≥ 100 → Black Belt." },
+    { "input": "30", "output": "White Belt", "explanation": "30 < 50 → White Belt." }
+  ],
+  "ioDemo": {
+    "machine": "🥋 dojo",
+    "inputLabels": ["P (points)"],
+    "outputLabel": "belt rank"
+  },
+  "testCases": [
+    { "input": "75", "output": "Blue Belt" },
+    { "input": "120", "output": "Black Belt" },
+    { "input": "30", "output": "White Belt" },
+    { "input": "0", "output": "White Belt" },
+    { "input": "49", "output": "White Belt" },
+    { "input": "50", "output": "Blue Belt" },
+    { "input": "99", "output": "Blue Belt" },
+    { "input": "100", "output": "Black Belt" },
+    { "input": "200", "output": "Black Belt" },
+    { "input": "1", "output": "White Belt" }
+  ]
+}

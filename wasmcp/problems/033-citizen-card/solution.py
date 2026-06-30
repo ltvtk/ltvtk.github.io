@@ -1,0 +1,7 @@
+# input pattern: three lines - name (string), age (integer string), height (decimal string)
+name = input()
+age = input()
+height = input()
+print("NAME:", name)
+print("AGE:", age)
+print("HEIGHT:", height, "m")

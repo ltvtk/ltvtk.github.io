@@ -1,0 +1,31 @@
+{
+  "id": "038",
+  "slug": "piggy-bank",
+  "title": "Piggy Bank",
+  "level": 1,
+  "difficulty": "easy",
+  "tags": ["math", "multiplication"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    { "input": "2\n1\n1", "output": "9000", "explanation": "2×1000 + 1×2000 + 1×5000 = 2000 + 2000 + 5000 = 9000." },
+    { "input": "0\n0\n1", "output": "5000", "explanation": "Only one 5000-bill: 0+0+5000 = 5000." }
+  ],
+  "ioDemo": {
+    "machine": "🐷 piggy",
+    "inputLabels": ["X (1000-bills)", "Y (2000-bills)", "Z (5000-bills)"],
+    "outputLabel": "total saved"
+  },
+  "testCases": [
+    { "input": "2\n1\n1", "output": "9000" },
+    { "input": "0\n0\n1", "output": "5000" },
+    { "input": "10\n0\n0", "output": "10000" },
+    { "input": "0\n5\n0", "output": "10000" },
+    { "input": "1\n1\n1", "output": "8000" },
+    { "input": "0\n0\n0", "output": "0" },
+    { "input": "100\n100\n100", "output": "800000" },
+    { "input": "3\n2\n4", "output": "27000" },
+    { "input": "5\n0\n2", "output": "15000" },
+    { "input": "0\n10\n5", "output": "45000" }
+  ]
+}

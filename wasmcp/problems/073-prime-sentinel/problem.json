@@ -1,0 +1,33 @@
+{
+  "id": "073",
+  "slug": "prime-sentinel",
+  "title": "Prime Sentinel",
+  "level": 5,
+  "difficulty": "hard",
+  "tags": ["number-theory", "prime", "math"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    { "input": "17", "output": "Yes", "explanation": "17 has no divisors from 2 to 4. Prime." },
+    { "input": "15", "output": "No", "explanation": "15 = 3 × 5. Not prime." },
+    { "input": "1", "output": "No", "explanation": "1 is not prime by definition." },
+    { "input": "2", "output": "Yes", "explanation": "2 is the smallest prime." }
+  ],
+  "ioDemo": {
+    "machine": "🛡️ gate",
+    "inputLabels": ["N"],
+    "outputLabel": "prime?"
+  },
+  "testCases": [
+    { "input": "17", "output": "Yes" },
+    { "input": "15", "output": "No" },
+    { "input": "1", "output": "No" },
+    { "input": "2", "output": "Yes" },
+    { "input": "4", "output": "No" },
+    { "input": "97", "output": "Yes" },
+    { "input": "100", "output": "No" },
+    { "input": "999983", "output": "Yes" },
+    { "input": "1000000", "output": "No" },
+    { "input": "49", "output": "No" }
+  ]
+}

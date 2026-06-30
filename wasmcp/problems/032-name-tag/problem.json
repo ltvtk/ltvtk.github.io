@@ -1,0 +1,31 @@
+{
+  "id": "032",
+  "slug": "name-tag",
+  "title": "Name Tag",
+  "level": 1,
+  "difficulty": "easy",
+  "tags": ["io", "string", "formatting"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    { "input": "Le Minh Anh\n4A1", "output": "---\nNAME: Le Minh Anh\nCLASS: 4A1\n---", "explanation": "Print 4 lines: dashes, NAME label, CLASS label, dashes." },
+    { "input": "Alice\n5B", "output": "---\nNAME: Alice\nCLASS: 5B\n---", "explanation": "Same format for any name and class." }
+  ],
+  "ioDemo": {
+    "machine": "🏷️ tag",
+    "inputLabels": ["name", "class"],
+    "outputLabel": "name tag"
+  },
+  "testCases": [
+    { "input": "Le Minh Anh\n4A1", "output": "---\nNAME: Le Minh Anh\nCLASS: 4A1\n---" },
+    { "input": "Alice\n5B", "output": "---\nNAME: Alice\nCLASS: 5B\n---" },
+    { "input": "Bob\n3C", "output": "---\nNAME: Bob\nCLASS: 3C\n---" },
+    { "input": "Mary Smith\n2A", "output": "---\nNAME: Mary Smith\nCLASS: 2A\n---" },
+    { "input": "Lily\n1D", "output": "---\nNAME: Lily\nCLASS: 1D\n---" },
+    { "input": "Tom\n4B2", "output": "---\nNAME: Tom\nCLASS: 4B2\n---" },
+    { "input": "Anna Lee\n5A1", "output": "---\nNAME: Anna Lee\nCLASS: 5A1\n---" },
+    { "input": "Max\n3D", "output": "---\nNAME: Max\nCLASS: 3D\n---" },
+    { "input": "Kira\n2B", "output": "---\nNAME: Kira\nCLASS: 2B\n---" },
+    { "input": "Leo Park\n1A", "output": "---\nNAME: Leo Park\nCLASS: 1A\n---" }
+  ]
+}

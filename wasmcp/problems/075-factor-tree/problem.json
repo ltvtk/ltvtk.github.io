@@ -1,0 +1,32 @@
+{
+  "id": "075",
+  "slug": "factor-tree",
+  "title": "Factor Tree",
+  "level": 5,
+  "difficulty": "hard",
+  "tags": ["number-theory", "prime", "factorization"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    { "input": "12", "output": "2 2 3", "explanation": "12 = 2² × 3." },
+    { "input": "360", "output": "2 2 2 3 3 5", "explanation": "360 = 2³ × 3² × 5." },
+    { "input": "17", "output": "17", "explanation": "17 is prime, so it is its own factorization." }
+  ],
+  "ioDemo": {
+    "machine": "🌳 tree",
+    "inputLabels": ["N"],
+    "outputLabel": "factors"
+  },
+  "testCases": [
+    { "input": "360", "output": "2 2 2 3 3 5" },
+    { "input": "12", "output": "2 2 3" },
+    { "input": "17", "output": "17" },
+    { "input": "2", "output": "2" },
+    { "input": "4", "output": "2 2" },
+    { "input": "100", "output": "2 2 5 5" },
+    { "input": "1000000", "output": "2 2 2 2 2 2 5 5 5 5 5 5" },
+    { "input": "999983", "output": "999983" },
+    { "input": "30", "output": "2 3 5" },
+    { "input": "1024", "output": "2 2 2 2 2 2 2 2 2 2" }
+  ]
+}

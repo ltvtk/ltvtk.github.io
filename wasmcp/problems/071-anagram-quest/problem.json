@@ -1,0 +1,32 @@
+{
+  "id": "071",
+  "slug": "anagram-quest",
+  "title": "Anagram Quest",
+  "level": 4,
+  "difficulty": "medium",
+  "tags": ["strings", "sorting", "implementation"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    { "input": "listen\nsilent", "output": "Yes", "explanation": "Same letters: e,i,l,n,s,t." },
+    { "input": "hello\nworld", "output": "No", "explanation": "Different letters." },
+    { "input": "abc\nbca", "output": "Yes", "explanation": "Same letters rearranged." }
+  ],
+  "ioDemo": {
+    "machine": "🗺️ maps",
+    "inputLabels": ["word₁", "word₂"],
+    "outputLabel": "match?"
+  },
+  "testCases": [
+    { "input": "listen\nsilent", "output": "Yes" },
+    { "input": "hello\nworld", "output": "No" },
+    { "input": "abc\nbca", "output": "Yes" },
+    { "input": "a\na", "output": "Yes" },
+    { "input": "a\nb", "output": "No" },
+    { "input": "ab\nba", "output": "Yes" },
+    { "input": "ab\nab", "output": "Yes" },
+    { "input": "aab\naba", "output": "Yes" },
+    { "input": "aab\nbba", "output": "No" },
+    { "input": "triangle\nintegral", "output": "Yes" }
+  ]
+}

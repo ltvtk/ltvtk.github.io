@@ -1,0 +1,31 @@
+{
+  "id": "051",
+  "slug": "ant-triangle",
+  "title": "Ant Triangle",
+  "level": 2,
+  "difficulty": "medium",
+  "tags": ["math", "logic", "if-else"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    { "input": "3\n4\n5", "output": "YES", "explanation": "3+4=7>5, 3+5=8>4, 4+5=9>3 — all pass!" },
+    { "input": "1\n2\n10", "output": "NO", "explanation": "1+2=3 < 10 — the longest stick is too long." }
+  ],
+  "ioDemo": {
+    "machine": "🐜 ants",
+    "inputLabels": ["a (stick 1)", "b (stick 2)", "c (stick 3)"],
+    "outputLabel": "triangle?"
+  },
+  "testCases": [
+    { "input": "3\n4\n5", "output": "YES" },
+    { "input": "1\n2\n10", "output": "NO" },
+    { "input": "5\n5\n5", "output": "YES" },
+    { "input": "1\n1\n2", "output": "NO" },
+    { "input": "6\n8\n10", "output": "YES" },
+    { "input": "1\n1\n3", "output": "NO" },
+    { "input": "7\n7\n7", "output": "YES" },
+    { "input": "3\n3\n5", "output": "YES" },
+    { "input": "10\n1\n1", "output": "NO" },
+    { "input": "2\n3\n4", "output": "YES" }
+  ]
+}

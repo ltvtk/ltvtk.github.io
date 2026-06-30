@@ -1,0 +1,30 @@
+{
+  "id": "003",
+  "slug": "candy-fusion",
+  "title": "Candy Fusion",
+  "level": 1,
+  "difficulty": "easy",
+  "tags": ["math", "io"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    { "input": "15\n27", "output": "42", "explanation": "15 + 27 = 42" }
+  ],
+  "ioDemo": {
+    "machine": "⚡ ZAP!",
+    "inputLabels": ["A 🐻 Su", "B 🐭 Bi"],
+    "outputLabel": "total 🍬"
+  },
+  "testCases": [
+    { "input": "15\n27",        "output": "42"      },
+    { "input": "1\n1",          "output": "2"       },
+    { "input": "100\n200",      "output": "300"     },
+    { "input": "500\n500",      "output": "1000"    },
+    { "input": "999\n1",        "output": "1000"    },
+    { "input": "12345\n67890",  "output": "80235"   },
+    { "input": "1000000\n1",    "output": "1000001" },
+    { "input": "500000\n500000","output": "1000000" },
+    { "input": "123\n456",      "output": "579"     },
+    { "input": "999999\n1",     "output": "1000000" }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "040",
+  "slug": "race-timer",
+  "title": "Race Timer",
+  "level": 1,
+  "difficulty": "easy",
+  "tags": ["math", "conversion"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    { "input": "2\n30", "output": "150", "explanation": "2 minutes × 60 + 30 seconds = 150 seconds." },
+    { "input": "0\n45", "output": "45", "explanation": "0 minutes = 0 extra seconds, so total is just 45 seconds." }
+  ],
+  "ioDemo": {
+    "machine": "⏱️ timer",
+    "inputLabels": ["M (minutes)", "S (seconds)"],
+    "outputLabel": "total seconds"
+  },
+  "testCases": [
+    { "input": "2\n30", "output": "150" },
+    { "input": "0\n45", "output": "45" },
+    { "input": "1\n0", "output": "60" },
+    { "input": "5\n5", "output": "305" },
+    { "input": "0\n0", "output": "0" },
+    { "input": "10\n0", "output": "600" },
+    { "input": "3\n15", "output": "195" },
+    { "input": "60\n59", "output": "3659" },
+    { "input": "7\n42", "output": "462" },
+    { "input": "0\n1", "output": "1" }
+  ]
+}

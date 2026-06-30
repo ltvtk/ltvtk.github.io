@@ -1,0 +1,31 @@
+{
+  "id": "035",
+  "slug": "lucky-code",
+  "title": "Lucky Code",
+  "level": 1,
+  "difficulty": "easy",
+  "tags": ["io", "string", "indexing"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    { "input": "Tiger12345", "output": "2", "explanation": "T(1)i(2)g(3)e(4)r(5)1(6)2(7) — the 7th character is '2', at index s[6]." },
+    { "input": "ABCDEFGHIJ", "output": "G", "explanation": "A(1)B(2)C(3)D(4)E(5)F(6)G(7) — the 7th character is 'G'." }
+  ],
+  "ioDemo": {
+    "machine": "🔐 chest",
+    "inputLabels": ["S (10 chars)"],
+    "outputLabel": "lucky char"
+  },
+  "testCases": [
+    { "input": "Tiger12345", "output": "2" },
+    { "input": "Lucky7Boys", "output": "B" },
+    { "input": "ABCDEFGHIJ", "output": "G" },
+    { "input": "1234567890", "output": "7" },
+    { "input": "PythonCode", "output": "C" },
+    { "input": "StarLight5", "output": "g" },
+    { "input": "CodeHero12", "output": "r" },
+    { "input": "MathWizard", "output": "z" },
+    { "input": "BookShelf9", "output": "e" },
+    { "input": "HelloWorld", "output": "o" }
+  ]
+}

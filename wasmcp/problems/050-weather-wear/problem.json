@@ -1,0 +1,32 @@
+{
+  "id": "050",
+  "slug": "weather-wear",
+  "title": "Weather Wear",
+  "level": 2,
+  "difficulty": "medium",
+  "tags": ["logic", "if-else"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    { "input": "12", "output": "Wear Jacket", "explanation": "12 < 15 → wear a jacket." },
+    { "input": "20", "output": "Wear Sweater", "explanation": "15 ≤ 20 ≤ 25 → wear a sweater." },
+    { "input": "30", "output": "Wear T-Shirt", "explanation": "30 > 25 → wear a T-shirt." }
+  ],
+  "ioDemo": {
+    "machine": "🌡️ Bo",
+    "inputLabels": ["T (°C temperature)"],
+    "outputLabel": "clothing advice"
+  },
+  "testCases": [
+    { "input": "12", "output": "Wear Jacket" },
+    { "input": "20", "output": "Wear Sweater" },
+    { "input": "30", "output": "Wear T-Shirt" },
+    { "input": "-10", "output": "Wear Jacket" },
+    { "input": "15", "output": "Wear Sweater" },
+    { "input": "25", "output": "Wear Sweater" },
+    { "input": "26", "output": "Wear T-Shirt" },
+    { "input": "14", "output": "Wear Jacket" },
+    { "input": "0", "output": "Wear Jacket" },
+    { "input": "50", "output": "Wear T-Shirt" }
+  ]
+}

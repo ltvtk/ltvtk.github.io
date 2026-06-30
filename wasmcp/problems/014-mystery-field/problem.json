@@ -1,0 +1,34 @@
+{
+  "id": "014",
+  "slug": "mystery-field",
+  "title": "Mystery Field",
+  "level": 2,
+  "difficulty": "medium",
+  "tags": ["math", "geometry"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    {
+      "input": "10\n2",
+      "output": "24",
+      "explanation": "L=(10+2)/2=6, W=(10-2)/2=4, Area=6×4=24."
+    }
+  ],
+  "ioDemo": {
+    "machine": "🌾 area!",
+    "inputLabels": ["S 📏 sum", "D 📏 diff"],
+    "outputLabel": "🌾 area"
+  },
+  "testCases": [
+    { "input": "10\n2",    "output": "24"     },
+    { "input": "20\n4",    "output": "96"     },
+    { "input": "8\n2",     "output": "15"     },
+    { "input": "100\n0",   "output": "2500"   },
+    { "input": "6\n2",     "output": "8"      },
+    { "input": "14\n4",    "output": "45"     },
+    { "input": "1000\n200","output": "240000" },
+    { "input": "12\n0",    "output": "36"     },
+    { "input": "50\n10",   "output": "600"    },
+    { "input": "1000\n998","output": "999"    }
+  ]
+}

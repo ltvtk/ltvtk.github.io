@@ -1,0 +1,39 @@
+{
+  "id": "012",
+  "slug": "buffalo-count",
+  "title": "Buffalo Count",
+  "level": 2,
+  "difficulty": "medium",
+  "tags": ["math", "parity"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    {
+      "input": "8",
+      "output": "4",
+      "explanation": "8 horns ÷ 2 = 4 buffaloes."
+    },
+    {
+      "input": "9",
+      "output": "-1",
+      "explanation": "9 is odd — impossible! Bi miscounted."
+    }
+  ],
+  "ioDemo": {
+    "machine": "🦬 count!",
+    "inputLabels": ["S 🦬 horns"],
+    "outputLabel": "🐃 buffaloes"
+  },
+  "testCases": [
+    { "input": "8",       "output": "4"       },
+    { "input": "9",       "output": "-1"      },
+    { "input": "2",       "output": "1"       },
+    { "input": "1",       "output": "-1"      },
+    { "input": "100",     "output": "50"      },
+    { "input": "1000000", "output": "500000"  },
+    { "input": "3",       "output": "-1"      },
+    { "input": "14",      "output": "7"       },
+    { "input": "1000001", "output": "-1"      },
+    { "input": "22",      "output": "11"      }
+  ]
+}

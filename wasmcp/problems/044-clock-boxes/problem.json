@@ -1,0 +1,31 @@
+{
+  "id": "044",
+  "slug": "clock-boxes",
+  "title": "Clock Boxes",
+  "level": 2,
+  "difficulty": "medium",
+  "tags": ["math", "division", "modulo"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    { "input": "35\n8", "output": "4 3", "explanation": "35 ÷ 8 = 4 full boxes, 35 - 32 = 3 clocks left over." },
+    { "input": "12\n3", "output": "4 0", "explanation": "12 ÷ 3 = 4 full boxes, 0 left over." }
+  ],
+  "ioDemo": {
+    "machine": "📦 packing",
+    "inputLabels": ["N (clocks)", "M (per box)"],
+    "outputLabel": "boxes + leftover"
+  },
+  "testCases": [
+    { "input": "35\n8", "output": "4 3" },
+    { "input": "12\n3", "output": "4 0" },
+    { "input": "1\n5", "output": "0 1" },
+    { "input": "100\n10", "output": "10 0" },
+    { "input": "17\n5", "output": "3 2" },
+    { "input": "1000000000\n7", "output": "142857142 6" },
+    { "input": "7\n7", "output": "1 0" },
+    { "input": "50\n6", "output": "8 2" },
+    { "input": "99\n9", "output": "11 0" },
+    { "input": "13\n4", "output": "3 1" }
+  ]
+}

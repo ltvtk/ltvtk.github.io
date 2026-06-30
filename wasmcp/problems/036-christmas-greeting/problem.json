@@ -1,0 +1,31 @@
+{
+  "id": "036",
+  "slug": "christmas-greeting",
+  "title": "Christmas Greeting",
+  "level": 1,
+  "difficulty": "easy",
+  "tags": ["logic", "if-else"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    { "input": "25", "output": "Merry Christmas", "explanation": "Day 25 is Christmas — print the special message." },
+    { "input": "13", "output": "Hi", "explanation": "Any other day just prints Hi." }
+  ],
+  "ioDemo": {
+    "machine": "🎅 Santa",
+    "inputLabels": ["X (day)"],
+    "outputLabel": "greeting"
+  },
+  "testCases": [
+    { "input": "25", "output": "Merry Christmas" },
+    { "input": "13", "output": "Hi" },
+    { "input": "1", "output": "Hi" },
+    { "input": "24", "output": "Hi" },
+    { "input": "26", "output": "Hi" },
+    { "input": "31", "output": "Hi" },
+    { "input": "10", "output": "Hi" },
+    { "input": "25", "output": "Merry Christmas" },
+    { "input": "7", "output": "Hi" },
+    { "input": "15", "output": "Hi" }
+  ]
+}

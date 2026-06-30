@@ -1,0 +1,33 @@
+{
+  "id": "061",
+  "slug": "prime-knight",
+  "title": "Prime Knight",
+  "level": 3,
+  "difficulty": "hard",
+  "tags": ["math", "loop", "prime"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    { "input": "7", "output": "YES", "explanation": "7 is only divisible by 1 and 7 → prime." },
+    { "input": "9", "output": "NO", "explanation": "9 = 3 × 3, so 3 divides it → not prime." },
+    { "input": "2", "output": "YES", "explanation": "2 is the smallest prime — only 1 and 2 divide it." },
+    { "input": "1", "output": "NO", "explanation": "1 is not considered prime by definition." }
+  ],
+  "ioDemo": {
+    "machine": "🛡️ knight",
+    "inputLabels": ["N"],
+    "outputLabel": "prime?"
+  },
+  "testCases": [
+    { "input": "7", "output": "YES" },
+    { "input": "9", "output": "NO" },
+    { "input": "2", "output": "YES" },
+    { "input": "1", "output": "NO" },
+    { "input": "13", "output": "YES" },
+    { "input": "4", "output": "NO" },
+    { "input": "97", "output": "YES" },
+    { "input": "100", "output": "NO" },
+    { "input": "11", "output": "YES" },
+    { "input": "1000", "output": "NO" }
+  ]
+}

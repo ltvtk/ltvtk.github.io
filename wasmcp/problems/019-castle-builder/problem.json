@@ -1,0 +1,39 @@
+{
+  "id": "019",
+  "slug": "castle-builder",
+  "title": "Castle Builder",
+  "level": 2,
+  "difficulty": "medium",
+  "tags": ["math", "geometry", "if-else"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    {
+      "input": "3\n2\n3\n4",
+      "output": "Cube 27",
+      "explanation": "Cube=27, Box=24 → Cube wins."
+    },
+    {
+      "input": "4\n2\n4\n10",
+      "output": "Box 80",
+      "explanation": "Cube=64, Box=80 → Box wins."
+    }
+  ],
+  "ioDemo": {
+    "machine": "🏰 build!",
+    "inputLabels": ["A 🟫 cube side", "L 📦 length", "W 📦 width", "H 📦 height"],
+    "outputLabel": "🏆 winner · vol"
+  },
+  "testCases": [
+    { "input": "3\n2\n3\n4",    "output": "Cube 27"   },
+    { "input": "4\n2\n4\n10",   "output": "Box 80"    },
+    { "input": "3\n3\n3\n3",    "output": "Equal 27"  },
+    { "input": "5\n4\n3\n2",    "output": "Cube 125"  },
+    { "input": "2\n5\n5\n1",    "output": "Box 25"    },
+    { "input": "10\n10\n10\n10","output": "Equal 1000" },
+    { "input": "4\n2\n2\n8",    "output": "Cube 64"   },
+    { "input": "1\n2\n3\n4",    "output": "Box 24"    },
+    { "input": "6\n3\n4\n10",   "output": "Cube 216"  },
+    { "input": "3\n2\n3\n5",    "output": "Box 30"    }
+  ]
+}

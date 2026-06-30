@@ -1,0 +1,33 @@
+{
+  "id": "072",
+  "slug": "power-glow",
+  "title": "Power Glow",
+  "level": 4,
+  "difficulty": "medium",
+  "tags": ["bitwise", "math", "implementation"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    { "input": "8", "output": "Yes", "explanation": "8 = 2³." },
+    { "input": "6", "output": "No", "explanation": "6 is not a power of 2." },
+    { "input": "1", "output": "Yes", "explanation": "1 = 2⁰." },
+    { "input": "1024", "output": "Yes", "explanation": "1024 = 2¹⁰." }
+  ],
+  "ioDemo": {
+    "machine": "✨ glow",
+    "inputLabels": ["N"],
+    "outputLabel": "glows?"
+  },
+  "testCases": [
+    { "input": "8", "output": "Yes" },
+    { "input": "6", "output": "No" },
+    { "input": "1", "output": "Yes" },
+    { "input": "1024", "output": "Yes" },
+    { "input": "2", "output": "Yes" },
+    { "input": "3", "output": "No" },
+    { "input": "16", "output": "Yes" },
+    { "input": "15", "output": "No" },
+    { "input": "536870912", "output": "Yes" },
+    { "input": "1000000000", "output": "No" }
+  ]
+}

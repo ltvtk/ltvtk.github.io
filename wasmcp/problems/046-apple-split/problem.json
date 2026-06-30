@@ -1,0 +1,31 @@
+{
+  "id": "046",
+  "slug": "apple-split",
+  "title": "Apple Split",
+  "level": 2,
+  "difficulty": "medium",
+  "tags": ["math", "division", "modulo"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    { "input": "10\n3", "output": "3 1", "explanation": "10 ÷ 3 = 3 each, with 1 leftover." },
+    { "input": "12\n4", "output": "3 0", "explanation": "12 ÷ 4 = 3 each, with 0 leftover." }
+  ],
+  "ioDemo": {
+    "machine": "🍎 share",
+    "inputLabels": ["N (apples)", "M (friends)"],
+    "outputLabel": "each + leftover"
+  },
+  "testCases": [
+    { "input": "10\n3", "output": "3 1" },
+    { "input": "12\n4", "output": "3 0" },
+    { "input": "7\n2", "output": "3 1" },
+    { "input": "1\n5", "output": "0 1" },
+    { "input": "100\n10", "output": "10 0" },
+    { "input": "11\n3", "output": "3 2" },
+    { "input": "6\n4", "output": "1 2" },
+    { "input": "1000\n7", "output": "142 6" },
+    { "input": "5\n5", "output": "1 0" },
+    { "input": "9\n2", "output": "4 1" }
+  ]
+}

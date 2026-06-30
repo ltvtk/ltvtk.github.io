@@ -1,0 +1,30 @@
+{
+  "id": "004",
+  "slug": "bakery",
+  "title": "The Bakery",
+  "level": 1,
+  "difficulty": "easy",
+  "tags": ["math", "io"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    { "input": "150\n4", "output": "600", "explanation": "150 × 4 = 600" }
+  ],
+  "ioDemo": {
+    "machine": "🧁 × shop",
+    "inputLabels": ["P 🪙 price", "N 🧁 qty"],
+    "outputLabel": "💰 total"
+  },
+  "testCases": [
+    { "input": "150\n4",       "output": "600"         },
+    { "input": "1\n1",         "output": "1"           },
+    { "input": "7\n8",         "output": "56"          },
+    { "input": "100\n100",     "output": "10000"       },
+    { "input": "1000\n1000",   "output": "1000000"     },
+    { "input": "999\n99",      "output": "98901"       },
+    { "input": "1000000\n1",   "output": "1000000"     },
+    { "input": "500\n200",     "output": "100000"      },
+    { "input": "12\n12",       "output": "144"         },
+    { "input": "1000000\n100000", "output": "100000000000" }
+  ]
+}

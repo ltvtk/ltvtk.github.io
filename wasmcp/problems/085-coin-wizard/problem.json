@@ -1,0 +1,32 @@
+{
+  "id": "085",
+  "slug": "coin-wizard",
+  "title": "Coin Wizard",
+  "level": 6,
+  "difficulty": "expert",
+  "tags": ["dp", "knapsack", "greedy"],
+  "timeLimit": 2000,
+  "memoryLimit": 256,
+  "examples": [
+    { "input": "2\n6\n4\n3", "output": "2", "explanation": "3+3=6 → 2 coins. (Greedy picks 4 then gets stuck!)" },
+    { "input": "3\n11\n1\n5\n7", "output": "3", "explanation": "5+5+1=11, 3 coins. (Greedy picks 7 → needs 4 ones = 5 total!)" },
+    { "input": "2\n7\n3\n6", "output": "-1", "explanation": "Can't make 7 with coins {3,6}." }
+  ],
+  "ioDemo": {
+    "machine": "💰 wizard",
+    "inputLabels": ["N", "X", "c₁", "c₂"],
+    "outputLabel": "min coins"
+  },
+  "testCases": [
+    { "input": "3\n11\n1\n5\n7", "output": "3" },
+    { "input": "3\n12\n1\n5\n7", "output": "2" },
+    { "input": "2\n7\n3\n6", "output": "-1" },
+    { "input": "1\n1\n1", "output": "1" },
+    { "input": "1\n5\n3", "output": "-1" },
+    { "input": "2\n8\n3\n7", "output": "-1" },
+    { "input": "3\n15\n1\n5\n7", "output": "3" },
+    { "input": "4\n100\n1\n5\n10\n25", "output": "4" },
+    { "input": "2\n6\n4\n3", "output": "2" },
+    { "input": "1\n10000\n1", "output": "10000" }
+  ]
+}

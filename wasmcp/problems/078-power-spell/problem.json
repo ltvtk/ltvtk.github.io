@@ -1,0 +1,32 @@
+{
+  "id": "078",
+  "slug": "power-spell",
+  "title": "Power Spell",
+  "level": 5,
+  "difficulty": "hard",
+  "tags": ["math", "modular-arithmetic", "binary-exponentiation"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    { "input": "2\n10\n1000", "output": "24", "explanation": "2^10 = 1024, 1024 mod 1000 = 24." },
+    { "input": "3\n0\n7", "output": "1", "explanation": "Any base^0 = 1." },
+    { "input": "5\n3\n13", "output": "8", "explanation": "5^3 = 125, 125 mod 13 = 8." }
+  ],
+  "ioDemo": {
+    "machine": "⚡ spell",
+    "inputLabels": ["B", "E", "M"],
+    "outputLabel": "B^E mod M"
+  },
+  "testCases": [
+    { "input": "2\n10\n1000", "output": "24" },
+    { "input": "3\n0\n7", "output": "1" },
+    { "input": "5\n3\n13", "output": "8" },
+    { "input": "2\n0\n1000000000", "output": "1" },
+    { "input": "0\n5\n7", "output": "0" },
+    { "input": "2\n30\n1000000007", "output": "73741817" },
+    { "input": "3\n1000000000\n1000000007", "output": "235939645" },
+    { "input": "7\n7\n100", "output": "43" },
+    { "input": "10\n9\n1000", "output": "0" },
+    { "input": "1\n1000000000\n1", "output": "0" }
+  ]
+}

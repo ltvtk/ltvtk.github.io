@@ -1,0 +1,34 @@
+{
+  "id": "030",
+  "slug": "buy-buffalo",
+  "title": "Buy Buffalo",
+  "level": 3,
+  "difficulty": "hard",
+  "tags": ["math", "logic"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    {
+      "input": "190\n330\n270\n30",
+      "output": "126,3750",
+      "explanation": "rate=210, diff=20, groups=18. Families=126, price=3750."
+    }
+  ],
+  "ioDemo": {
+    "machine": "🐃 solve!",
+    "inputLabels": ["A 🪙 7-group", "B 📉 short", "C 🪙 9-group", "D 📈 extra"],
+    "outputLabel": "families,price"
+  },
+  "testCases": [
+    { "input": "190\n330\n270\n30",   "output": "126,3750" },
+    { "input": "100\n200\n180\n520",  "output": "126,2000" },
+    { "input": "30\n30\n90\n330",     "output": "63,300"   },
+    { "input": "50\n6\n126\n426",     "output": "63,456"   },
+    { "input": "20\n10\n45\n125",     "output": "63,190"   },
+    { "input": "100\n110\n270\n2860", "output": "189,2810" },
+    { "input": "10\n11\n27\n88",      "output": "63,101"   },
+    { "input": "50\n48\n126\n816",    "output": "126,948"  },
+    { "input": "25\n24\n63\n192",     "output": "63,249"   },
+    { "input": "150\n60\n270\n1020",  "output": "126,2760" }
+  ]
+}

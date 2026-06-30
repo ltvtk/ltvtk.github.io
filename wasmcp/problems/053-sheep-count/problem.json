@@ -1,0 +1,31 @@
+{
+  "id": "053",
+  "slug": "sheep-count",
+  "title": "Sheep Count",
+  "level": 2,
+  "difficulty": "medium",
+  "tags": ["loop", "io"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    { "input": "3", "output": "Sheep 1\nSheep 2\nSheep 3", "explanation": "Print 'Sheep i' for i from 1 to 3." },
+    { "input": "1", "output": "Sheep 1", "explanation": "Only one sheep to count." }
+  ],
+  "ioDemo": {
+    "machine": "🐑 counting",
+    "inputLabels": ["N (sheep)"],
+    "outputLabel": "count"
+  },
+  "testCases": [
+    { "input": "3", "output": "Sheep 1\nSheep 2\nSheep 3" },
+    { "input": "1", "output": "Sheep 1" },
+    { "input": "5", "output": "Sheep 1\nSheep 2\nSheep 3\nSheep 4\nSheep 5" },
+    { "input": "2", "output": "Sheep 1\nSheep 2" },
+    { "input": "10", "output": "Sheep 1\nSheep 2\nSheep 3\nSheep 4\nSheep 5\nSheep 6\nSheep 7\nSheep 8\nSheep 9\nSheep 10" },
+    { "input": "4", "output": "Sheep 1\nSheep 2\nSheep 3\nSheep 4" },
+    { "input": "6", "output": "Sheep 1\nSheep 2\nSheep 3\nSheep 4\nSheep 5\nSheep 6" },
+    { "input": "7", "output": "Sheep 1\nSheep 2\nSheep 3\nSheep 4\nSheep 5\nSheep 6\nSheep 7" },
+    { "input": "100", "output": "Sheep 1\nSheep 2\nSheep 3\nSheep 4\nSheep 5\nSheep 6\nSheep 7\nSheep 8\nSheep 9\nSheep 10\nSheep 11\nSheep 12\nSheep 13\nSheep 14\nSheep 15\nSheep 16\nSheep 17\nSheep 18\nSheep 19\nSheep 20\nSheep 21\nSheep 22\nSheep 23\nSheep 24\nSheep 25\nSheep 26\nSheep 27\nSheep 28\nSheep 29\nSheep 30\nSheep 31\nSheep 32\nSheep 33\nSheep 34\nSheep 35\nSheep 36\nSheep 37\nSheep 38\nSheep 39\nSheep 40\nSheep 41\nSheep 42\nSheep 43\nSheep 44\nSheep 45\nSheep 46\nSheep 47\nSheep 48\nSheep 49\nSheep 50\nSheep 51\nSheep 52\nSheep 53\nSheep 54\nSheep 55\nSheep 56\nSheep 57\nSheep 58\nSheep 59\nSheep 60\nSheep 61\nSheep 62\nSheep 63\nSheep 64\nSheep 65\nSheep 66\nSheep 67\nSheep 68\nSheep 69\nSheep 70\nSheep 71\nSheep 72\nSheep 73\nSheep 74\nSheep 75\nSheep 76\nSheep 77\nSheep 78\nSheep 79\nSheep 80\nSheep 81\nSheep 82\nSheep 83\nSheep 84\nSheep 85\nSheep 86\nSheep 87\nSheep 88\nSheep 89\nSheep 90\nSheep 91\nSheep 92\nSheep 93\nSheep 94\nSheep 95\nSheep 96\nSheep 97\nSheep 98\nSheep 99\nSheep 100" },
+    { "input": "50", "output": "Sheep 1\nSheep 2\nSheep 3\nSheep 4\nSheep 5\nSheep 6\nSheep 7\nSheep 8\nSheep 9\nSheep 10\nSheep 11\nSheep 12\nSheep 13\nSheep 14\nSheep 15\nSheep 16\nSheep 17\nSheep 18\nSheep 19\nSheep 20\nSheep 21\nSheep 22\nSheep 23\nSheep 24\nSheep 25\nSheep 26\nSheep 27\nSheep 28\nSheep 29\nSheep 30\nSheep 31\nSheep 32\nSheep 33\nSheep 34\nSheep 35\nSheep 36\nSheep 37\nSheep 38\nSheep 39\nSheep 40\nSheep 41\nSheep 42\nSheep 43\nSheep 44\nSheep 45\nSheep 46\nSheep 47\nSheep 48\nSheep 49\nSheep 50" }
+  ]
+}

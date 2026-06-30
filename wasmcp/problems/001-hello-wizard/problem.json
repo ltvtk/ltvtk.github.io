@@ -1,0 +1,27 @@
+{
+  "id": "001",
+  "slug": "hello-wizard",
+  "title": "Hello, Wizard!",
+  "level": 1,
+  "difficulty": "easy",
+  "tags": ["io"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    {
+      "input": "",
+      "output": "Hello Programming World!",
+      "explanation": "No input needed — just print the magic spell!"
+    }
+  ],
+  "ioDemo": {
+    "machine": "🔮 cast!",
+    "inputLabels": [],
+    "outputLabel": "✨ spell"
+  },
+  "testCases": [
+    { "input": "", "output": "Hello Programming World!" },
+    { "input": "", "output": "Hello Programming World!" },
+    { "input": "", "output": "Hello Programming World!" }
+  ]
+}

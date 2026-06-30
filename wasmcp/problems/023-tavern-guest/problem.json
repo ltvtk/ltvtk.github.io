@@ -1,0 +1,39 @@
+{
+  "id": "023",
+  "slug": "tavern-guest",
+  "title": "Tavern Guest",
+  "level": 3,
+  "difficulty": "hard",
+  "tags": ["math", "reverse", "logic"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    {
+      "input": "8",
+      "output": "7",
+      "explanation": "Reverse: (0+8)/2=4, (4+8)/2=6, (6+8)/2=7."
+    },
+    {
+      "input": "16",
+      "output": "14",
+      "explanation": "Start = 7×16/8 = 14."
+    }
+  ],
+  "ioDemo": {
+    "machine": "🍻 rewind!",
+    "inputLabels": ["Y 💰 fee"],
+    "outputLabel": "💰 start"
+  },
+  "testCases": [
+    { "input": "8",   "output": "7"  },
+    { "input": "16",  "output": "14" },
+    { "input": "24",  "output": "21" },
+    { "input": "32",  "output": "28" },
+    { "input": "40",  "output": "35" },
+    { "input": "48",  "output": "42" },
+    { "input": "56",  "output": "49" },
+    { "input": "64",  "output": "56" },
+    { "input": "72",  "output": "63" },
+    { "input": "80",  "output": "70" }
+  ]
+}

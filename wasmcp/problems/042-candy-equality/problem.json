@@ -1,0 +1,32 @@
+{
+  "id": "042",
+  "slug": "candy-equality",
+  "title": "Candy Equality",
+  "level": 2,
+  "difficulty": "medium",
+  "tags": ["math", "modulo", "if-else"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    { "input": "6", "output": "YES", "explanation": "6 ÷ 3 = 2 with remainder 0 — perfectly fair!" },
+    { "input": "5", "output": "NO", "explanation": "5 ÷ 3 = 1 remainder 2 — two candies left over." },
+    { "input": "0", "output": "YES", "explanation": "0 candies split into 3 groups of 0 — that works!" }
+  ],
+  "ioDemo": {
+    "machine": "🍬 share",
+    "inputLabels": ["N (candies)"],
+    "outputLabel": "fair?"
+  },
+  "testCases": [
+    { "input": "6", "output": "YES" },
+    { "input": "5", "output": "NO" },
+    { "input": "0", "output": "YES" },
+    { "input": "9", "output": "YES" },
+    { "input": "10", "output": "NO" },
+    { "input": "3", "output": "YES" },
+    { "input": "7", "output": "NO" },
+    { "input": "12", "output": "YES" },
+    { "input": "1", "output": "NO" },
+    { "input": "1000", "output": "NO" }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "id": "034",
+  "slug": "space-message",
+  "title": "Space Message",
+  "level": 1,
+  "difficulty": "easy",
+  "tags": ["io", "string"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    { "input": "Hello\nRobot\nWorld", "output": "Hello Robot World", "explanation": "Three words joined with spaces into one sentence." },
+    { "input": "I\nlove\ncoding", "output": "I love coding", "explanation": "print(w1, w2, w3) adds spaces automatically." }
+  ],
+  "ioDemo": {
+    "machine": "📡 decoder",
+    "inputLabels": ["word 1", "word 2", "word 3"],
+    "outputLabel": "message"
+  },
+  "testCases": [
+    { "input": "Hello\nRobot\nWorld", "output": "Hello Robot World" },
+    { "input": "I\nlove\ncoding", "output": "I love coding" },
+    { "input": "Star\nWars\nFan", "output": "Star Wars Fan" },
+    { "input": "The\nsky\nis", "output": "The sky is" },
+    { "input": "ABC\nDEF\nGHI", "output": "ABC DEF GHI" },
+    { "input": "apple\nbanana\ncherry", "output": "apple banana cherry" },
+    { "input": "One\nTwo\nThree", "output": "One Two Three" },
+    { "input": "Cat\nDog\nBird", "output": "Cat Dog Bird" },
+    { "input": "Math\nis\nfun", "output": "Math is fun" },
+    { "input": "Go\nCode\nNow", "output": "Go Code Now" }
+  ]
+}

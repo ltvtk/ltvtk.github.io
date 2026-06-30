@@ -1,0 +1,32 @@
+{
+  "id": "048",
+  "slug": "cinema-tickets",
+  "title": "Cinema Tickets",
+  "level": 2,
+  "difficulty": "medium",
+  "tags": ["logic", "if-else"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    { "input": "120", "output": "CHILD", "explanation": "120 is between 110 and 130 → CHILD ticket." },
+    { "input": "105", "output": "FREE", "explanation": "105 < 110 → FREE entry." },
+    { "input": "145", "output": "ADULT", "explanation": "145 > 130 → ADULT ticket." }
+  ],
+  "ioDemo": {
+    "machine": "🎬 cinema",
+    "inputLabels": ["H (height cm)"],
+    "outputLabel": "ticket type"
+  },
+  "testCases": [
+    { "input": "120", "output": "CHILD" },
+    { "input": "105", "output": "FREE" },
+    { "input": "145", "output": "ADULT" },
+    { "input": "110", "output": "CHILD" },
+    { "input": "130", "output": "CHILD" },
+    { "input": "131", "output": "ADULT" },
+    { "input": "109", "output": "FREE" },
+    { "input": "90", "output": "FREE" },
+    { "input": "200", "output": "ADULT" },
+    { "input": "115", "output": "CHILD" }
+  ]
+}

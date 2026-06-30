@@ -1,0 +1,39 @@
+{
+  "id": "022",
+  "slug": "farmers-eggs",
+  "title": "Farmer's Eggs",
+  "level": 3,
+  "difficulty": "hard",
+  "tags": ["math", "reverse", "logic"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    {
+      "input": "0",
+      "output": "14",
+      "explanation": "Reverse: (0+1)×2=2, (2+1)×2=6, (6+1)×2=14."
+    },
+    {
+      "input": "1",
+      "output": "22",
+      "explanation": "Reverse: 4 → 10 → 22."
+    }
+  ],
+  "ioDemo": {
+    "machine": "🥚 rewind!",
+    "inputLabels": ["X 🥚 left"],
+    "outputLabel": "🧺 initial"
+  },
+  "testCases": [
+    { "input": "0",  "output": "14" },
+    { "input": "1",  "output": "22" },
+    { "input": "2",  "output": "30" },
+    { "input": "3",  "output": "38" },
+    { "input": "4",  "output": "46" },
+    { "input": "5",  "output": "54" },
+    { "input": "6",  "output": "62" },
+    { "input": "7",  "output": "70" },
+    { "input": "8",  "output": "78" },
+    { "input": "10", "output": "94" }
+  ]
+}

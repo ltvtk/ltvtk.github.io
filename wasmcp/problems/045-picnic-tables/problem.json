@@ -1,0 +1,32 @@
+{
+  "id": "045",
+  "slug": "picnic-tables",
+  "title": "Picnic Tables",
+  "level": 2,
+  "difficulty": "medium",
+  "tags": ["math", "division", "ceiling"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    { "input": "22", "output": "4 2", "explanation": "(22+5)//6=4 tables. 4×6-22=2 empty seats." },
+    { "input": "12", "output": "2 0", "explanation": "(12+5)//6=2 tables. 2×6-12=0 empty seats (full)." },
+    { "input": "7", "output": "2 5", "explanation": "(7+5)//6=2 tables. 2×6-7=5 empty seats." }
+  ],
+  "ioDemo": {
+    "machine": "🪑 seating",
+    "inputLabels": ["N (students)"],
+    "outputLabel": "tables + empty"
+  },
+  "testCases": [
+    { "input": "22", "output": "4 2" },
+    { "input": "12", "output": "2 0" },
+    { "input": "7", "output": "2 5" },
+    { "input": "1", "output": "1 5" },
+    { "input": "6", "output": "1 0" },
+    { "input": "13", "output": "3 5" },
+    { "input": "18", "output": "3 0" },
+    { "input": "25", "output": "5 5" },
+    { "input": "30", "output": "5 0" },
+    { "input": "100", "output": "17 2" }
+  ]
+}

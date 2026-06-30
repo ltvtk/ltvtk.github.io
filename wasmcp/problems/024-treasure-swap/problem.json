@@ -1,0 +1,39 @@
+{
+  "id": "024",
+  "slug": "treasure-swap",
+  "title": "Treasure Swap",
+  "level": 3,
+  "difficulty": "hard",
+  "tags": ["math", "linear-eq", "logic"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    {
+      "input": "13",
+      "output": "71.5 58.5",
+      "explanation": "Silver=9×13/2=58.5, Gold=58.5+13=71.5. Check: 9×71.5=11×58.5=643.5 ✓"
+    },
+    {
+      "input": "1",
+      "output": "5.5 4.5",
+      "explanation": "Silver=4.5, Gold=5.5. Check: 9×5.5=11×4.5=49.5 ✓"
+    }
+  ],
+  "ioDemo": {
+    "machine": "⚖️ solve!",
+    "inputLabels": ["X 📉 lost"],
+    "outputLabel": "🟨 gold · ⬜ silver"
+  },
+  "testCases": [
+    { "input": "1",  "output": "5.5 4.5"    },
+    { "input": "13", "output": "71.5 58.5"  },
+    { "input": "3",  "output": "16.5 13.5"  },
+    { "input": "5",  "output": "27.5 22.5"  },
+    { "input": "7",  "output": "38.5 31.5"  },
+    { "input": "9",  "output": "49.5 40.5"  },
+    { "input": "11", "output": "60.5 49.5"  },
+    { "input": "15", "output": "82.5 67.5"  },
+    { "input": "17", "output": "93.5 76.5"  },
+    { "input": "19", "output": "104.5 85.5" }
+  ]
+}

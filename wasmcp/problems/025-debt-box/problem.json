@@ -1,0 +1,39 @@
+{
+  "id": "025",
+  "slug": "debt-box",
+  "title": "Debt Box",
+  "level": 3,
+  "difficulty": "hard",
+  "tags": ["logic", "if-else"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    {
+      "input": "10\n30\n20",
+      "output": "OK",
+      "explanation": "IN=30 = OUT=10+20=30 → balanced!"
+    },
+    {
+      "input": "10\n20\n20",
+      "output": "NO",
+      "explanation": "IN=20 ≠ OUT=10+20=30 → imbalanced."
+    }
+  ],
+  "ioDemo": {
+    "machine": "📦 check!",
+    "inputLabels": ["A 💸 lent", "B 💸 borrowed", "C 💸 lent"],
+    "outputLabel": "✅ verdict"
+  },
+  "testCases": [
+    { "input": "10\n30\n20",      "output": "OK" },
+    { "input": "10\n20\n20",      "output": "NO" },
+    { "input": "5\n15\n10",       "output": "OK" },
+    { "input": "100\n200\n100",   "output": "OK" },
+    { "input": "50\n100\n50",     "output": "OK" },
+    { "input": "1\n3\n2",         "output": "OK" },
+    { "input": "7\n10\n3",        "output": "OK" },
+    { "input": "8\n20\n5",        "output": "NO" },
+    { "input": "1000\n1000\n1",   "output": "NO" },
+    { "input": "500\n1000\n500",  "output": "OK" }
+  ]
+}

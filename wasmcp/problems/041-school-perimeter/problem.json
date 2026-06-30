@@ -1,0 +1,31 @@
+{
+  "id": "041",
+  "slug": "school-perimeter",
+  "title": "School Perimeter",
+  "level": 1,
+  "difficulty": "easy",
+  "tags": ["math", "geometry"],
+  "timeLimit": 1000,
+  "memoryLimit": 256,
+  "examples": [
+    { "input": "50\n30", "output": "160", "explanation": "2 × (50 + 30) = 2 × 80 = 160 meters per lap." },
+    { "input": "100\n50", "output": "300", "explanation": "2 × (100 + 50) = 2 × 150 = 300 meters." }
+  ],
+  "ioDemo": {
+    "machine": "🏃 run",
+    "inputLabels": ["L (length)", "W (width)"],
+    "outputLabel": "lap distance"
+  },
+  "testCases": [
+    { "input": "50\n30", "output": "160" },
+    { "input": "100\n50", "output": "300" },
+    { "input": "10\n5", "output": "30" },
+    { "input": "1\n1", "output": "4" },
+    { "input": "200\n100", "output": "600" },
+    { "input": "0\n0", "output": "0" },
+    { "input": "15\n8", "output": "46" },
+    { "input": "1000\n500", "output": "3000" },
+    { "input": "75\n25", "output": "200" },
+    { "input": "1000000\n1000000", "output": "4000000" }
+  ]
+}
