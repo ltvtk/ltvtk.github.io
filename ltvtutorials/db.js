@@ -14,21 +14,8 @@ window.__DB__ = [
     ],
   },
   {
-    id: 'python-terminal',
-    title: '2. Python Terminal',
-    emoji: '💻',
-    color: '#2563eb',
-    videos: [
-      { id: 'xf2j5VDVnH8', title: 'Lesson 1: AI Agent chat' },
-      { id: 'tN6tHlXW9Cg', title: 'Lesson 2: Lucky Lottery' },
-      { id: 'zqXhguRQgxw', title: 'Lesson 2: Challenge' },
-      { id: 'p73oCixZcKk', title: 'Lesson 3: ATM cash machine' },
-      { id: 'P1Xiehp37Xw', title: 'Lesson 3: Challenge' },
-    ],
-  },
-  {
     id: 'intermediate-python-turtle',
-    title: '3. Intemediate Turtle',
+    title: '2. Intemediate Turtle',
     emoji: '🐢',
     color: '#9333ea',
     videos: [{id:"iNnM7uNxw0U",  title:"Lesson 4: Pigeon house"},
@@ -41,7 +28,7 @@ window.__DB__ = [
   },
   {
     id: 'basic-game',
-    title: '4. Basic games',
+    title: '3. Basic games',
     emoji: '🎮',
     color: '#9333ea',
     videos: [{id:"lm6MKXoeVz4",  title:"Lesson 1: Basic"},
