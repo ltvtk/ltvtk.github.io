@@ -1,6 +1,29 @@
 {
   "version": 2,
 
+  "youtube": {
+    "allowChannels": [
+      "@SuperSimpleSongs",
+      "@Numberblocks",
+      "@StorylineOnline",
+      "@Cyberchase.Official",
+      "@DanielTigersNeighbourhood",
+      "@CuriousGeorge",
+      "@ScholasticClassic",
+      "@PBSKIDS",
+      "@TheMagicSchoolBusOfficial",
+      "@SciShowKids",
+      "@Peekaboo_Kidz",
+      "@WildKratts",
+      "@ScienceMax",
+      "@crashcoursekids",
+      "@natgeokids"
+    ],
+    "allowCategories": [
+      "Education"
+    ]
+  },
+
   "apps": {
     "block": [
       "Microsoft Store",
