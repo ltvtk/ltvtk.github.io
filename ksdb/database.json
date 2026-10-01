@@ -33,6 +33,8 @@
   "apps": {
     "block": [
       "Microsoft Store",
+      "kiddy",
+      "scratch",
       "steampowered",
       "Epic Games Launcher",
       "GOG Galaxy",
