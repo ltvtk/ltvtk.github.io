@@ -17,7 +17,10 @@
       "@WildKratts",
       "@ScienceMax",
       "@crashcoursekids",
-      "@natgeokids"
+      "@natgeokids",
+      "@LeQuySang",
+      "@vietroboteducation",
+      "@zmrobo"
     ],
     "allowCategories": [
       "Education"
@@ -145,6 +148,7 @@
       "github.com",
       "github.io",
       "githubusercontent.com",
+      "github.dev",
       "tavily.com",
       "nextjs.org",
       "nodejs.org",
