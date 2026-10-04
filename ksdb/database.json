@@ -629,6 +629,14 @@
       },
 
       {
+        "domain": "google.com.vn",
+        "blockSubs": [
+          "google.com.vn",
+          "www.google.com.vn"
+        ]
+      },
+
+      {
         "domain": "code.org",
         "blockPaths": [
           "/minecraft",
