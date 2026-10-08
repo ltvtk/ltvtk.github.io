@@ -73,9 +73,11 @@ tbody tr{background:var(--surface);position:relative}
 .num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 th.num{text-align:right}
 .c-rank{width:92px;white-space:nowrap}
-.c-stt{width:56px;color:var(--muted);font-variant-numeric:tabular-nums}
 .c-score{width:110px;font-weight:700;font-size:16px}
 .c-time{width:130px}
+.c-award{width:140px;white-space:nowrap}
+.award{display:inline-block;padding:3px 10px;border-radius:999px;background:var(--accent-soft);color:var(--accent);font-size:13px;font-weight:600}
+.award.champ{background:var(--gold);color:#3b2a00;font-weight:800}
 .nm{font-weight:600}
 .sub{display:none;font-size:12.5px;color:var(--muted)}
 .unit{font-size:12px;color:var(--muted);font-weight:400;margin-left:2px}
@@ -103,6 +105,13 @@ body.admin td.editable:hover .val,body.admin td.editable:focus-visible .val{bord
 tr.editing td{box-shadow:inset 0 0 0 9999px var(--accent-soft)}
 td.editable input{width:84px;max-width:100%;text-align:right;border:1.5px solid var(--accent);border-radius:7px;padding:3px 8px;background:var(--surface);outline:none;font-variant-numeric:tabular-nums;font-weight:700}
 td.editable input.bad{border-color:var(--danger)}
+td.c-award input{width:120px;text-align:left;font-weight:600}
+body.admin td.c-award .val{text-align:left;min-width:90px}
+td.c-award{position:relative}
+.award-menu{position:absolute;right:8px;top:calc(100% - 4px);z-index:5;min-width:180px;margin:0;padding:4px;list-style:none;background:var(--surface);border:1px solid var(--line);border-radius:10px;box-shadow:var(--shadow)}
+.award-menu li{padding:7px 10px;border-radius:7px;cursor:pointer;font-size:14px;font-weight:500;white-space:nowrap}
+.award-menu li:hover,.award-menu li.on{background:var(--accent-soft);color:var(--accent)}
+.award-menu li.none{color:var(--muted);border-top:1px solid var(--line);border-radius:0 0 7px 7px;margin-top:2px}
 
 /* Admin toggle (lock <-> save & exit) and its small menu */
 .fab{position:fixed;right:16px;bottom:16px;z-index:30;width:52px;height:52px;display:grid;place-items:center;border:0;border-radius:50%;background:var(--text);color:var(--bg);box-shadow:0 6px 20px rgba(0,0,0,.25);cursor:pointer}
@@ -144,13 +153,16 @@ hr.sep{border:0;border-top:1px solid var(--line);margin:16px 0}
 .toast.show{opacity:1;transform:translate(-50%,0)}
 
 @media (max-width:720px){
-  .c-cls,.c-school,.c-stt,.legend{display:none}
+  .c-cls,.c-school,.legend{display:none}
   .sub{display:block}
   .c-rank{width:64px}
   .c-time,.c-score{width:auto}
   tbody td,thead th{padding:9px 8px}
   body.admin td.editable .val{min-width:48px;padding:3px 6px}
   td.editable input{width:64px}
+  td.c-award input{width:96px}
+  .c-award{width:auto}
+  body.admin td.c-award .val{min-width:56px}
   .fab{right:12px;bottom:12px}
   .hero{padding-top:12px}
   .banner{border-radius:10px;margin-bottom:14px}
@@ -171,7 +183,7 @@ hr.sep{border:0;border-top:1px solid var(--line);margin:16px 0}
       <span class="chip">Thí sinh: <b id="st-total">0</b></span>
       <span class="chip">Đã có điểm: <b id="st-done">0</b></span>
       <span class="chip" id="st-updated-chip" hidden>Cập nhật lúc <b id="st-updated"></b></span>
-      <span class="chip admin-chip" id="admin-chip" hidden>✎ Đang nhập điểm: bấm vào ô Điểm / Thời gian</span>
+      <span class="chip admin-chip" id="admin-chip" hidden>✎ Đang nhập điểm: bấm vào ô Điểm / Thời gian / Giải</span>
     </div>
   </div>
 </header>
@@ -189,12 +201,12 @@ hr.sep{border:0;border-top:1px solid var(--line);margin:16px 0}
       <thead>
         <tr>
           <th class="c-rank">Hạng</th>
-          <th class="c-stt">STT</th>
           <th>Họ và tên</th>
           <th class="c-cls">Lớp</th>
           <th class="c-school">Trường</th>
           <th class="num">Điểm</th>
           <th class="num">Thời gian</th>
+          <th class="c-award">Giải</th>
         </tr>
       </thead>
       <tbody id="rows"></tbody>
@@ -255,7 +267,7 @@ hr.sep{border:0;border-top:1px solid var(--line);margin:16px 0}
 <div class="toast" id="toast" role="status" aria-live="polite"></div>
 <input type="file" id="file-input" accept=".xlsx,.xls,.csv" hidden>
 
-<script id="app-data" type="application/json">{"title":"Kết quả","subtitle":"","pwHash":"s2$30000$8f4d38c3f95b0d99dd399b69a6e2f1a5$b65eb20e9d373857d5038797b0b2e02920c00437de23f9bfb7e40ad66d1fd99b","savedAt":0,"contestants":[{"id":1,"stt":1,"name":"Huỳnh Đức Trung","cls":"5/5","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":2,"stt":2,"name":"Giang Hùng Quân","cls":"5A2","school":"Võ Thị Sáu","score":null,"time":null},{"id":3,"stt":3,"name":"Bùi Phương Duyên","cls":"5A1","school":"Võ Thị Sáu","score":null,"time":null},{"id":4,"stt":4,"name":"Đoàn Hải Vương","cls":"4/1","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":5,"stt":5,"name":"Nguyễn Thành Nhân","cls":"5A3","school":"Võ Thị Sáu","score":null,"time":null},{"id":6,"stt":6,"name":"Lê Minh Huy","cls":"4B5","school":"Võ Thị Sáu","score":null,"time":null},{"id":7,"stt":7,"name":"Phan Minh Triết","cls":"4/5","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":8,"stt":8,"name":"Phạm Hoàng Nam","cls":"5A4","school":"Võ Thị Sáu","score":null,"time":null},{"id":9,"stt":9,"name":"Đinh Mai Tất Phú","cls":"5A6","school":"Võ Thị Sáu","score":null,"time":null},{"id":10,"stt":10,"name":"Trần Ngọc Minh Khuê","cls":"4A5","school":"Võ Thị Sáu","score":null,"time":null},{"id":11,"stt":11,"name":"Huỳnh Nguyễn Châu Anh","cls":"4/10","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":12,"stt":12,"name":"Võ Văn Thiên Vũ","cls":"4A2","school":"Võ Thị Sáu","score":null,"time":null},{"id":13,"stt":13,"name":"Huỳnh Trần Phúc Thịnh","cls":"4A5","school":"Võ Thị Sáu","score":null,"time":null},{"id":14,"stt":14,"name":"Trịnh Ngọc Phương Linh","cls":"4A6","school":"Võ Thị Sáu","score":null,"time":null},{"id":15,"stt":15,"name":"Trần Thị Thanh Ngân","cls":"5B2","school":"Võ Thị Sáu","score":null,"time":null},{"id":16,"stt":16,"name":"Lê Minh Long","cls":"5A1","school":"Võ Thị Sáu","score":null,"time":null},{"id":17,"stt":17,"name":"Nguyễn Trần Phúc Lâm","cls":"5A5","school":"Võ Thị Sáu","score":null,"time":null},{"id":18,"stt":18,"name":"Nguyễn Trần Vân Hà","cls":"5A5","school":"Võ Thị Sáu","score":null,"time":null},{"id":19,"stt":19,"name":"Phạm Duy Phúc Khang","cls":"4A5","school":"Võ Thị Sáu","score":null,"time":null},{"id":20,"stt":20,"name":"Đỗ Gia Linh","cls":"4A6","school":"Võ Thị Sáu","score":null,"time":null},{"id":21,"stt":21,"name":"Ngô Hoàng Phú Huy","cls":"5A1","school":"Võ Thị Sáu","score":null,"time":null},{"id":22,"stt":22,"name":"Phạm Nguyễn Thiên Hà","cls":"4A2","school":"Võ Thị Sáu","score":null,"time":null},{"id":23,"stt":23,"name":"Lê Nho Triết","cls":"5A5","school":"Võ Thị Sáu","score":null,"time":null},{"id":24,"stt":24,"name":"Nguyễn Hữu Thống Nhất","cls":"5A1","school":"Võ Thị Sáu","score":null,"time":null},{"id":25,"stt":25,"name":"Nguyễn Đăng Khôi","cls":"4/7","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":26,"stt":26,"name":"Nguyễn Lê Đăng Khoa","cls":"3/5","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":27,"stt":27,"name":"Đặng Hải Nam","cls":"5/7","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":28,"stt":28,"name":"Dũ Tấn Phát","cls":"5/10","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":29,"stt":29,"name":"Lê Quang Nhật","cls":"4/5","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":30,"stt":30,"name":"Nguyễn Đỗ Minh Ngọc","cls":"4A1","school":"Võ Thị Sáu","score":null,"time":null},{"id":31,"stt":31,"name":"Phan Xuân Thịnh","cls":"5B2","school":"Võ Thị Sáu","score":null,"time":null},{"id":32,"stt":32,"name":"Ngô Thượng Thiên Phúc","cls":"4/9","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":33,"stt":33,"name":"Lê Bảo Châu","cls":"5/1","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":34,"stt":34,"name":"Vũ Minh Khánh","cls":"3/1","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":35,"stt":35,"name":"Hồ Nhật Hoàng","cls":"4/5","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":36,"stt":36,"name":"Ngô Quốc Bảo","cls":"5/1","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":37,"stt":37,"name":"Đinh Nguyên Bảo","cls":"5/9","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":38,"stt":38,"name":"Phan Nguyễn","cls":"5/9","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":39,"stt":39,"name":"Nguyễn Đăng Khôi","cls":"4/7","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":40,"stt":40,"name":"Phan Trương Gia Huy","cls":"5B1","school":"Võ Thị Sáu","score":null,"time":null},{"id":41,"stt":41,"name":"Nguyễn Hoài Bảo Long","cls":"4/8","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":42,"stt":42,"name":"Nguyễn Hoàng Khải","cls":"4/8","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":43,"stt":43,"name":"Lê Chí Kiên","cls":"4/10","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":44,"stt":44,"name":"Nguyễn Lê Quỳnh Như","cls":"4/10","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":45,"stt":45,"name":"Lương Đỗ Quốc Vinh","cls":"1/9","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":46,"stt":46,"name":"Trần Hoàng Phúc","cls":"3/2","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":47,"stt":47,"name":"Trần Anh Trí","cls":"4/2","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":48,"stt":48,"name":"Nguyễn Trung Hiếu","cls":"5/5","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":49,"stt":49,"name":"Nguyễn Quang Hải","cls":"3/2","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":50,"stt":50,"name":"Phạm Minh Triết","cls":"3/2","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":51,"stt":51,"name":"Thái Phạm Thiên Phúc","cls":"4/4","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":52,"stt":52,"name":"Đào Nhã Uyên","cls":"4/4","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":53,"stt":53,"name":"Trần Tiến Đạt","cls":"4/5","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":54,"stt":54,"name":"Nguyễn Trương Hoàng Vương","cls":"4/5","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":55,"stt":55,"name":"Nguyễn Tuần Khoa","cls":"5/10","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":56,"stt":56,"name":"Trần Tấn Chinh","cls":"5/2","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":57,"stt":57,"name":"Phạm Khánh Thi","cls":"5/2","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":58,"stt":58,"name":"Nguyễn Thái Mai Khanh","cls":"5/3","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":59,"stt":59,"name":"Trần Ngọc Khánh An","cls":"5/3","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":60,"stt":60,"name":"Từ Minh Hưng","cls":"5/4","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":61,"stt":61,"name":"Lê Chí Thịnh","cls":"5/4","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":62,"stt":62,"name":"Ngô Hà Trúc Khuê","cls":"5/5","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":63,"stt":63,"name":"Bùi Duy Hải Đăng","cls":"5/5","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":64,"stt":64,"name":"Phạm Minh Trí","cls":"5/7","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":65,"stt":65,"name":"Trần Thanh Trung","cls":"5/8","school":"Nguyễn Văn Trỗi","score":null,"time":null},{"id":66,"stt":66,"name":"La Đình Minh Hiếu","cls":"5/2","school":"Nguyễn Văn Trỗi","score":null,"time":null}]}</script>
+<script id="app-data" type="application/json">{"title":"Kết quả","subtitle":"","pwHash":"s2$30000$8f4d38c3f95b0d99dd399b69a6e2f1a5$b65eb20e9d373857d5038797b0b2e02920c00437de23f9bfb7e40ad66d1fd99b","listId":"ds-2026-10-08-45","savedAt":1791450419480,"contestants":[{"id":1,"stt":1,"name":"Giang Hùng Quân","cls":"5A2","school":"Võ Thị Sáu","score":null,"time":null,"award":""},{"id":2,"stt":2,"name":"Bùi Phương Duyên","cls":"5A1","school":"Võ Thị Sáu","score":null,"time":null,"award":""},{"id":3,"stt":3,"name":"Nguyễn Thành Nhân","cls":"5A3","school":"Võ Thị Sáu","score":null,"time":null,"award":""},{"id":4,"stt":4,"name":"Lê Minh Huy","cls":"4B5","school":"Võ Thị Sáu","score":null,"time":null,"award":""},{"id":5,"stt":5,"name":"Phạm Hoàng Nam","cls":"5A4","school":"Võ Thị Sáu","score":null,"time":null,"award":""},{"id":6,"stt":6,"name":"Đinh Mai Tất Phú","cls":"5A6","school":"Võ Thị Sáu","score":null,"time":null,"award":""},{"id":7,"stt":7,"name":"Trần Ngọc Minh Khuê","cls":"4A5","school":"Võ Thị Sáu","score":null,"time":null,"award":""},{"id":8,"stt":8,"name":"Võ Văn Thiên Vũ","cls":"4A2","school":"Võ Thị Sáu","score":null,"time":null,"award":""},{"id":9,"stt":9,"name":"Huỳnh Trần Phúc Thịnh","cls":"4A5","school":"Võ Thị Sáu","score":null,"time":null,"award":""},{"id":10,"stt":10,"name":"Trịnh Ngọc Phương Linh","cls":"4A6","school":"Võ Thị Sáu","score":null,"time":null,"award":""},{"id":11,"stt":11,"name":"Trần Thị Thanh Ngân","cls":"5B2","school":"Võ Thị Sáu","score":null,"time":null,"award":""},{"id":12,"stt":12,"name":"Lê Minh Long","cls":"5A1","school":"Võ Thị Sáu","score":null,"time":null,"award":""},{"id":13,"stt":13,"name":"Nguyễn Trần Phúc Lâm","cls":"5A5","school":"Võ Thị Sáu","score":null,"time":null,"award":""},{"id":14,"stt":14,"name":"Nguyễn Trần Vân Hà","cls":"5A5","school":"Võ Thị Sáu","score":null,"time":null,"award":""},{"id":15,"stt":15,"name":"Phạm Duy Phúc Khang","cls":"4A5","school":"Võ Thị Sáu","score":null,"time":null,"award":""},{"id":16,"stt":16,"name":"Đỗ Gia Linh","cls":"4A6","school":"Võ Thị Sáu","score":null,"time":null,"award":""},{"id":17,"stt":17,"name":"Ngô Hoàng Phú Huy","cls":"5A1","school":"Võ Thị Sáu","score":null,"time":null,"award":""},{"id":18,"stt":18,"name":"Phạm Nguyễn Thiên Hà","cls":"4A2","school":"Võ Thị Sáu","score":null,"time":null,"award":""},{"id":19,"stt":19,"name":"Lê Nho Triết","cls":"5A5","school":"Võ Thị Sáu","score":null,"time":null,"award":""},{"id":20,"stt":20,"name":"Nguyễn Hữu Thống Nhất","cls":"5A1","school":"Võ Thị Sáu","score":null,"time":null,"award":""},{"id":21,"stt":21,"name":"Nguyễn Đỗ Minh Ngọc","cls":"4A1","school":"Võ Thị Sáu","score":null,"time":null,"award":""},{"id":22,"stt":22,"name":"Phan Xuân Thịnh","cls":"5B2","school":"Võ Thị Sáu","score":null,"time":null,"award":""},{"id":23,"stt":23,"name":"Phan Trương Gia Huy","cls":"5B1","school":"Võ Thị Sáu","score":null,"time":null,"award":""},{"id":24,"stt":24,"name":"Đoàn Hải Vương","cls":"4/1","school":"Nguyễn Văn Trỗi","score":null,"time":null,"award":""},{"id":25,"stt":25,"name":"Phan Minh Triết","cls":"4/5","school":"Nguyễn Văn Trỗi","score":null,"time":null,"award":""},{"id":26,"stt":26,"name":"Lê Quang Nhật","cls":"4/5","school":"Nguyễn Văn Trỗi","score":null,"time":null,"award":""},{"id":27,"stt":27,"name":"Lê Bảo Châu","cls":"5/1","school":"Nguyễn Văn Trỗi","score":null,"time":null,"award":""},{"id":28,"stt":28,"name":"Hồ Nhật Hoàng","cls":"4/5","school":"Nguyễn Văn Trỗi","score":null,"time":null,"award":""},{"id":29,"stt":29,"name":"Trần Hoàng Phúc","cls":"3/2","school":"Nguyễn Văn Trỗi","score":null,"time":null,"award":""},{"id":30,"stt":30,"name":"Phạm Minh Triết","cls":"3/2","school":"Nguyễn Văn Trỗi","score":null,"time":null,"award":""},{"id":31,"stt":31,"name":"Thái Phạm Thiên Phúc","cls":"4/4","school":"Nguyễn Văn Trỗi","score":null,"time":null,"award":""},{"id":32,"stt":32,"name":"Trần Tiến Đạt","cls":"4/5","school":"Nguyễn Văn Trỗi","score":null,"time":null,"award":""},{"id":33,"stt":33,"name":"Nguyễn Trương Hoàng Vương","cls":"4/5","school":"Nguyễn Văn Trỗi","score":null,"time":null,"award":""},{"id":34,"stt":34,"name":"Trần Tấn Chinh","cls":"5/2","school":"Nguyễn Văn Trỗi","score":null,"time":null,"award":""},{"id":35,"stt":35,"name":"Nguyễn Thái Mai Khanh","cls":"5/3","school":"Nguyễn Văn Trỗi","score":null,"time":null,"award":""},{"id":36,"stt":36,"name":"Trần Ngọc Khánh An","cls":"5/3","school":"Nguyễn Văn Trỗi","score":null,"time":null,"award":""},{"id":37,"stt":37,"name":"Lê Chí Thịnh","cls":"5/4","school":"Nguyễn Văn Trỗi","score":null,"time":null,"award":""},{"id":38,"stt":38,"name":"Ngô Hà Trúc Khuê","cls":"5/5","school":"Nguyễn Văn Trỗi","score":null,"time":null,"award":""},{"id":39,"stt":39,"name":"Đinh Nguyên Bảo","cls":"5/9","school":"Nguyễn Văn Trỗi","score":null,"time":null,"award":""},{"id":40,"stt":40,"name":"Dũ Tấn Phát","cls":"5/10","school":"Nguyễn Văn Trỗi","score":null,"time":null,"award":""},{"id":41,"stt":41,"name":"Phan Nguyễn","cls":"5/9","school":"Nguyễn Văn Trỗi","score":null,"time":null,"award":""},{"id":42,"stt":42,"name":"Phạm Minh Trí","cls":"5/7","school":"Nguyễn Văn Trỗi","score":null,"time":null,"award":""},{"id":43,"stt":43,"name":"Đặng Hải Nam","cls":"5/7","school":"Nguyễn Văn Trỗi","score":null,"time":null,"award":""},{"id":44,"stt":44,"name":"Nguyễn Đăng Khôi","cls":"4/7","school":"Nguyễn Văn Trỗi","score":null,"time":null,"award":""},{"id":45,"stt":45,"name":"Trần Thanh Trung","cls":"5/8","school":"Nguyễn Văn Trỗi","score":null,"time":null,"award":""}]}</script>
 <script>
 (function(){
 'use strict';
@@ -272,7 +284,8 @@ const embedded = JSON.parse($('#app-data').textContent);
 let state = embedded;
 try {
   const saved = JSON.parse(localStorage.getItem(LS_KEY) || 'null');
-  if (saved && saved.contestants && (saved.savedAt || 0) > (embedded.savedAt || 0)) state = saved;
+  // A browser copy of a different list (listId changes when the file gets a new contestant list) is stale.
+  if (saved && saved.contestants && saved.listId === embedded.listId && (saved.savedAt || 0) > (embedded.savedAt || 0)) state = saved;
 } catch (e) {}
 // Data saved by an older version kept a weaker password hash; take the one embedded in the file instead.
 if (!String(state.pwHash || '').startsWith('s2$')) state.pwHash = embedded.pwHash;
@@ -299,6 +312,10 @@ const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp
 const norm = s => String(s == null ? '' : s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/đ/g, 'd').replace(/\s+/g, ' ').trim();
 const fmt = n => n == null ? '' : Number(n).toLocaleString('vi-VN', {maximumFractionDigits: 2});
 const hasScore = c => c.score != null;
+// "Vô địch" is won in a separate real-robot round, so a champion goes above everyone's score.
+const isChamp = c => /\bvo dich\b/.test(norm(c.award));
+const isRanked = c => hasScore(c) || isChamp(c);
+const hasResult = c => hasScore(c) || !!c.award;
 const byId = id => state.contestants.find(c => c.id === id);
 
 // Vietnamese names: the given name is the last word, so compare it first, then the family/middle names.
@@ -311,6 +328,8 @@ function compareName(a, b){
   return coll.compare(ga, gb) || coll.compare(ra, rb) || (a.stt - b.stt);
 }
 function compareResult(a, b){
+  const ca = isChamp(a), cb = isChamp(b);
+  if (ca !== cb) return ca ? -1 : 1;
   const sa = hasScore(a), sb = hasScore(b);
   if (sa !== sb) return sa ? -1 : 1;
   if (sa){
@@ -323,11 +342,12 @@ function compareResult(a, b){
 const sorted = () => state.contestants.slice().sort(compareResult);
 
 // Competition ranking (1,1,3): equal score AND equal time share a rank. No score -> no rank.
+// The champion is rank 1 on its own; whoever comes next is rank 2.
 function rankMap(list){
   const m = new Map(); let rank = 0, prev = null;
   list.forEach((c, i) => {
-    if (!hasScore(c)) return;
-    if (!prev || prev.score !== c.score || prev.time !== c.time) rank = i + 1;
+    if (!isRanked(c)) return;
+    if (!prev || isChamp(prev) !== isChamp(c) || (!isChamp(c) && (prev.score !== c.score || prev.time !== c.time))) rank = i + 1;
     m.set(c.id, rank); prev = c;
   });
   return m;
@@ -445,7 +465,9 @@ function render(opts){
   const showUpd = done > 0 && state.savedAt;
   $('#st-updated-chip').hidden = !showUpd;
   if (showUpd) $('#st-updated').textContent = new Date(state.savedAt).toLocaleString('vi-VN', {hour:'2-digit', minute:'2-digit', day:'2-digit', month:'2-digit'});
-  $('#legend').textContent = isAdmin ? 'Enter ở ô tìm kiếm: nhập điểm dòng đầu' : done ? 'Xếp theo điểm, rồi thời gian' : 'Chưa có điểm · xếp theo tên A → Z';
+  $('#legend').textContent = isAdmin ? 'Enter ở ô tìm kiếm: nhập điểm dòng đầu'
+    : list.some(isChamp) ? 'Vô địch xếp đầu · rồi theo điểm, thời gian'
+    : done ? 'Xếp theo điểm, rồi thời gian' : 'Chưa có điểm · xếp theo tên A → Z';
 
   const q = norm($('#search').value);
   const shown = q ? list.filter(c => matches(c, q)) : list;
@@ -479,22 +501,23 @@ function rowHtml(c, rank){
   const sub = [c.cls, c.school].filter(Boolean).map(esc).join(' · ');
   const score = hasScore(c) ? fmt(c.score) : '<span class="dash">—</span>';
   const time = c.time != null ? fmt(c.time) + '<span class="unit">giây</span>' : '<span class="dash">—</span>';
-  // In admin mode the two result cells are focusable so a click/Tab/Enter opens them for typing.
-  const cell = (k, html, label) => isAdmin
-    ? `<td class="num c-${k} editable" data-k="${k}" tabindex="0" aria-label="${label} của ${esc(c.name)}"><span class="val">${html}</span></td>`
-    : `<td class="num c-${k}">${html}</td>`;
+  const award = c.award ? `<span class="award${isChamp(c) ? ' champ' : ''}">${isChamp(c) ? '🏆 ' : ''}${esc(c.award)}</span>` : isAdmin ? '<span class="dash">—</span>' : '';
+  // In admin mode the result cells are focusable so a click/Tab/Enter opens them for typing.
+  const cell = (k, html, label, cls = 'num') => isAdmin
+    ? `<td class="${cls} c-${k} editable" data-k="${k}" tabindex="0" aria-label="${label} của ${esc(c.name)}"><span class="val">${html}</span></td>`
+    : `<td class="${cls} c-${k}">${html}</td>`;
   return `<tr data-id="${c.id}" class="${rank && rank <= 3 ? 'r' + rank : ''}">
     <td class="c-rank">${rank ? `<span class="rank">${rank}</span>` : '<span class="rank none">—</span>'}${mvHtml}</td>
-    <td class="c-stt">${esc(c.stt)}</td>
     <td class="c-name"><div class="nm">${esc(c.name)}</div><div class="sub">${sub}</div></td>
     <td class="c-cls">${esc(c.cls)}</td>
     <td class="c-school">${esc(c.school)}</td>
     ${cell('score', score, 'Điểm')}
     ${cell('time', time, 'Thời gian')}
+    ${cell('award', award, 'Giải', '')}
   </tr>`;
 }
 function matches(c, q){
-  return norm(`${c.name} ${c.cls} ${c.school}`).includes(q) || String(c.stt) === q;
+  return norm(`${c.name} ${c.cls} ${c.school}`).includes(q);
 }
 
 // ---------- Admin: in-place editing ----------
@@ -509,12 +532,43 @@ function openEdit(id, k){
   const val = v => v == null ? '' : String(v).replace('.', ',');
   tr.querySelector('td[data-k="score"]').innerHTML = `<input data-k="score" inputmode="decimal" autocomplete="off" placeholder="điểm" aria-label="Điểm của ${esc(c.name)}" value="${esc(val(c.score))}">`;
   tr.querySelector('td[data-k="time"]').innerHTML = `<input data-k="time" inputmode="decimal" autocomplete="off" placeholder="giây" aria-label="Thời gian (giây) của ${esc(c.name)}" value="${esc(val(c.time))}">`;
-  edit = {id, tr};
+  tr.querySelector('td[data-k="award"]').innerHTML = `<input data-k="award" autocomplete="off" maxlength="40" placeholder="giải" role="combobox" aria-expanded="false" aria-controls="award-menu" aria-label="Giải của ${esc(c.name)}" value="${esc(c.award || '')}"><ul class="award-menu" id="award-menu" role="listbox" hidden></ul>`;
+  edit = {id, tr, award: c.award || ''};
   focusInput(k);
+}
+// Award suggestions. A native <datalist> hides every option that doesn't match what is already typed,
+// so with "Vô địch" in the box it showed only "Vô địch". This menu lists all of them until the text is changed.
+const AWARDS = ['Vô địch', 'Giải Nhất', 'Giải Nhì', 'Giải Ba', 'Khuyến khích'];
+const NO_AWARD = '---';
+function showAwardMenu(){
+  if (!edit) return;
+  const inp = edit.tr.querySelector('input[data-k="award"]'), menu = edit.tr.querySelector('.award-menu');
+  const q = norm(inp.value), all = !q || inp.value === edit.award || /^[-–—]+$/.test(inp.value);
+  const items = AWARDS.filter(a => all || norm(a).includes(q));
+  menu.innerHTML = items.map(a => `<li role="option" data-v="${esc(a)}">${esc(a)}</li>`).join('')
+    + `<li role="option" class="none" data-v="${NO_AWARD}">--- Không có giải</li>`;
+  menu.hidden = false; inp.setAttribute('aria-expanded', 'true');
+}
+function hideAwardMenu(){
+  const menu = edit && edit.tr.querySelector('.award-menu');
+  if (menu){ menu.hidden = true; edit.tr.querySelector('input[data-k="award"]').setAttribute('aria-expanded', 'false'); }
+}
+// Arrow keys move the highlight through the menu.
+function moveAwardPick(step){
+  const lis = [...edit.tr.querySelectorAll('.award-menu li')];
+  if (!lis.length) return;
+  const i = lis.findIndex(li => li.classList.contains('on'));
+  const j = i < 0 ? (step > 0 ? 0 : lis.length - 1) : (i + step + lis.length) % lis.length;
+  lis.forEach((li, n) => li.classList.toggle('on', n === j));
+}
+function pickAward(v){
+  edit.tr.querySelector('input[data-k="award"]').value = v;
+  if (finishEdit(true)) $('#search').focus();
 }
 function focusInput(k){
   const inp = edit && edit.tr.querySelector(`input[data-k="${k}"]`);
   if (inp){ inp.focus(); inp.select(); }
+  if (inp && k === 'award') showAwardMenu();
 }
 // Returns false (and keeps the row open) when the input is invalid.
 function finishEdit(saveIt){
@@ -523,21 +577,27 @@ function finishEdit(saveIt){
   if (!saveIt || !c){ render(); return true; }
   const sIn = tr.querySelector('input[data-k="score"]'), tIn = tr.querySelector('input[data-k="time"]');
   const score = parseNum(sIn.value), time = parseTime(tIn.value);
+  // "---" (any run of dashes) is the "no award" choice, so a mistyped award can be cleared from the list.
+  let award = tr.querySelector('input[data-k="award"]').value.replace(/\s+/g, ' ').trim();
+  if (/^[-–—]+$/.test(award)) award = '';
   sIn.classList.remove('bad'); tIn.classList.remove('bad');
   let bad = null, msg = '';
   if (Number.isNaN(score) || (score != null && score < 0)){ bad = sIn; msg = 'Điểm không hợp lệ.'; }
   else if (Number.isNaN(time) || (time != null && time < 0)){ bad = tIn; msg = 'Thời gian không hợp lệ (số giây, ví dụ 125 hoặc 2:05).'; }
   else if (score == null && time != null){ bad = sIn; msg = 'Có thời gian nhưng chưa có điểm.'; }
   if (bad){ bad.classList.add('bad'); toast(msg); bad.focus(); bad.select(); return false; }
-  if (c.score === score && c.time === time){ render(); return true; }
-  commit(() => { c.score = score; c.time = time; }, id);
-  toast(score == null ? `Đã xóa điểm của ${c.name}` : `Đã lưu: ${c.name} · ${fmt(score)} điểm${time != null ? ' · ' + fmt(time) + ' giây' : ''}`);
+  if (c.score === score && c.time === time && (c.award || '') === award){ render(); return true; }
+  commit(() => { c.score = score; c.time = time; c.award = award; }, id);
+  toast(score == null && !award ? `Đã xóa kết quả của ${c.name}`
+    : `Đã lưu: ${c.name}` + (score != null ? ` · ${fmt(score)} điểm` : '') + (time != null ? ' · ' + fmt(time) + ' giây' : '') + (award ? ' · ' + award : ''));
   return true;
 }
 
 const rows = $('#rows');
 rows.addEventListener('click', e => {
   if (!isAdmin) return;
+  // A click inside an open input just places the caret (re-opening would select all the text again).
+  if (e.target.closest('input, .award-menu')) return;
   const td = e.target.closest('td.editable');
   if (td) openEdit(Number(td.closest('tr').dataset.id), td.dataset.k);
 });
@@ -548,13 +608,34 @@ rows.addEventListener('keydown', e => {
     e.preventDefault(); openEdit(Number(t.closest('tr').dataset.id), t.dataset.k); return;
   }
   if (!t.matches('input') || !edit) return;
+  const menuOpen = t.dataset.k === 'award' && !edit.tr.querySelector('.award-menu').hidden;
+  if (t.dataset.k === 'award' && (e.key === 'ArrowDown' || e.key === 'ArrowUp')){
+    e.preventDefault();
+    if (!menuOpen) showAwardMenu();
+    moveAwardPick(e.key === 'ArrowDown' ? 1 : -1);
+    return;
+  }
   if (e.key === 'Enter'){
     e.preventDefault();
-    if (t.dataset.k === 'score') focusInput('time');
+    const on = menuOpen && edit.tr.querySelector('.award-menu li.on');
+    if (on) pickAward(on.dataset.v);
+    else if (t.dataset.k === 'score') focusInput('time');
+    else if (t.dataset.k === 'time') focusInput('award');
     else if (finishEdit(true)) $('#search').focus();
   } else if (e.key === 'Escape'){
-    e.preventDefault(); finishEdit(false);
+    e.preventDefault();
+    if (menuOpen) hideAwardMenu(); else finishEdit(false);
   }
+});
+rows.addEventListener('focusin', e => {
+  if (!edit || !e.target.matches('input')) return;
+  if (e.target.dataset.k === 'award') showAwardMenu(); else hideAwardMenu();
+});
+rows.addEventListener('input', e => { if (edit && e.target.matches('input[data-k="award"]')) showAwardMenu(); });
+// mousedown (not click) so the input keeps focus and the row doesn't save before the pick lands.
+rows.addEventListener('mousedown', e => {
+  const li = edit && e.target.closest('.award-menu li');
+  if (li){ e.preventDefault(); pickAward(li.dataset.v); }
 });
 // Leaving the row saves. If focus went to another result cell, open that one after the re-render.
 rows.addEventListener('focusout', e => {
@@ -637,8 +718,8 @@ $('#file-input').addEventListener('change', async e => {
     const rows = XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]], {header: 1, defval: null, raw: true});
     const list = parseRows(rows);
     if (!list.length){ toast('Không tìm thấy thí sinh nào trong file.'); return; }
-    const withScore = list.filter(hasScore).length;
-    if (!confirm(`Thay toàn bộ ${state.contestants.length} thí sinh hiện tại bằng ${list.length} thí sinh từ file “${file.name}”` + (withScore ? ` (${withScore} người đã có điểm)` : '') + '?')) return;
+    const withScore = list.filter(hasResult).length;
+    if (!confirm(`Thay toàn bộ ${state.contestants.length} thí sinh hiện tại bằng ${list.length} thí sinh từ file “${file.name}”` + (withScore ? ` (${withScore} người đã có kết quả)` : '') + '?')) return;
     commit(() => { state.contestants = list; });
     moves = new Map(); render();
     toast(`Đã nhập ${list.length} thí sinh`);
@@ -656,7 +737,8 @@ function parseRows(rows){
     cls: col(h => h.startsWith('lop')),
     school: col(h => h.startsWith('truong')),
     score: col(h => h.includes('diem')),
-    time: col(h => h.includes('thoi gian') || h.includes('giay'))
+    time: col(h => h.includes('thoi gian') || h.includes('giay')),
+    award: col(h => h.startsWith('giai'))
   };
   const get = (r, k) => ci[k] < 0 ? null : r[ci[k]];
   const clean = v => v == null ? '' : String(v).replace(/\s+/g, ' ').trim();
@@ -670,7 +752,7 @@ function parseRows(rows){
     if (Number.isNaN(time)) time = null;
     if (score == null) time = null;
     const n = out.length + 1, stt = parseNum(get(r, 'stt'));
-    out.push({id: n, stt: stt == null || Number.isNaN(stt) ? n : stt, name, cls: clean(get(r, 'cls')), school: clean(get(r, 'school')), score, time});
+    out.push({id: n, stt: stt == null || Number.isNaN(stt) ? n : stt, name, cls: clean(get(r, 'cls')), school: clean(get(r, 'school')), score, time, award: clean(get(r, 'award'))});
   });
   return out;
 }
@@ -678,10 +760,10 @@ function parseRows(rows){
 async function exportXlsx(){
   try { await loadXlsx(); } catch (err){ toast(err.message); return; }
   const list = sorted(), ranks = rankMap(list);
-  const aoa = [['Hạng', 'STT', 'Họ và Tên', 'Lớp', 'Trường', 'Điểm thi', 'Thời gian (giây)']]
-    .concat(list.map(c => [ranks.get(c.id) || '', c.stt, c.name, c.cls, c.school, c.score, c.time]));
+  const aoa = [['Hạng', 'STT', 'Họ và Tên', 'Lớp', 'Trường', 'Điểm thi', 'Thời gian (giây)', 'Giải']]
+    .concat(list.map(c => [ranks.get(c.id) || '', c.stt, c.name, c.cls, c.school, c.score, c.time, c.award || '']));
   const ws = XLSX.utils.aoa_to_sheet(aoa);
-  ws['!cols'] = [{wch: 6}, {wch: 6}, {wch: 28}, {wch: 8}, {wch: 22}, {wch: 10}, {wch: 16}];
+  ws['!cols'] = [{wch: 6}, {wch: 6}, {wch: 28}, {wch: 8}, {wch: 22}, {wch: 10}, {wch: 16}, {wch: 14}];
   const wb = XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(wb, ws, 'Kết quả');
   XLSX.writeFile(wb, `ket-qua-ky-thi-${stamp()}.xlsx`);
@@ -720,12 +802,12 @@ $('#settings-form').addEventListener('submit', e => {
   $('#dlg-settings').close();
   toast(pw ? 'Đã lưu cài đặt và đổi mật khẩu' : 'Đã lưu cài đặt');
 });
-// Keeps the contestant list; only scores and times go, so the table falls back to name order.
+// Keeps the contestant list; only scores, times and awards go, so the table falls back to name order.
 function resetScores(){
-  const n = state.contestants.filter(hasScore).length;
+  const n = state.contestants.filter(hasResult).length;
   if (!n){ toast('Chưa có kết quả nào để xóa'); return; }
-  if (!confirm(`Xóa hết kết quả (điểm và thời gian) của ${n} thí sinh?\nDanh sách thí sinh vẫn được giữ lại. Không thể hoàn tác.`)) return;
-  commit(() => state.contestants.forEach(c => { c.score = null; c.time = null; }));
+  if (!confirm(`Xóa hết kết quả (điểm, thời gian và giải) của ${n} thí sinh?\nDanh sách thí sinh vẫn được giữ lại. Không thể hoàn tác.`)) return;
+  commit(() => state.contestants.forEach(c => { c.score = null; c.time = null; c.award = ''; }));
   moves = new Map(); render();
   toast(`Đã xóa hết kết quả của ${n} thí sinh`);
 }
@@ -752,7 +834,7 @@ window.addEventListener('storage', e => {
     const before = rankMap(sorted());
     const changed = next.contestants.filter(n => {
       const o = byId(n.id);
-      return !o || o.score !== n.score || o.time !== n.time;
+      return !o || o.score !== n.score || o.time !== n.time || (o.award || '') !== (n.award || '');
     });
     state = next;
     afterChange(before, changed.length === 1 ? changed[0].id : null);
