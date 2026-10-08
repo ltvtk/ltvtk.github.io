@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PyGround Support</title>
+<meta name="description" content="Help, video lessons and answers for PyGround (iPhone and iPad) and PyGround Pro (Mac).">
+<style>
+  :root { --fg: #1a1f45; --muted: #5a6085; --bg: #f5f6fb; --card: #ffffff; --line: #dfe2ef; --accent: #c2570a; --yt: #d93025; color-scheme: light dark; }
+  @media (prefers-color-scheme: dark) {
+    :root { --fg: #e8eaf6; --muted: #a3a8c7; --bg: #12142a; --card: #1b1e3a; --line: #2e3259; --accent: #ff9a4d; --yt: #ff6b5e; }
+  }
+  * { box-sizing: border-box; }
+  body { font: 16px/1.6 -apple-system, "Helvetica Neue", Arial, sans-serif; color: var(--fg); background: var(--bg); margin: 0; padding: 32px 16px 64px; }
+  main { max-width: 760px; margin: 0 auto; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 0 0 4px; }
+  h2 { font-size: 21px; margin: 40px 0 10px; }
+  h3 { font-size: 17px; margin: 0 0 6px; }
+  p, ul, ol { margin: 0 0 12px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent); }
+  .muted { color: var(--muted); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px 20px; }
+  .hero { margin: 24px 0; display: flex; flex-wrap: wrap; gap: 16px; align-items: center; justify-content: space-between; }
+  .hero p { margin: 0; flex: 1 1 280px; }
+  .btn { display: inline-block; background: var(--yt); color: #fff; text-decoration: none; font-weight: 600; padding: 10px 18px; border-radius: 999px; white-space: nowrap; }
+  .btn:hover { filter: brightness(1.08); }
+  nav { font-size: 15px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 12px; }
+  .grid ol { padding-left: 20px; margin: 0; font-size: 15px; }
+  details { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 12px 16px; margin-bottom: 8px; }
+  summary { cursor: pointer; font-weight: 600; }
+  details p, details ol, details ul { margin: 10px 0 0; }
+  footer { margin-top: 48px; font-size: 14px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>PyGround Support</h1>
+  <p class="muted">Help for PyGround (iPhone and iPad) and PyGround Pro (Mac).</p>
+
+  <div class="card hero">
+    <p><strong>Learn by watching.</strong> Every lesson in the app has a matching video on our YouTube channel. Stuck? Watch the lesson, then ask your question in the video's comments.</p>
+    <a class="btn" href="https://www.youtube.com/@pythonground">▶ Watch on YouTube</a>
+  </div>
+
+  <h2 id="faq">Common questions</h2>
+
+  <details>
+    <summary>Where are my projects saved?</summary>
+    <p>Only on your device, inside the app. They are never uploaded. Deleting the app deletes them, so use <strong>Export workspace</strong> to keep a backup.</p>
+  </details>
+
+  <details>
+    <summary>How do I back up or move projects to another device?</summary>
+    <ol>
+      <li>On the home screen, tap the <strong>Export workspace</strong> button to save your whole workspace as one <code>.ltvz</code> file.</li>
+      <li>Send the file to the other device (AirDrop, Files, iCloud Drive or email).</li>
+      <li>On the other device, tap <strong>Import workspace</strong> and choose the file.</li>
+    </ol>
+    <p>This works between iPhone, iPad and Mac.</p>
+  </details>
+
+  <details>
+    <summary>How do I remove ads? (iPhone and iPad)</summary>
+    <p>Tap <strong>Remove Ads</strong> in the bottom bar and subscribe. PyGround Pro for Mac has no ads.</p>
+  </details>
+
+  <details>
+    <summary>I bought Remove Ads but still see ads</summary>
+    <p>Tap <strong>Remove Ads</strong>, then <strong>Restore Purchases</strong>. Make sure you are signed in with the same Apple ID you used to subscribe.</p>
+  </details>
+
+  <details>
+    <summary>How do I cancel my subscription?</summary>
+    <p>Open <strong>Settings › [your name] › Subscriptions › PyGround</strong> and tap Cancel Subscription. Apple handles all billing and refunds; you can request a refund at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+  </details>
+
+  <details>
+    <summary>How do I change my ad privacy choices?</summary>
+    <p>Tap <strong>Remove Ads</strong>, then <strong>Ad Privacy Choices</strong>. See the <a href="privacy.html#ads">Privacy Policy</a> for details.</p>
+  </details>
+
+  <details>
+    <summary>My game sprite won't move with the arrow keys</summary>
+    <p>Arrow-key controls need a hardware keyboard (for example a Magic Keyboard or any Bluetooth keyboard on iPad).</p>
+  </details>
+
+  <details>
+    <summary>My code panel edits disappeared</summary>
+    <p>Blocks are the source of truth. If you edit Python in the code panel and then change the blocks again, the code is regenerated from the blocks and your typed edits are replaced. Finish with blocks first, then make hand edits in the code panel.</p>
+  </details>
+
+  <details>
+    <summary>Does PyGround need the internet?</summary>
+    <p>No. Python, Turtle, games and lessons all run offline. You only need the internet to watch the YouTube lessons and, in the free iPhone and iPad app, to load ads.</p>
+  </details>
+
+  <h2 id="help">Still need help?</h2>
+  <div class="card">
+    <ol>
+      <li>Find the lesson closest to your problem on our <a href="https://www.youtube.com/@pythonground">YouTube channel</a>.</li>
+      <li>Leave a comment under that video describing what you tried, what you expected and what happened. Mention your device (iPhone, iPad or Mac).</li>
+      <li>We read every comment and reply there, and popular questions become new videos.</li>
+    </ol>
+    <p class="muted">YouTube comments are public. Please don't post personal information. Kids: ask a parent or teacher to post for you.</p>
+  </div>
+
+  <footer class="muted">
+    <a href="index.html">Home</a> · <a href="privacy.html">Privacy Policy</a> · <a href="https://www.youtube.com/@pythonground">YouTube</a> · © 2026 PyGround
+  </footer>
+</main>
+</body>
+</html>
