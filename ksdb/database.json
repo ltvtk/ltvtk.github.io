@@ -1,6 +1,5 @@
 {
   "version": 2,
-
   "youtube": {
     "allowChannels": [
       "@SuperSimpleSongs",
@@ -24,12 +23,376 @@
       "@ZackhariahM",
       "@Ohstem",
       "@EnglishLearningFastPodcast",
-      "@pythonground"
+      "@pythonground",
+      "@khanacademy",
+      "@KhanAcademyKids",
+      "@officialalphablocks",
+      "@colourblocks",
+      "@SesameStreet",
+      "@JackHartmann",
+      "@ScratchGarden",
+      "@HomeschoolPop",
+      "@freeschool",
+      "@LearnBright",
+      "@KidsAcademyCom",
+      "@rocknlearn",
+      "@kiddopedia",
+      "@SmileandLearnEnglish",
+      "@TwinklKidsTV",
+      "@Lingokids",
+      "@brainpop",
+      "@artforkidshub",
+      "@CosmicKidsYoga",
+      "@GoNoodle",
+      "@TheDadLab",
+      "@OperationOuch",
+      "@ChessKidOfficial",
+      "@EnglishSingsing",
+      "@DreamEnglishKids",
+      "@Funkidsenglish",
+      "@Mapleleaflearning",
+      "@Thesingingwalrus",
+      "@KidsTV123",
+      "@thekiboomers",
+      "@EnglishTreeTV",
+      "@bbclearningenglish",
+      "@voalearningenglish",
+      "@EnglishwithLucy",
+      "@rachelsenglish",
+      "@EnglishClass101",
+      "@engvidEmma",
+      "@LearnEnglishWithTVSeries",
+      "@SpeakEnglishWithVanessa",
+      "@mmmEnglish_Emma",
+      "@papateachme",
+      "@linguamarina",
+      "@EnglishSpeeches",
+      "@EnglishEasyPractice",
+      "@mathantics",
+      "@MathwithMrJ",
+      "@NUMBEROCKLLC",
+      "@corbettmaths",
+      "@misterwootube",
+      "@patrickjmt",
+      "@NancyPi",
+      "@TheOrganicChemistryTutor",
+      "@blackpenredpen",
+      "@3blue1brown",
+      "@Mathologer",
+      "@numberphile",
+      "@standupmaths",
+      "@crashcourse",
+      "@TEDEd",
+      "@SciShow",
+      "@scishowspace",
+      "@kurzgesagt",
+      "@besmart",
+      "@AmoebaSisters",
+      "@ProfessorDaveExplains",
+      "@veritasium",
+      "@MarkRober",
+      "@smartereveryday",
+      "@MinutePhysics",
+      "@MinuteEarth",
+      "@TheActionLab",
+      "@physicsgirl",
+      "@eons",
+      "@pbsspacetime",
+      "@NASA",
+      "@bbcearth",
+      "@NatGeo",
+      "@thebrainscoop",
+      "@GeographyNow",
+      "@extrahistory",
+      "@CGPGrey",
+      "@RealEngineering",
+      "@PracticalEngineeringChannel",
+      "@StuffMadeHere",
+      "@codeorg",
+      "@TheCodingTrain",
+      "@freecodecamp",
+      "@cs50",
+      "@BroCodez",
+      "@TechWithTim",
+      "@programmingwithmosh",
+      "@CodingWithJohn",
+      "@ClearCode",
+      "@sentdex",
+      "@NeuralNine",
+      "@TheCherno",
+      "@Errichto",
+      "@abdul_bari",
+      "@mycodeschool",
+      "@Computerphile",
+      "@BenEater",
+      "@KevinStratvert",
+      "@LEGOEducation",
+      "@microbit_edu",
+      "@raspberrypi",
+      "@paulmcwhorter",
+      "@Dronebotworkshop",
+      "@astrumspace",
+      "@NASAJPL",
+      "@NASAGoddard",
+      "@EuropeanSpaceAgency",
+      "@DrBecky",
+      "@scottmanley",
+      "@EverydayAstronaut",
+      "@whatdamath",
+      "@CoolWorldsLab",
+      "@frasercain",
+      "@LaunchPadAstronomy",
+      "@StarTalk",
+      "@primalspace",
+      "@ScienceAsylum",
+      "@fermilab",
+      "@sixtysymbols",
+      "@DomainofScience",
+      "@ParthGChannel",
+      "@lecturesbywalterlewin.they9259",
+      "@MichelvanBiezen",
+      "@Mahesh_Shenoy",
+      "@PhysicsExplainedVideos",
+      "@PhysicsOnline",
+      "@FortheLoveofPhysics",
+      "@upandatom",
+      "@ArvinAsh",
+      "@SteveMould",
+      "@AlphaPhoenixChannel",
+      "@ScienceClicEN",
+      "@Cognitoedu",
+      "@Freesciencelessons",
+      "@periodicvideos",
+      "@tdewitt451",
+      "@ACSReactions",
+      "@melissamaribel",
+      "@chemistNATE",
+      "@wbreslyn",
+      "@AlleryChemistry",
+      "@fuseschool",
+      "@Bozemanscience1",
+      "@biointeractive",
+      "@journeytomicro",
+      "@StatedClearly",
+      "@KQEDDeepLook",
+      "@realscience",
+      "@animalogic",
+      "@MooMooMath",
+      "@ProfessorLeonard",
+      "@TheMathSorcerer",
+      "@PreMath",
+      "@MindYourDecisions",
+      "@MichaelPennMath",
+      "@drpeyam",
+      "@BriTheMathGuy",
+      "@zachstar",
+      "@SyberMath",
+      "@MashupMath",
+      "@tabletclass",
+      "@TLMaths",
+      "@DrTrefor",
+      "@pbsinfiniteseries",
+      "@Socratica",
+      "@singingbanana",
+      "@VooksStorybooks",
+      "@KidTimeStoryTime",
+      "@AwniesHouse",
+      "@StorytimewithRyanandCraig",
+      "@MissSofiesStoryTime",
+      "@BrightlyStorytime",
+      "@LolliPopBook",
+      "@LittleFoxKids",
+      "@EnglishFairyTales",
+      "@coursehero",
+      "@mrbruff",
+      "@MrEverythingEnglish",
+      "@BritishCouncilLEKids",
+      "@BCLearnEnglishTeens",
+      "@BritishCouncilEnglish",
+      "@LearningTimeWithTimmyOfficial",
+      "@AkiliAndMe",
+      "@lucymaxenglish",
+      "@cambridgeenglishtv",
+      "@Oxfordonlineenglish1",
+      "@LearnEnglishLab",
+      "@letstalk",
+      "@POCEnglish",
+      "@smashingenglish",
+      "@KateEnglish",
+      "@LearnEnglishwithBobtheCanadian",
+      "@Englishwithjennifer",
+      "@engvidAdam",
+      "@engvidRebecca",
+      "@ETJEnglish",
+      "@hadar.shemesh",
+      "@EnglishAddict",
+      "@Pronunciationwithemma",
+      "@JForrestEnglish",
+      "@EnglishCoachChad",
+      "@EnglishLikeANative",
+      "@ShawEnglishOnline",
+      "@easyenglish551",
+      "@ieltsliz",
+      "@E2IELTS",
+      "@Ieltsadvantage",
+      "@WilliamFiset-videos",
+      "@MichaelSambol",
+      "@tmwilliamlin168",
+      "@NealWuProgramming",
+      "@Algorithmist",
+      "@ColinGalen",
+      "@SecondThread",
+      "@que_tourist",
+      "@Errichto2",
+      "@AlgorithmsLive",
+      "@PriyanshAgarwal",
+      "@utkarshgupta9858",
+      "@iamluv",
+      "@codencode",
+      "@CodeChef1",
+      "@takeUforward",
+      "@NeetCode",
+      "@tusharroy2525",
+      "@JennyslecturesCSIT",
+      "@Reducible",
+      "@SpanningTree",
+      "@PolylogCS",
+      "@stablesort",
+      "@mitocw",
+      "@ICPCLive",
+      "@Hoffmanacademy",
+      "@MyMusicWorkshop",
+      "@ProdigiesMusic",
+      "@NindyKidsMusicLessons",
+      "@MrHenrysMusicWorld",
+      "@OliversMelodyClub",
+      "@VisualMusicalMinds",
+      "@MusicwithLindsey",
+      "@singplaycreate",
+      "@BowTieMusic",
+      "@musication",
+      "@BradHarrison",
+      "@MusicMattersGB",
+      "@DavidBennettPiano",
+      "@MichaelNew",
+      "@jazerleepiano",
+      "@justinguitar",
+      "@VTV7tv",
+      "@VTV7KIDS",
+      "@VTV7English",
+      "@olm_vn",
+      "@vietjacktieuhocthcs3744",
+      "@VietJackTVOfficial",
+      "@HungHero639",
+      "@tulieutieuhoc",
+      "@thanhnamedu",
+      "@lopcogiang",
+      "@cothu123",
+      "@STEAMforVietnam",
+      "@mathx.thichhoctoan",
+      "@thayGianghoctoankhongkho",
+      "@thaylequangkhai",
+      "@hoconlinethayson324",
+      "@thaynguyenvanquyen",
+      "@HOCTOANTHAYCUONG",
+      "@thaykiettv",
+      "@ThayLeNgocDien",
+      "@MonkeyJuniorEnglishforkids",
+      "@MonkeyJunior-PlayLearn",
+      "@TiengAnhGlobalSuccess",
+      "@cominhhau",
+      "@thaki-hoctienganhquabaihat",
+      "@WhatsUpEnglishVN",
+      "@cunghoctienganh",
+      "@StudyEnglishwithUs",
+      "@ElightLearningEnglish",
+      "@tienganhlangmaster",
+      "@kissenglishcentervn",
+      "@HocEnglishOnline",
+      "@ThangPhamTV",
+      "@dunglailaptrinh",
+      "@28tech_",
+      "@TITVvn",
+      "@CodePrepPros",
+      "@robostarLT",
+      "@TinhocvanphongTHT",
+      "@DrBinocs",
+      "@DaycovuaVn",
+      "@quaizandayde2101",
+      "@nghethuatchiki-chikiartvie7011",
+      "@ThuVienThienVan",
+      "@Vutruvlog",
+      "@thayvnachuyenluyenthivatly",
+      "@khoicaominh",
+      "@thaynguyenchison",
+      "@vlsnvv",
+      "@vatlithaythanh",
+      "@thaydovandoan",
+      "@hochoachet",
+      "@nguyenanhphong4695",
+      "@NguyenPhucHau84",
+      "@hoahoc",
+      "@TYHH",
+      "@thaytruongcongkien",
+      "@thayphankhacnghe",
+      "@HOCMAITHCS",
+      "@hoc247tv3",
+      "@hocladothcs",
+      "@ToanThayKien",
+      "@thaynguyendinhkhiemtoan89",
+      "@Thay.NguyenPhanTien",
+      "@phuthuytoanhocSoroban",
+      "@suongmaiqanda",
+      "@hocvancominhhien",
+      "@PhamMinhNhatOfficial",
+      "@kimoanh-hocvan-vanhoc",
+      "@hocvancohienluong3632",
+      "@duytranblogchuyenvan",
+      "@cohalinhvan",
+      "@FairyTalesVietnamese",
+      "@VietnameseFairyTales",
+      "@cotichnuocnam",
+      "@kondosanvietnamese",
+      "@mskathychannel",
+      "@viralenglish",
+      "@edupiatienganhonlinechatlu6045",
+      "@MsAnh2024",
+      "@tieng-anh-1238",
+      "@luyennghetienganh",
+      "@AnnaEnglishEdu",
+      "@TitanEnglish",
+      "@UspeakEnglish",
+      "@DanHauer",
+      "@Henry-language",
+      "@kunkunmt",
+      "@TiengAnhGiaoTiep8S",
+      "@LearnEnglishwithOm",
+      "@IELTSFighter",
+      "@ieltsnguyenhuyen",
+      "@IELTSThanhLoan",
+      "@ieltstudau",
+      "@thantrieu",
+      "@daybehoc88",
+      "@MeSaoTom_Store",
+      "@gvtieuhoc",
+      "@vuihocvn-truonghoconlinech1624",
+      "@anhduongeduvn",
+      "@thayhailuyenchudep",
+      "@LuyenchuepThanhHien",
+      "@mmvietnamese",
+      "@LearnVietnameseWithSVFF",
+      "@DuyMelody95",
+      "@TuanLuuPiano",
+      "@tuanluuorgan",
+      "@NhacsiDucThinh",
+      "@ThuanGuitar",
+      "@LopDanThuanGuitar",
+      "@PhongGuitarBMT",
+      "@Meouguitar"
     ],
     "allowCategories": [
     ]
   },
-
   "apps": {
     "block": [
       "Microsoft Store",
@@ -51,7 +414,6 @@
       "Garena",
       "Vngame",
       "Zing Play",
-
       "Minecraft",
       "Roblox",
       "Fortnite",
@@ -105,7 +467,6 @@
       "NCSoft",
       "Netmarble",
       "Krafton",
-
       "BlueStacks",
       "LDPlayer",
       "LD Player",
@@ -118,7 +479,6 @@
       "Andy",
       "KoPlayer",
       "PH4 Android",
-
       "TikTok",
       "Tencent QQ",
       "Facebook",
@@ -128,10 +488,8 @@
       "Mullvad"
     ]
   },
-
   "domains": {
     "default": "block",
-
     "entries": [
       "oj.koddy.online",
       "googleapis.com",
@@ -192,7 +550,6 @@
       "jitsi.net",
       "jitsi.org",
       "element.io",
-
       "openai.com",
       "chatgpt.com",
       "anthropic.com",
@@ -209,7 +566,6 @@
       "playwright.dev",
       "puppeteer.dev",
       "jetbrains.com",
-
       "statsig.com",
       "statsig.anthropic.com",
       "sentry.io",
@@ -224,7 +580,6 @@
       "magma.com",
       "krita.org",
       "artlist.io",
-
       "khanacademy.org",
       "khanacademykids.org",
       "wikipedia.org",
@@ -291,7 +646,6 @@
       "cambridge.org",
       "nationalgeographic.com",
       "bangkokpost.com",
-
       "quizlet.com",
       "studystack.com",
       "memrise.com",
@@ -331,12 +685,10 @@
       "xiangqi.com",
       "xiangqui.com",
       "xiehanzi.com",
-
       "typing.com",
       "nitrotype.com",
       "typingclub.com",
       "edclub.com",
-
       "codecademy.com",
       "freecodecamp.org",
       "codewars.com",
@@ -412,7 +764,6 @@
       "stemtown.com",
       "zmrobo.com",
       "zmrobo.net",
-
       "codeforces.com",
       "hackerrank.com",
       "hackerearth.com",
@@ -428,7 +779,6 @@
       "spoj.com",
       "codechef.com",
       "olp.xyz",
-
       "sweetsearch.com",
       "kiddle.co",
       "pbslearningmedia.org",
@@ -450,7 +800,6 @@
       "kidsa-z.com",
       "spellingcity.com",
       "turtlediary.com",
-
       "eslbuzz.com",
       "engvid.com",
       "britishcouncil.org",
@@ -467,7 +816,6 @@
       "swiggle.org.uk",
       "literacyideas.com",
       "wayground.com",
-
       "pixabay.com",
       "freepik.com",
       "opengameart.org",
@@ -492,7 +840,6 @@
       "patreon.com",
       "wacom.com",
       "unikey.org",
-
       "cloudflare.com",
       "digitalocean.com",
       "godaddy.com",
@@ -508,7 +855,6 @@
       "fsharetv.me",
       "studyphim.vn",
       "sanbongmauluong.com",
-
       "messenger.com",
       "reddit.com",
       "reddithelp.com",
@@ -519,7 +865,6 @@
       "zalo.video",
       "zaloapp.com",
       "vng.com.vn",
-
       "2tech.vn",
       "homeschool.homes",
       "chithongoc.com",
@@ -617,9 +962,10 @@
       "vscodium.com",
       "vsassets.io",
       "visualstudio.com",
-
-      { "domain": "youtu.be", "block": true },
-
+      {
+        "domain": "youtu.be",
+        "block": true
+      },
       {
         "domain": "google.com",
         "blockSubs": [
@@ -628,7 +974,6 @@
           "search.google.com"
         ]
       },
-
       {
         "domain": "google.com.vn",
         "blockSubs": [
@@ -636,7 +981,6 @@
           "www.google.com.vn"
         ]
       },
-
       {
         "domain": "code.org",
         "blockPaths": [
@@ -648,7 +992,6 @@
           "/*/mc/*"
         ]
       },
-
       {
         "domain": "kids.nationalgeographic.com",
         "blockPaths": [
@@ -658,13 +1001,13 @@
           "/games/action-and-adventure/*"
         ]
       },
-
       {
         "domain": "numuki.com",
         "block": true,
-        "allowPaths": ["/game*robot-riders-learn-to-code*"]
+        "allowPaths": [
+          "/game*robot-riders-learn-to-code*"
+        ]
       },
-
       {
         "domain": "tynker.com",
         "block": true,
@@ -672,7 +1015,6 @@
           "/ide/*puppy-adventure*"
         ]
       },
-
       {
         "domain": "toxicode.fr",
         "block": true,
@@ -683,7 +1025,6 @@
           "/hour_of_code*"
         ]
       },
-
       {
         "domain": "bing.com",
         "block": true,
@@ -692,7 +1033,6 @@
           "/copilotsearch*"
         ]
       },
-
       {
         "domain": "turbowarp.org",
         "block": true,
@@ -701,7 +1041,6 @@
           "/editor*"
         ]
       },
-
       {
         "domain": "youtube.com",
         "block": true,
@@ -745,60 +1084,202 @@
           "/watch*list=PL_iwD7O7FG7hMCQyeYMztj1tdvEyP6Ncb*"
         ]
       },
-
-      { "domain": "tiktok.com",    "block": true },
-      { "domain": "douyin.com",    "block": true },
-      { "domain": "facebook.com",  "block": true },
-      { "domain": "instagram.com", "block": true },
-      { "domain": "weibo.com",     "block": true },
-      { "domain": "kuaishou.com",  "block": true },
-      { "domain": "bilibili.com",  "block": true },
-      { "domain": "nicovideo.jp",  "block": true },
-      { "domain": "pixiv.net",     "block": true },
-      { "domain": "twitch.tv",     "block": true },
-
-      { "domain": "qq.com",        "block": true },
-      { "domain": "taptap.io",     "block": true },
-      { "domain": "taptap.cn",     "block": true },
-      { "domain": "taptap.com",    "block": true },
-
-      { "domain": "poki.com",         "block": true },
-      { "domain": "y8.com",           "block": true },
-      { "domain": "crazygames.com",   "block": true },
-      { "domain": "friv.com",         "block": true },
-      { "domain": "miniclip.com",     "block": true },
-      { "domain": "kongregate.com",   "block": true },
-      { "domain": "newgrounds.com",   "block": true },
-      { "domain": "armorgames.com",   "block": true },
-      { "domain": "addictinggames.com","block": true },
-      { "domain": "gameflare.com",    "block": true },
-      { "domain": "gamepix.com",      "block": true },
-      { "domain": "silvergames.com",  "block": true },
-      { "domain": "kizi.com",         "block": true },
-      { "domain": "agame.com",        "block": true },
-      { "domain": "4399.com",         "block": true },
-      { "domain": "7723.com",         "block": true },
-      { "domain": "3533.com",         "block": true },
-
-      { "domain": "garena.com",     "block": true },
-      { "domain": "vnggames.com",   "block": true },
-      { "domain": "gamota.com",     "block": true },
-      { "domain": "vtcgame.vn",     "block": true },
-      { "domain": "gamek.vn",       "block": true },
-      { "domain": "game.vn",        "block": true },
-      { "domain": "sohaplay.vn",    "block": true },
-      { "domain": "zing.vn",        "block": true },
-      { "domain": "zinggame.vn",    "block": true },
-      { "domain": "muplay.com",     "block": true },
-      { "domain": "vcungchoi.vn",   "block": true },
-      { "domain": "imga.vn",        "block": true },
-
-      { "domain": "pornhub.com",    "block": true },
-      { "domain": "xvideos.com",    "block": true },
-      { "domain": "xhamster.com",   "block": true },
-      { "domain": "xnxx.com",       "block": true },
-      { "domain": "redtube.com",    "block": true },
-      { "domain": "youporn.com",    "block": true }
+      {
+        "domain": "tiktok.com",
+        "block": true
+      },
+      {
+        "domain": "douyin.com",
+        "block": true
+      },
+      {
+        "domain": "facebook.com",
+        "block": true
+      },
+      {
+        "domain": "instagram.com",
+        "block": true
+      },
+      {
+        "domain": "weibo.com",
+        "block": true
+      },
+      {
+        "domain": "kuaishou.com",
+        "block": true
+      },
+      {
+        "domain": "bilibili.com",
+        "block": true
+      },
+      {
+        "domain": "nicovideo.jp",
+        "block": true
+      },
+      {
+        "domain": "pixiv.net",
+        "block": true
+      },
+      {
+        "domain": "twitch.tv",
+        "block": true
+      },
+      {
+        "domain": "qq.com",
+        "block": true
+      },
+      {
+        "domain": "taptap.io",
+        "block": true
+      },
+      {
+        "domain": "taptap.cn",
+        "block": true
+      },
+      {
+        "domain": "taptap.com",
+        "block": true
+      },
+      {
+        "domain": "poki.com",
+        "block": true
+      },
+      {
+        "domain": "y8.com",
+        "block": true
+      },
+      {
+        "domain": "crazygames.com",
+        "block": true
+      },
+      {
+        "domain": "friv.com",
+        "block": true
+      },
+      {
+        "domain": "miniclip.com",
+        "block": true
+      },
+      {
+        "domain": "kongregate.com",
+        "block": true
+      },
+      {
+        "domain": "newgrounds.com",
+        "block": true
+      },
+      {
+        "domain": "armorgames.com",
+        "block": true
+      },
+      {
+        "domain": "addictinggames.com",
+        "block": true
+      },
+      {
+        "domain": "gameflare.com",
+        "block": true
+      },
+      {
+        "domain": "gamepix.com",
+        "block": true
+      },
+      {
+        "domain": "silvergames.com",
+        "block": true
+      },
+      {
+        "domain": "kizi.com",
+        "block": true
+      },
+      {
+        "domain": "agame.com",
+        "block": true
+      },
+      {
+        "domain": "4399.com",
+        "block": true
+      },
+      {
+        "domain": "7723.com",
+        "block": true
+      },
+      {
+        "domain": "3533.com",
+        "block": true
+      },
+      {
+        "domain": "garena.com",
+        "block": true
+      },
+      {
+        "domain": "vnggames.com",
+        "block": true
+      },
+      {
+        "domain": "gamota.com",
+        "block": true
+      },
+      {
+        "domain": "vtcgame.vn",
+        "block": true
+      },
+      {
+        "domain": "gamek.vn",
+        "block": true
+      },
+      {
+        "domain": "game.vn",
+        "block": true
+      },
+      {
+        "domain": "sohaplay.vn",
+        "block": true
+      },
+      {
+        "domain": "zing.vn",
+        "block": true
+      },
+      {
+        "domain": "zinggame.vn",
+        "block": true
+      },
+      {
+        "domain": "muplay.com",
+        "block": true
+      },
+      {
+        "domain": "vcungchoi.vn",
+        "block": true
+      },
+      {
+        "domain": "imga.vn",
+        "block": true
+      },
+      {
+        "domain": "pornhub.com",
+        "block": true
+      },
+      {
+        "domain": "xvideos.com",
+        "block": true
+      },
+      {
+        "domain": "xhamster.com",
+        "block": true
+      },
+      {
+        "domain": "xnxx.com",
+        "block": true
+      },
+      {
+        "domain": "redtube.com",
+        "block": true
+      },
+      {
+        "domain": "youporn.com",
+        "block": true
+      }
     ]
   }
 }
