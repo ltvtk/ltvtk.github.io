@@ -491,6 +491,7 @@
   "domains": {
     "default": "block",
     "entries": [
+      "kiro.dev",
       "oj.koddy.online",
       "googleapis.com",
       "gstatic.com",
