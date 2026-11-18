@@ -491,6 +491,8 @@
   "domains": {
     "default": "block",
     "entries": [
+      "ampcode.com",
+      "chrome.com",
       "kiro.dev",
       "trystero.dev",
       "oj.koddy.online",
@@ -695,6 +697,8 @@
       "nitrotype.com",
       "typingclub.com",
       "edclub.com",
+      "edclub.app",
+      "edclub.dev",
       "codecademy.com",
       "freecodecamp.org",
       "codewars.com",
