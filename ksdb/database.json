@@ -491,6 +491,7 @@
   "domains": {
     "default": "block",
     "entries": [
+      "zed.dev",
       "ampcode.com",
       "chrome.com",
       "kiro.dev",
